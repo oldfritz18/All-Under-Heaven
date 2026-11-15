@@ -1,8 +1,8 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.5d; baseline awal terverifikasi v0.4.99.4m.
-- Status: gate M2 dan checkpoint fungsional VIII–IX bertarget; batch crossing 210, charter 211–213 dan dinas Baxi 215–216 terimplementasi/teruji. M3 sedang berjalan pada Chapter X; M3–M11 dan objective penuh belum selesai.
+- Active: v0.4.99.5e; baseline awal terverifikasi v0.4.99.4m.
+- Status: gate M2 dan checkpoint fungsional VIII–IX bertarget; batch crossing 210, charter 211–213, Baxi 215–216 dan kontak Jing 219 terimplementasi/teruji. M3 sedang berjalan pada Chapter X; M3–M11 dan objective penuh belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 
 ## Evidence already in repository
@@ -10,7 +10,7 @@
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
-- Struktur VIII/IX/X mengikuti roadmap pada 5a. Kelompok hearing–crossing 210 sudah direvisi pada 5b dan charter 211–213 pada 5c; rotasi ke Yi/Baxi dan river screen 215–217 terintegrasi pada 5d. Berikutnya Hanzhong/Jingzhou 218–219, mandat/muster dan kesinambungan NPC/relasi. Jangan menganggap label bab atau batch 210 sebagai kelulusan seluruh X.
+- Struktur VIII/IX/X mengikuti roadmap pada 5a. Kelompok hearing–crossing 210 sudah direvisi pada 5b dan charter 211–213 pada 5c; rotasi ke Yi/Baxi dan river screen 215–217 terintegrasi pada 5d. Laporan Hanzhong dipisahkan dari kontak Jing yang dimainkan pada 5e. Berikutnya XI/220–223, komisi lanjutan dan legitimasi sesuai bukti, kesinambungan NPC/relasi serta gate M3. Jangan menganggap label bab atau batch 210 sebagai kelulusan seluruh X.
 - Node Xu Shu awal serta sesudah Changban sudah menjadi pembacaan bersumber; pertahankan perbedaan laporan/pertemuan serta outcome Red Cliffs ketika melanjutkan dunia 210–223.
 - Tawaran Captain 209 kini eksplisit dan mengembalikan watch yang sesuai pada jalur baru. Tetap audit milestone karier berikutnya di X–XI, dengan penerimaan, muster dan jabatan yang benar-benar tercatat.
 - XII–XIX/Epilogue: adaptasi pemerintahan dan suksesi Shu-Han serta perluas struktur legacy; belum dikerjakan atau disertifikasi. Registry baseline tidak mempunyai tag Chapter XIII–XIX, sehingga konten akhir legacy tidak boleh diklaim setara dengan delapan chapter Emperor Saga.
@@ -174,3 +174,12 @@
 - Major yang diterima memegang tiga company dengan total 180 Infantry atau 90 Cavalry pada rotasi ini; old company ditutup ke roll baru, tidak dihitung dua kali. Lima Special Staff tetap sama: eligibility saja, seluruh appointment tetap milik save. Tidak ada barang/coins/civic office/Dragon General/circle otomatis. Chain Baxi berakhir pada handover; Military mencatat posisi aktif/retired dan dua receipt terpisah untuk Baxi/river screen.
 - Smoke 8/8 dan tiga suite pada hash sama PASS di 390/1280: Baxi 864 rute per viewport (delapan seed karier/world/charter organik, kedua branch), charter 360 rute, dua route map 207–214. Sembilan klik DOM organik Captain→Major sampai callback 217, save/reload HTTP, exact muster, Major legacy/effect parity, staging/refusal, old age, provenance, idempotence, later-post guard dan Military DOM PASS. Page error 0. Registry 665; seluruh 658 ID lama dan 35 portrait tetap.
 - Bukti/cakupan dan sumber historis: `docs/QA_BAXI_215_216_v0.4.99.5d.md`, `docs/qa/BATCH_5d.json`. Berikutnya audit/integrasi Hanzhong–Jing 218–219 serta komisi lanjutan dan XI. Chapter X/XI, M3–M11 dan XIX/Epilogue belum tuntas; milestone formal terakhir tetap 5a VIII–IX, rollback 4z. Push tidak dicoba ulang sesuai arahan pengguna.
+
+
+## Kontak Jing dan hasil aktual — v0.4.99.5e
+- Scene frontier 218, persiapan Jing 219 serta dua node inquiry diperluas. Perjanjian 218 tidak lagi seolah memberi pasukan otomatis. Berita Hanzhong tetap laporan bersumber; pemain tidak dipindahkan ke kampanye barat melalui teks. Zhang Fei/Zhao Yun/Guan Yu dan tentara lain tetap memiliki tugas sendiri.
+- Dua scene kontak/aftermath baru mengisi celah antara tiga respons 219 dan hasilnya. Hold/parley/evacuation × counterstroke/steady/recall menghasilkan sembilan hasil lokal. Perintah awal disimpan; hasil akhir kini mengikuti apa yang benar-benar dilakukan. Retire atau parley yang pecah tidak memperoleh klaim defended hold/compact yang gagal terjadi. Formula lama/higher legacy di luar mode baru tetap.
+- Receipt opsional `campaignEvidence.jing219`, posisi aktif/retired, Military/People/Chronicle dan aftermath memakai sumber sama. Tidak memberi rank, unit, appointment, staff, goods, circle atau Civic office. Kedekatan Han Sheng hanya bertambah bila pemain benar-benar memilih duduk mendengar para prajurit. Tidak ada pertemuan historis tambahan dari laporan Hanzhong.
+- Road-home hanya mengganti paragraf hasil lama; tail market, fish supper, pernikahan dan keluarga dipertahankan. Inquiry membedakan laporan distant commanders dari kontak lokal; nasib Guan Yu tidak diputuskan dari rumor. Scene property/commendation panjang serta efek pilihan tetap, dengan koreksi sapaan Private dan callback kewajiban aktual.
+- Smoke 8/8 dan tiga suite pada hash sama PASS di 390/1280: Jing 540 rute per viewport pada sepuluh seed karier/world/duty organik, sembilan hasil lokal/lima frontier result, seluruh pasangan lima kelompok pilihan; regresi Baxi 864 rute; dua route map 207–214. Delapan klik DOM Private, HTTP save/reload Military, no-grant, enam node Major legacy parity, efek policy/inquiry/property, tail keluarga, provenance/idempotence/later-post serta semua exit property ke 220 PASS. Page error 0; registry 667 dan 35 portrait identik.
+- Bukti/hash/batas: `docs/QA_JING_218_219_v0.4.99.5e.md`, `docs/qa/BATCH_5e.json`. Audit/rencana berikutnya XI/220–223 dan gate M3; bukan klaim seluruh X/XI, M3–M11 atau XIX/Epilogue selesai. Checkpoint formal tetap 5a VIII–IX, rollback tetap 4z. Seluruh batch lokal; push tetap ditunda.

@@ -77,7 +77,9 @@ def main():
         old_ids=base.evaluate('Object.keys(SCENES)');base.close()
         for width in (390,1280):
             context=browser.new_context(viewport={'width':width,'height':900});page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.goto(url+'/active.html')
-            assert set(page.evaluate('Object.keys(SCENES)'))-set(old_ids)==NEW
+            later={'m3_219_jing_contact','m3_219_jing_after'}
+            added=set(page.evaluate('Object.keys(SCENES)'))-set(old_ids)
+            assert added in (NEW,NEW|later),added-NEW
             assert page.evaluate('ids=>ids.every(id=>SCENES[id].displayChapter===10)',list(NEW))
             runs=[page.evaluate(ROUTES,s) for s in seeds];assert sum(len(r['rows']) for r in runs)==864
             ranks={r['rank'] for run in runs for r in run['rows']};assert ranks=={'Private','Sergeant','Captain','Major'}
