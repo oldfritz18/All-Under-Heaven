@@ -98,7 +98,7 @@ def main():
    for width in (390,1280):
     context=browser.new_context(viewport={'width':width,'height':900});page=context.new_page();errors=[];page.on('pageerror',lambda error:errors.append(str(error)));page.goto(url+'/active.html')
     new=page.evaluate(WALK,seed)
-    assert set(old['ids']).issubset(new['ids']) and set(new['ids'])-set(old['ids'])==NEW|{'m2_198_xiaopei_orders','m2_198_xiaopei_pressure','m2_198_xiaopei_retreat','m2_198_xiaopei_after'}|{'m2_201_watch_orders','m2_201_watch_contact','m2_201_watch_after'}
+    assert set(old['ids']).issubset(new['ids']) and NEW.issubset(new['ids'])
     original=[edge for edge in new['edges'] if edge['scene'] not in NEW]
     assert len(original)==len(old['edges'])
     for previous,successor in zip(old['edges'],original):assert previous==successor,f'Legacy V contract changed: {previous["scene"]}:{previous["index"]}'

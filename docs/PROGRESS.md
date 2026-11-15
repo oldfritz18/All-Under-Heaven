@@ -1,8 +1,8 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.4t; baseline awal terverifikasi v0.4.99.4m.
-- Status: checkpoint batch I–VII terverifikasi pada cakupan QA yang dicatat. M2 secara keseluruhan masih memerlukan rekonsiliasi coverage; M3–M11 belum selesai.
+- Active: v0.4.99.4u; baseline awal terverifikasi v0.4.99.4m.
+- Status: gate fungsional dan klasifikasi coverage M2 terverifikasi pada cakupan QA bertarget. M3–M11 dan objective penuh belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 
 ## Evidence already in repository
@@ -10,8 +10,8 @@
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
-- Rekonsiliasi coverage W07/Xiapi, W08/Xuzhou 200 dan W10/Fancheng 207 terhadap timeline aktual; jangan menandai semua kampanye M2 sebagai playable langsung hanya karena disebut pada laporan.
-- Setelah gate M2 cukup: lanjutkan VIII (68 scene baseline, Bowangpo/Xinye dan commission Captain) lalu IX–XI secara berurutan. Pertahankan warrant dan unit yang benar-benar diperoleh, termasuk jalur Private yang menolak komisi.
+- Chapter VIII: perbaiki kewenangan sebelum melanjutkan alur. Audit 4u menunjukkan Sergeant/20 personel ditawari pasukan independen dan river wing pada `ch08_pb55_council`/`ch08_player_council`, sementara Captain baru ditawarkan setelah Red Cliffs pada `ch08_06`/209. Ini belum sesuai locked military progression.
+- Tambahkan Bowangpo/Xinye pada 208 sebelum Changban/Red Cliffs; rekonsiliasi penempatan blok legacy VIII ke IX sesuai roadmap tanpa menghapus scene, save atau pilihan valid. Pertahankan jalur Private yang menolak komisi.
 - XII–XIX/Epilogue: adaptasi pemerintahan dan suksesi Shu-Han serta perluas struktur legacy; belum dikerjakan atau disertifikasi. Registry baseline tidak mempunyai tag Chapter XIII–XIX, sehingga konten akhir legacy tidak boleh diklaim setara dengan delapan chapter Emperor Saga.
 - Lanjutkan IV–XIX dan Epilogue sesuai roadmap. Jangan menyamakan hasil QA sampel dengan kelulusan editorial seluruh cabang atau rilis M11.
 
@@ -80,3 +80,12 @@
 - Regression checkpoint: smoke 8/8 dan tujuh suite browser (`qa_chapter1`, `qa_chapter2`, `qa_m1`, `qa_chapter4`, `qa_chapter5`, `qa_chapter6`, `qa_chapter7`) semuanya lulus pada HTML 4t yang sama, di 390/1280 px; page error 0. Bukti terstruktur: `docs/qa/CHECKPOINT_4t.json`; rincian: `docs/QA_CHECKPOINT_v0.4.99.4t.md`.
 - Registry 642: seluruh 630 ID baseline dipertahankan + 12 scene baru. Semua 35 data URI portrait identik; lima Special Staff dan threshold tetap. Rollback formal kini v0.4.99.4s; tidak membuat ZIP baru.
 - Sesi berhenti pada batas sumber daya konteks setelah checkpoint terverifikasi ini. Objective tetap tercatat dan belum selesai; jangan mengklaim daemon latar atau pengembangan otomatis berlangsung ketika tidak ada eksekusi. Tidak ada biaya, push, perubahan locked decisions atau permintaan persetujuan baru dalam batch ini.
+
+## M2 — v0.4.99.4u, gate fungsional/coverage bertarget
+- W08: empat scene penugasan, tekanan, penarikan dan aftermath pada 200 ditambahkan antara exit VI dan pembukaan VII. Semua tiga preferensi exit lama dipertahankan; combat branch dan warrant tidak berubah. Kekalahan strategis tidak diubah menjadi kemenangan personal.
+- W10: tiga scene wing action/report dan satu pertemuan opsional Xu Shu pada 207 ditambahkan sebelum VIII. Pembacaan nasihat tertanggal pada node legacy 208 tidak lagi menghadirkan Xu Shu atau memberi acquaintance baru. Save lama yang sudah memiliki acquaintance tetap dipertahankan.
+- W07/Xiapi diklasifikasi sebagai laporan dunia bersumber pada rute ini, bukan partisipasi retroaktif. Ledger lengkap dan kondisi W01–W10: `docs/M2_CAMPAIGN_COVERAGE.md`.
+- `campaignEvidence` opsional menyimpan fakta aksi ketika exit nyata dipilih. Military, People dan recall membutuhkan sumber/aksi yang cocok serta visit/history; tidak dibuat ketika render, migrasi, atau hanya melihat tahun/flag.
+- Seluruh 642 ID sebelumnya dipertahankan + delapan scene baru = 650. Portrait tetap 35 data URI identik, schema save utama dan lima Special Staff tetap.
+- `qa_m2_continuity.py`: 108 rute pairwise W08 dan 144 kombinasi lokal W10 per viewport 390/1280; seed Sergeant dan Private diperoleh lewat keputusan organik baseline, Cavalry memakai fixture legacy. No-grant, consent pertemuan, timeline, field position, legacy acquaintance, flag-only, idempotence, history-only dan reload/UI lulus.
+- Smoke 8/8 dan delapan suite browser pada source 4u yang sama lulus; page error 0. Rincian: `docs/QA_M2_v0.4.99.4u.md`, data: `docs/qa/CHECKPOINT_4u.json`. Gate bukan sertifikasi seluruh kombinasi novel, biografi lengkap atau perangkat nyata. Rollback formal: 4t.

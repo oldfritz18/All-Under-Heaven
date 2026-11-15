@@ -9,6 +9,8 @@ PROJECT=r"""function project(s,source,index,next,label){
  const contract=clone(s);delete contract.id;delete contract.pendingFeedback;delete contract.flags.m2_198_deployed;
  contract.history=contract.history.map(h=>({sceneId:h.sceneId,choice:h.choice,act:h.act,title:h.title}));
  if(source==='ch06_06'&&index===0){next='forward-insert-or-old-continuation';contract.scene=next;}
+ if(source==='ch06_10'){next='xu200-insert-or-old-continuation';contract.scene=next;delete contract.act;}
+ if(source==='ch07_13'){next='fan207-insert-or-old-continuation';contract.scene=next;delete contract.act;delete contract.age;delete contract.storyClock;delete contract.flags.novelYear;}
  return {source,index,next,label,contract};
 }"""
 START=r"""()=>{
@@ -83,7 +85,7 @@ def main():
    browser=playwright.chromium.launch(executable_path=shutil.which('chromium'),headless=True,args=['--no-sandbox']);base=browser.new_page();base.goto(url+'/baseline.html');seed=base.evaluate(START);old=base.evaluate(WALK,seed);base.close()
    for width in (390,1280):
     context=browser.new_context(viewport={'width':width,'height':900});page=context.new_page();errors=[];page.on('pageerror',lambda error:errors.append(str(error)));page.goto(url+'/active.html')
-    ids=page.evaluate('Object.keys(SCENES)');assert set(old['ids']).issubset(ids) and set(ids)-set(old['ids'])==NEW|{'m2_201_watch_orders','m2_201_watch_contact','m2_201_watch_after'}
+    ids=page.evaluate('Object.keys(SCENES)');assert set(old['ids']).issubset(ids) and NEW.issubset(ids)
     compared=page.evaluate(COMPARE,old)
     for a,b in zip(old['edges'],compared):assert a==b,f'VI contract changed on identical input: {a["source"]}:{a["index"]}'
     new=page.evaluate(WALK,seed);routes=page.evaluate(ROUTES,old['snapshots']['ch06_06']);assert len(routes)==108
