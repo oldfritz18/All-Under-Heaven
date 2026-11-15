@@ -36,7 +36,7 @@ ROUTES = r"""seed=>{
   if(state.scene!=='ch08_rc54_flotilla'||Object.keys(selected).length!==11)throw Error('Incomplete council path');
   for(const key of ['rank','rankProof','units','appointmentHistory','staff','superior','combatService'])if(JSON.stringify(state.militaryCareer[key])!==JSON.stringify(before.militaryCareer[key]))throw Error('Unchosen military change '+key);
   for(const key of ['coins','items','innerCircle'])if(JSON.stringify(state[key])!==JSON.stringify(before[key]))throw Error('Unchosen goods/recruit');
-  if(state.flags.m3_208_river_scope!=='company'||!state.militaryCareer.fieldPosition.active||!state.militaryCareer.fieldPosition.proof.startsWith('m3_4x:river-task:'))throw Error('Missing issued task');
+  if(state.flags.m3_208_river_scope!=='company'||!state.militaryCareer.fieldPosition.active||!(state.militaryCareer.fieldPosition.proof.startsWith('m3_4x:river-task:')||state.militaryCareer.fieldPosition.proof==='m3_4y:escort'))throw Error('Missing issued task');
   const pos=auh63SocialPosition(state);if(pos.position.includes('River campaign commander')||pos.affiliation.includes('own following'))throw Error('Character inflated authority');
   if(before.militaryCareer.rank==='Private'&&auh4wCanLead(state))throw Error('Private assigned command');
   const journal=state.journal.filter(e=>['An Earned Command','The Hanjin Boats','The Jiangxia Compact','The Eastern Argument'].includes(e.label));
@@ -90,7 +90,7 @@ def main():
              try{for(let i=0;i<70&&state.storyClock.year===208;i++){
               const sc=SCENES[state.scene];state.pageIndex=paginateStory(sc.body(state)).length-1;choose(0);if(sc.id===state.scene)throw Error('Aftermath blocked');
              }
-             if(state.storyClock.year!==209||state.militaryCareer.fieldPosition.active||!state.militaryCareer.fieldPosition.proof.startsWith('m3_4x:river-task:'))throw Error('Issued task not retired at played morning review');
+             if(state.storyClock.year!==209||state.militaryCareer.fieldPosition.active||!(state.militaryCareer.fieldPosition.proof.startsWith('m3_4x:river-task:')||state.militaryCareer.fieldPosition.proof==='m3_4y:escort'))throw Error('Issued task not retired at played morning review');
              }finally{save=realSave;render=realRender;scrollTopNow=realScroll;}
             }""")
             assert not errors,errors

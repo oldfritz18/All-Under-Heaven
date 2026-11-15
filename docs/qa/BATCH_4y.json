@@ -1,0 +1,76 @@
+{
+  "build": "ALL_UNDER_HEAVEN_v0.4.99.4y_THE_ASSIGNED_RIVER_PATROL.html",
+  "sha256": "c0829fa65a9d3584162a094f394c4ce722b79cea371386e8d0fb1fa30ddc037a",
+  "smoke": "8/8 PASS",
+  "suites": [
+    {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.4y_THE_ASSIGNED_RIVER_PATROL.html",
+      "sha256": "c0829fa65a9d3584162a094f394c4ce722b79cea371386e8d0fb1fa30ddc037a",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "pairwise_routes_four_careers_two_branches": 216,
+          "all_legacy_choice_effects_parity_except_documented_scope_evidence": "PASS",
+          "nine_legacy_major_nodes_full_parity": "PASS",
+          "no_grants_and_cavalry_dismounted_service": "PASS",
+          "branch_report_memory_readonly_idempotence": "PASS",
+          "negative_provenance_and_later_post": "PASS",
+          "reload_military_dom": "PASS",
+          "full_history_private_dom_clicks": 9,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "pairwise_routes_four_careers_two_branches": 216,
+          "all_legacy_choice_effects_parity_except_documented_scope_evidence": "PASS",
+          "nine_legacy_major_nodes_full_parity": "PASS",
+          "no_grants_and_cavalry_dismounted_service": "PASS",
+          "branch_report_memory_readonly_idempotence": "PASS",
+          "negative_provenance_and_later_post": "PASS",
+          "reload_military_dom": "PASS",
+          "full_history_private_dom_clicks": 9,
+          "page_errors": []
+        }
+      ],
+      "limits": "Nine preparation/patrol nodes through ch08_03; five 3-way choices pairwise. Later fire battle/settlement and chapter relabeling pending. Matrix suppresses old history bodies/render/storage; DOM uses full history. Cavalry/Major synthetic, no physical-device file://."
+    },
+    {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.4y_THE_ASSIGNED_RIVER_PATROL.html",
+      "sha256": "c0829fa65a9d3584162a094f394c4ce722b79cea371386e8d0fb1fa30ddc037a",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "pairwise_routes_four_careers_two_branches": 216,
+          "eleven_choice_groups_all_pairs": "PASS",
+          "no_rank_units_staff_ships_goods_or_recruit_grants": "PASS",
+          "recorded_muster_and_private_authority": "PASS",
+          "chronicle_character_military_scope": "PASS",
+          "fifteen_legacy_major_nodes_parity": "PASS",
+          "later_post_and_task_idempotence": "PASS",
+          "played_morning_review_retires_issued_task": "PASS",
+          "reload_and_military_dom": "PASS",
+          "full_history_private_dom_clicks": 17,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "pairwise_routes_four_careers_two_branches": 216,
+          "eleven_choice_groups_all_pairs": "PASS",
+          "no_rank_units_staff_ships_goods_or_recruit_grants": "PASS",
+          "recorded_muster_and_private_authority": "PASS",
+          "chronicle_character_military_scope": "PASS",
+          "fifteen_legacy_major_nodes_parity": "PASS",
+          "later_post_and_task_idempotence": "PASS",
+          "played_morning_review_retires_issued_task": "PASS",
+          "reload_and_military_dom": "PASS",
+          "full_history_private_dom_clicks": 17,
+          "page_errors": []
+        }
+      ],
+      "limits": "River councils through issue of company task only. Later Red Cliffs battle/settlement prose, 209 commission and chapter rethreading remain pending. Matrix suppresses paint/storage and old history bodies; separate DOM route uses full history. Cavalry/Major synthetic; no physical-device file://."
+    }
+  ],
+  "scope": "Persiapan/patroli Red Cliffs dan regresi councils; belum fire battle/settlement penuh."
+}

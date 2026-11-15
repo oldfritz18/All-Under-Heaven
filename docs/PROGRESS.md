@@ -1,7 +1,7 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.4x; baseline awal terverifikasi v0.4.99.4m.
+- Active: v0.4.99.4y; baseline awal terverifikasi v0.4.99.4m.
 - Status: gate fungsional/coverage M2 bertarget; pembuka VIII/W11–W12 dan komisi opsional terimplementasi. M3 sedang berjalan; M3–M11 dan objective penuh belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 
@@ -10,7 +10,7 @@
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
-- Lanjutkan audit/perbaikan Red Cliffs mulai `ch08_rc54_flotilla` sampai settlement/209. Pembuka, retreat/Changban dan dewan sungai kini mengikuti muster pada 4v–4x; beberapa node pertempuran/settlement berikutnya masih melebihkan otoritas Private/Sergeant/Captain. Penugasan company tidak otomatis membenarkan klaim pasukan/fleet independen.
+- Lanjutkan audit/perbaikan fire assault Red Cliffs mulai `ch08_rc54_anchors` sampai settlement/209; pertahankan adegan valid core/romance `ch08_03`–`ch08_05`. Pembuka, retreat, councils dan first patrol mengikuti muster pada 4v–4y; node fire battle/settlement berikutnya masih melebihkan otoritas Private/Sergeant/Captain. Penugasan company tidak otomatis membenarkan klaim pasukan/fleet independen.
 - Rekonsiliasi penempatan blok legacy VIII ke IX dan blok 209–219 ke X sesuai roadmap tanpa menghapus scene, save atau pilihan valid. Node Xu Shu awal serta sesudah Changban sudah menjadi pembacaan bersumber, bukan pertemuan hidup atau rescue/appointment baru.
 - Tinjau tawaran Captain legacy `ch08_06`/209 agar asal komisi dan pengembalian muster sesuai pilihan baru 208. Jangan memberi promosi kedua atau menghapus komisi lama yang valid.
 - XII–XIX/Epilogue: adaptasi pemerintahan dan suksesi Shu-Han serta perluas struktur legacy; belum dikerjakan atau disertifikasi. Registry baseline tidak mempunyai tag Chapter XIII–XIX, sehingga konten akhir legacy tidak boleh diklaim setara dengan delapan chapter Emperor Saga.
@@ -114,3 +114,10 @@
 - Pilihan river council sekarang memberi tugas tempur terbatas dengan muster aktif; Private menjalankannya di dalam section. Character dan Military tidak menyebutnya pemilik contingent/fleet. Tidak ada grant pangkat/unit/staff/ship/goods/recruit. Posisi baru ditutup pada laporan pagi yang dimainkan, hanya bila proof dan attendance cocok.
 - Registry 658, portrait 35 identik. Smoke 8/8; `qa_river_councils.py` 216 rute dan 17 klik DOM per viewport 390/1280 lulus, termasuk semua pasangan sebelas kelompok pilihan, military no-grant, UI scope, legacy Major parity, reload dan penutupan posisi sampai 209. Regresi Changban 216 rute + sembilan klik DOM per viewport juga lulus pada hash 4x yang sama. Page error 0.
 - Bukti: `docs/QA_RIVER_COUNCILS_v0.4.99.4x.md`, `docs/qa/BATCH_4x.json`. Battle/settlement Red Cliffs, komisi 209, relabeling dan milestone M3 tetap belum selesai. Rollback formal tetap 4t; tidak membuat ZIP atau push.
+
+
+## Persiapan dan patroli Red Cliffs — v0.4.99.4y
+- Sembilan node flotilla–twilight diperluas dengan embarkation, perintah deck/company, crew navigation, signal drill, patroli terbatas, kontak, biaya, shore coordination dan konflik perintah. Cavalry serving dismounted tetap pada branch aslinya; tidak menjadi Support atau pemilik armada.
+- Handler/enum/score/relasi/tujuan lama dipertahankan; prosa dan Chronicle kini mengikuti active muster. Tiga tujuan patroli memberi laporan berbeda dan keterbatasan nyata, tersimpan hanya setelah embarkation/kontak yang terbukti. Military dan People membaca bukti yang sama; replay tidak menggandakan record.
+- Registry 658, portrait 35 identik. Smoke 8/8; `qa_river_patrol.py` 216 rute + sembilan klik DOM per viewport 390/1280 lulus, termasuk parity efek lama dan legacy Major, no-grant, cavalry dismounted, provenance, idempotence serta reload. Regresi councils 216 rute + 17 klik DOM per viewport kembali lulus, termasuk posisi retired pada laporan pagi 209. Page error 0.
+- Bukti dan batas: `docs/QA_RIVER_PATROL_v0.4.99.4y.md`, `docs/qa/BATCH_4y.json`. Fire assault/settlement, komisi 209, pemetaan VIII–X dan objective M3–M11 tetap belum selesai. Tidak ada biaya, ZIP, push atau perubahan locked decisions.
