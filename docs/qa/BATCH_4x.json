@@ -1,0 +1,76 @@
+{
+  "build": "ALL_UNDER_HEAVEN_v0.4.99.4x_RIVER_COUNCILS_AND_ORDERS.html",
+  "sha256": "55b966bf9fbf2ab1118ab2d4d8b1aa81649ffd91391eace42154c34398a3bddd",
+  "smoke": "8/8 PASS",
+  "suites": [
+    {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.4x_RIVER_COUNCILS_AND_ORDERS.html",
+      "sha256": "55b966bf9fbf2ab1118ab2d4d8b1aa81649ffd91391eace42154c34398a3bddd",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "pairwise_routes_four_careers_two_branches": 216,
+          "eleven_choice_groups_all_pairs": "PASS",
+          "no_rank_units_staff_ships_goods_or_recruit_grants": "PASS",
+          "recorded_muster_and_private_authority": "PASS",
+          "chronicle_character_military_scope": "PASS",
+          "fifteen_legacy_major_nodes_parity": "PASS",
+          "later_post_and_task_idempotence": "PASS",
+          "played_morning_review_retires_issued_task": "PASS",
+          "reload_and_military_dom": "PASS",
+          "full_history_private_dom_clicks": 17,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "pairwise_routes_four_careers_two_branches": 216,
+          "eleven_choice_groups_all_pairs": "PASS",
+          "no_rank_units_staff_ships_goods_or_recruit_grants": "PASS",
+          "recorded_muster_and_private_authority": "PASS",
+          "chronicle_character_military_scope": "PASS",
+          "fifteen_legacy_major_nodes_parity": "PASS",
+          "later_post_and_task_idempotence": "PASS",
+          "played_morning_review_retires_issued_task": "PASS",
+          "reload_and_military_dom": "PASS",
+          "full_history_private_dom_clicks": 17,
+          "page_errors": []
+        }
+      ],
+      "limits": "River councils through issue of company task only. Later Red Cliffs battle/settlement prose, 209 commission and chapter rethreading remain pending. Matrix suppresses paint/storage and old history bodies; separate DOM route uses full history. Cavalry/Major synthetic; no physical-device file://."
+    },
+    {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.4x_RIVER_COUNCILS_AND_ORDERS.html",
+      "sha256": "55b966bf9fbf2ab1118ab2d4d8b1aa81649ffd91391eace42154c34398a3bddd",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "pairwise_routes_four_organic_careers_two_branches": 216,
+          "no_rank_units_staff_goods_or_recruit_grants": "PASS",
+          "local_orders_retired_position": "PASS",
+          "legacy_enums_and_high_command_parity": "PASS",
+          "xu_shu_report_no_new_meeting_legacy_flag_preserved": "PASS",
+          "negative_provenance_and_later_position": "PASS",
+          "readonly_idempotence_reload_military_dom": "PASS",
+          "full_history_private_dom_clicks": 9,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "pairwise_routes_four_organic_careers_two_branches": 216,
+          "no_rank_units_staff_goods_or_recruit_grants": "PASS",
+          "local_orders_retired_position": "PASS",
+          "legacy_enums_and_high_command_parity": "PASS",
+          "xu_shu_report_no_new_meeting_legacy_flag_preserved": "PASS",
+          "negative_provenance_and_later_position": "PASS",
+          "readonly_idempotence_reload_military_dom": "PASS",
+          "full_history_private_dom_clicks": 9,
+          "page_errors": []
+        }
+      ],
+      "limits": "Retreat through Hanjin only; pairwise five 3-way decisions. Cavalry/Major are synthetic legacy fixtures. Later river councils/Red Cliffs and chapter relabeling remain pending; no physical-device file:// certification."
+    }
+  ],
+  "scope": "Dewan sungai dan regresi Changban; bukan battle/settlement atau M3 penuh."
+}

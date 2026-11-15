@@ -1,7 +1,7 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.4w; baseline awal terverifikasi v0.4.99.4m.
+- Active: v0.4.99.4x; baseline awal terverifikasi v0.4.99.4m.
 - Status: gate fungsional/coverage M2 bertarget; pembuka VIII/W11–W12 dan komisi opsional terimplementasi. M3 sedang berjalan; M3–M11 dan objective penuh belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 
@@ -10,7 +10,7 @@
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
-- Lanjutkan audit/perbaikan dewan sungai–Red Cliffs sesudah Hanjin. Pembuka dan retreat/Changban sudah mengikuti muster pada 4v–4w, tetapi `ch08_player_council` dan beberapa scene sesudahnya masih melebihkan otoritas Private/Sergeant/Captain. Komisi Captain pada pembuka VIII tidak otomatis membenarkan seluruh klaim pasukan independen dalam prosa lama.
+- Lanjutkan audit/perbaikan Red Cliffs mulai `ch08_rc54_flotilla` sampai settlement/209. Pembuka, retreat/Changban dan dewan sungai kini mengikuti muster pada 4v–4x; beberapa node pertempuran/settlement berikutnya masih melebihkan otoritas Private/Sergeant/Captain. Penugasan company tidak otomatis membenarkan klaim pasukan/fleet independen.
 - Rekonsiliasi penempatan blok legacy VIII ke IX dan blok 209–219 ke X sesuai roadmap tanpa menghapus scene, save atau pilihan valid. Node Xu Shu awal serta sesudah Changban sudah menjadi pembacaan bersumber, bukan pertemuan hidup atau rescue/appointment baru.
 - Tinjau tawaran Captain legacy `ch08_06`/209 agar asal komisi dan pengembalian muster sesuai pilihan baru 208. Jangan memberi promosi kedua atau menghapus komisi lama yang valid.
 - XII–XIX/Epilogue: adaptasi pemerintahan dan suksesi Shu-Han serta perluas struktur legacy; belum dikerjakan atau disertifikasi. Registry baseline tidak mempunyai tag Chapter XIII–XIX, sehingga konten akhir legacy tidak boleh diklaim setara dengan delapan chapter Emperor Saga.
@@ -107,3 +107,10 @@
 - Bukti dinas Changban baru hanya dicatat ketika exit crossing yang dimainkan benar-benar dipilih. Military, People dan callback mengikuti sumber/aksi/visit/history; flag-only tidak memberi credit. Semua rank, unit, staff, coins/items dan circle tetap. Posisi retired pada recall, tanpa menimpa penugasan tahun lebih akhir.
 - Registry 658, 35 embedded images identik. Smoke 8/8, `qa_changban.py` 216 rute pairwise + sembilan klik DOM per viewport 390/1280 lulus; regresi `qa_chapter8.py` kembali lulus 324 rute + 11 klik DOM per viewport pada hash 4w yang sama. Page error 0.
 - Bukti dan batas: `docs/QA_CHANGBAN_v0.4.99.4w.md`, `docs/qa/BATCH_4w.json`. M3 masih berjalan; dewan sungai/Red Cliffs, komisi 209 serta relabeling chapter menjadi prioritas berikutnya. Rollback formal tetap 4t; tidak membuat ZIP atau push.
+
+
+## Dewan sungai — v0.4.99.4x
+- Lima belas node lama diperluas/dikoreksi untuk Private–Captain tanpa menghapus ID atau handler efek lama. Proposal, custody dokumen dan rekomendasi loading/signal tidak lagi menjadi kedaulatan, kapal atau staf pribadi. Guan Yu, Liu Qi, Lu Su, Zhuge Liang, pilots serta komandan company tetap memiliki kewajiban masing-masing.
+- Pilihan river council sekarang memberi tugas tempur terbatas dengan muster aktif; Private menjalankannya di dalam section. Character dan Military tidak menyebutnya pemilik contingent/fleet. Tidak ada grant pangkat/unit/staff/ship/goods/recruit. Posisi baru ditutup pada laporan pagi yang dimainkan, hanya bila proof dan attendance cocok.
+- Registry 658, portrait 35 identik. Smoke 8/8; `qa_river_councils.py` 216 rute dan 17 klik DOM per viewport 390/1280 lulus, termasuk semua pasangan sebelas kelompok pilihan, military no-grant, UI scope, legacy Major parity, reload dan penutupan posisi sampai 209. Regresi Changban 216 rute + sembilan klik DOM per viewport juga lulus pada hash 4x yang sama. Page error 0.
+- Bukti: `docs/QA_RIVER_COUNCILS_v0.4.99.4x.md`, `docs/qa/BATCH_4x.json`. Battle/settlement Red Cliffs, komisi 209, relabeling dan milestone M3 tetap belum selesai. Rollback formal tetap 4t; tidak membuat ZIP atau push.
