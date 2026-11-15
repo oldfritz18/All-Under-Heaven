@@ -9,21 +9,33 @@ from qa_m2_continuity import START
 BASELINE='e7293d0:GAME/ALL_UNDER_HEAVEN_v0.4.99.4z_FIRE_AND_THE_RECEIVING_BANK.html'
 
 def crossing_projection(current, previous):
-    """Account only for the documented 5b task receipt and revised text.
+    """Account only for the documented 5b/5c event records and revised text.
 
     All other state, flags, history metadata and choice destinations must remain
     identical. The task itself is exhaustively checked by qa_crossing210.
     """
     projected = deepcopy(current)
+    has_charter = projected['flags'].get('m3_211_scope') == 'local-charter'
+    charter_labels = set()
+    if has_charter:
+        charter = projected['civicCareer'].pop('localCharter')
+        assert charter['source'] == 'ch09_charter_hearing' and charter['year'] == 213
+        assert charter['accepted'] and not charter['delegated']  # default route
+        position = projected['militaryCareer']['fieldPosition']
+        assert position['proof'] == 'm3_5c:ford212' and position['year'] == 212 and not position['active']
+        del projected['flags']['m3_211_scope']
+        assert projected['flags'].pop('m3_213_delegate') is False
+        charter_labels = {'The Open Bank', 'A Chain Across the Ford', 'The Open Bank Charter'}
     if projected['flags'].get('m3_210_scope') != 'company':
         return projected
     evidence = projected['militaryCareer']['campaignEvidence'].pop('crossing210')
     assert evidence['year'] == 210 and evidence['source'] == 'ch09_p57_08_council'
     position = projected['militaryCareer']['fieldPosition']
-    assert position['proof'] == 'm3_5b:western_landing' and position['year'] == 210 and not position['active']
+    if not has_charter:
+        assert position['proof'] == 'm3_5b:western_landing' and position['year'] == 210 and not position['active']
     projected['militaryCareer']['fieldPosition'] = deepcopy(previous['militaryCareer']['fieldPosition'])
     del projected['flags']['m3_210_scope']
-    labels = {'The Battle Account', 'The Three Seals', 'The Western Landing', 'Three Seals on the River'}
+    labels = {'The Battle Account', 'The Three Seals', 'The Western Landing', 'Three Seals on the River'} | charter_labels
     old_notes = {entry['label']: entry['text'] for entry in previous['journal']}
     for entry in projected['journal']:
         if entry['label'] in labels:
@@ -31,7 +43,7 @@ def crossing_projection(current, previous):
     assert len(projected['history']) == len(previous['history'])
     for entry, old in zip(projected['history'], previous['history']):
         assert entry['sceneId'] == old['sceneId']
-        if entry['sceneId'].startswith('ch09_p57_'):
+        if entry['sceneId'].startswith('ch09_p57_') or (has_charter and entry['sceneId'].startswith('ch09_charter_')):
             entry['choice'] = old['choice']
     return projected
 TRAVERSE=r"""config=>{
@@ -63,7 +75,12 @@ def main():
             assert counts['8']==10 and counts['9']>0 and counts['10']>0
             for config,old in zip(configs,expected):
                 current=page.evaluate(TRAVERSE,config)
-                assert current['rows']==old['rows'] and crossing_projection(current['final'],old['final'])==old['final']
+                timeline = deepcopy(current['rows'])
+                for row, prior in zip(timeline, old['rows']):
+                    if row['id']=='ch09_charter_crossing' and row['year']!=prior['year']:
+                        assert row['year']==212 and row['age']==38 and prior['year']==211 and prior['age']==37
+                        row['year']=prior['year'];row['age']=prior['age']
+                assert timeline==old['rows'] and crossing_projection(current['final'],old['final'])==old['final']
                 assert current['headings']==[{'scene':'ch08_pb55_foreword','label':'Chapter VIII'},{'scene':'ch08_pb55_council','label':'Chapter IX'},{'scene':'ch08_rc54_winners','label':'Chapter X'}],current['headings']
                 for scene,chapter,year in [('ch08_pb55_foreword',8,208),('ch08_pb55_council',9,208),('ch08_rc54_winners',10,209),('ch09_01',10,210),('ch10_01',10,214)]:
                     saved=current['snapshots'][scene];page.evaluate('s=>{state=clone(s);activeTab="story";render();}',saved)
@@ -84,6 +101,6 @@ def main():
             result['checks'].append({'width':width,'display_chapter_counts':counts,'captain_and_private_207_to_214_state_parity_except_documented_crossing_changes':'PASS',
                 'single_VIII_IX_X_heading_at_208_208_209':'PASS','legacy_direct_entry_and_210_reload':'PASS',
                 'readonly_inspector_group_and_legacy_clock_tables':'PASS','page_errors':errors});context.close()
-    result['limits']='Two organic 207–214 routes. On 5b only the documented 210 receipt, task position, scope flag, and revised journal/history-choice text are projected; all other state compares exactly. Does not certify 211–223 narrative or XIII–XIX. Internal acts/IDs and old archived history retain legacy numbering.'
+    result['limits']='Two organic 207–214 routes. Only documented 210/213 event records, task position, scope/delegation flags, revised journal/choice text and the 212 entry correction are projected; other state compares exactly. Separate event suites verify those changes. No full X–XIX or device certification.'
     write_report(result,args.report)
 if __name__=='__main__':main()

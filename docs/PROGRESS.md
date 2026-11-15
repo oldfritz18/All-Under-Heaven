@@ -1,8 +1,8 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.5b; baseline awal terverifikasi v0.4.99.4m.
-- Status: gate M2 dan checkpoint fungsional VIII–IX bertarget; batch crossing 210 terimplementasi/teruji. M3 sedang berjalan pada Chapter X; M3–M11 dan objective penuh belum selesai.
+- Active: v0.4.99.5c; baseline awal terverifikasi v0.4.99.4m.
+- Status: gate M2 dan checkpoint fungsional VIII–IX bertarget; batch crossing 210 dan charter 211–213 terimplementasi/teruji. M3 sedang berjalan pada Chapter X; M3–M11 dan objective penuh belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 
 ## Evidence already in repository
@@ -10,7 +10,7 @@
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
-- Struktur VIII/IX/X mengikuti roadmap pada 5a. Kelompok hearing–crossing 210 sudah direvisi pada 5b; berikutnya charter 211–213, pengalaman Yi/Hanzhong/Jingzhou, mandat/muster dan kesinambungan NPC/relasi. Jangan menganggap label bab atau batch 210 sebagai kelulusan seluruh X.
+- Struktur VIII/IX/X mengikuti roadmap pada 5a. Kelompok hearing–crossing 210 sudah direvisi pada 5b dan charter 211–213 pada 5c; berikutnya pengalaman Yi/Hanzhong/Jingzhou, mandat/muster dan kesinambungan NPC/relasi. Jangan menganggap label bab atau batch 210 sebagai kelulusan seluruh X.
 - Node Xu Shu awal serta sesudah Changban sudah menjadi pembacaan bersumber; pertahankan perbedaan laporan/pertemuan serta outcome Red Cliffs ketika melanjutkan dunia 210–223.
 - Tawaran Captain 209 kini eksplisit dan mengembalikan watch yang sesuai pada jalur baru. Tetap audit milestone karier berikutnya di X–XI, dengan penerimaan, muster dan jabatan yang benar-benar tercatat.
 - XII–XIX/Epilogue: adaptasi pemerintahan dan suksesi Shu-Han serta perluas struktur legacy; belum dikerjakan atau disertifikasi. Registry baseline tidak mempunyai tag Chapter XIII–XIX, sehingga konten akhir legacy tidak boleh diklaim setara dengan delapan chapter Emperor Saga.
@@ -157,3 +157,11 @@
 - Review commit `10f50c4` tersimpan, tetapi push normal dan helper resmi gh sama-sama ditolak GitHub HTTP 403. Read/fetch berhasil; remote main masih `a82952a6fb9d32c05ba2cf4d96df19329031cafb`. Struktur dan seluruh perkembangan tetap lokal; jangan menyatakan sudah dipush.
 - Status jaringan environment current/enforced menunjukkan unrestricted. Akun terlihat memiliki hak repo, tetapi kredensial sesi tidak berhasil menulis. Akses tulis/Contents ke repo ini perlu diperbarui melalui koneksi/kredensial GitHub; bukan permission untuk merombak game atau alasan menghapus/rebase riwayat. Detail: `docs/GITHUB_PUSH_BLOCKER_2026-11-15.md`.
 - Goal tetap aktif sebagai instruksi kerja thread. Tidak ada bukti scheduler eksternal/daemon berjalan. Pengembangan lokal dilanjutkan dari checkpoint 5a sampai batch 5b yang teruji sambil bagian push terblokir; tidak ada restart, ekstraksi ulang, biaya atau perubahan locked decisions.
+
+
+## Charter lokal dan ratifikasi — v0.4.99.5c
+- Lima scene charter 211–213 diperluas: proposal sementara, batas kewenangan patroli, perintah lapangan, tiga respons di ford, hearing dan ratifikasi. Pilihan keempat mengizinkan pemain menjadi saksi tanpa menerima kepemimpinan pribadi. NPC tetap memegang pasukan/mandat masing-masing; enam hasil dan formula lama dipertahankan.
+- Receipt opsional `civicCareer.localCharter` hanya dicatat pada hearing aktual. Civic menampilkan accepted/delegated/pending beserta lingkup yang terbukti; tidak memberi Governor, pejabat, treasury, rank, unit, staf atau barang. Military/People/Character/Chronicle sinkron; proposal tanpa bukti tidak membuka otoritas. Jalur league kemudian memerlukan penerimaan personal yang benar-benar tercatat pada mode baru; legacy tetap.
+- Jalur baru masuk crossing pada 212/usia 38, hearing ratification 213/39 dan kembali 214/40; posisi tugas ditutup sesudah aksi. Save lama di crossing 211 tetap 211 dan tidak dituakan ulang. Header western messenger mengikuti saved year 214/215 tanpa mengubah clock/age.
+- Smoke 8/8 dan tiga suite pada hash sama PASS di 390/1280: charter 360 rute per viewport, regresi crossing 504 rute/11 klik DOM, dua route organik map 207–214. Charter mencakup semua pilihan lokal pada lima seed karier/world dan dua branch, enam outcome, penerimaan/penolakan/pending, no-grant, legacy Major/parity efek, provenance, reload Civic dan empat klik DOM Private. Page error 0; registry 658, portrait 35 identik.
+- Bukti/batas: `docs/QA_CHARTER_211_213_v0.4.99.5c.md`, `docs/qa/BATCH_5c.json`. Checkpoint formal terakhir tetap 5a VIII–IX; rollback tetap 4z. Tidak menyatakan Chapter X, M3 atau objective XIX/Epilogue selesai. Push ditunda sesuai arahan pengguna; penolakan GitHub 403 terakhir tetap belum teratasi.
