@@ -98,7 +98,10 @@ def main():
                 data = page.evaluate(WALK)
                 assert old['sceneCount'] == 630
                 assert set(old['ids']).issubset(data['ids'])
-                assert set(data['ids']) - set(old['ids']) == {'m1p_192_route_table', 'm1p_192_second_reading'}
+                assert set(data['ids']) - set(old['ids']) == {
+                    'm1p_192_route_table', 'm1p_192_second_reading',
+                    'm2_197_road_orders', 'm2_197_road_contact', 'm2_197_road_aftermath',
+                }
                 assert data['staff'] == old['staff']
                 assert len(data['edges']) == len(old['edges'])
                 for previous, successor in zip(old['edges'], data['edges']):

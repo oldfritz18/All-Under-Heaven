@@ -1,8 +1,8 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.4q; baseline awal terverifikasi v0.4.99.4m.
-- Status: checkpoint fungsional M1 (I–III) dan batch IV selesai pada cakupan review/QA yang dicatat. M2 berlanjut ke V–VII; M3–M11 belum selesai.
+- Active: v0.4.99.4r; baseline awal terverifikasi v0.4.99.4m.
+- Status: checkpoint fungsional M1 (I–III) dan batch IV–V selesai pada cakupan review/QA yang dicatat. M2 berlanjut ke VI–VII; M3–M11 belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 
 ## Evidence already in repository
@@ -10,7 +10,7 @@
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
-- Chapter V: perluas pertemuan/komitmen awal yang masih sangat singkat, lalu lengkapi konteks krisis 196–197 dan pengujian konsekuensi sebelum VI–VII.
+- Chapter VI–VII: audit konflik Xiaopei/Xiapi/Xuzhou dan Runan/Jingzhou, kewenangan saat promosi, konsekuensi relasi serta posisi tempur sebelum checkpoint M2.
 - Lanjutkan IV–XIX dan Epilogue sesuai roadmap. Jangan menyamakan hasil QA sampel dengan kelulusan editorial seluruh cabang atau rilis M11.
 
 ## QA limitations
@@ -54,3 +54,11 @@
 - Migrasi memerlukan scene tujuan yang cocok, pilihan valid, branch yang sudah tercatat serta visit/history aktual. Tidak menimpa posisi lebih baru, penugasan 194 lain yang sah, atau membuat branch dari flags/tahun saja. Marker event mencegah replay menimpa posisi setelahnya.
 - Kronologi Lin Yue dikoreksi: perkenalan pada III sekarang berada di 192, sehingga rujukan pasti dua tahun pada IV 193 tidak lagi digunakan. Kalimat kepemilikan/komando atas bridge party diganti dengan tindakan prajurit di bawah section leader.
 - `scripts/qa_chapter4.py`: 20 scene, 53 edge; 54 rute kampanye per viewport 390/1280 (27 Infantry, 27 fixture Cavalry), seluruh pasangan delapan pilihan tercakup; 10 migrasi positif, enam negatif, replay, date/age gate, HTTP save/reload aktif/terakhir dan UI Military lulus; page error 0. Rincian: `docs/QA_CHAPTER_IV_v0.4.99.4q.md`.
+
+## Batch Chapter V — v0.4.99.4r, selesai
+- Tujuh scene singkat tentang Qin Rui, Deng Yu, Yao Qing, Pei Liang, pertemuan sahabat dan kuda pendamping diperluas. Kewajiban mandiri, hak menolak, koreksi dan care tetap lebih penting daripada label pendamping.
+- Tiga scene kampanye W05 pada 197 ditambahkan sebelum transisi lama ke VI/198: penugasan, kontak lokal, aftermath. Pilihan field/district/both tetap tersimpan dan menentukan sektor penugasan tempur; bukan perpindahan ke support/administrasi.
+- Seluruh efek lama pada exit V dipertahankan; hanya transisi waktu ditahan pada 197 sampai arc baru selesai, lalu kembali ke 198/usia 24. Save yang sudah berada pada 198 atau lebih akhir tidak dipundurkan dan tidak menerima credit baru.
+- Registry 635: 630 ID baseline + dua opsional III + tiga kampanye V; 35 gambar dan sistem lama dipertahankan. Tidak ada promosi, pasukan, barang, kuda, atau anggota circle gratis dari arc baru.
+- `scripts/qa_chapter5.py`: 16 scene, 33 edge lama dan delapan edge scene baru; seluruh 108 kombinasi lokal (preferensi, Infantry/fixture Cavalry, posisi, aksi, laporan) per viewport 390/1280 lulus. Parity, chronology, penutupan posisi, consent/no-grant, recall VI, idempotence, legacy 198, flag-only dan HTTP reload lulus; page error 0.
+- Rincian serta sumber adaptasi historis: `docs/QA_CHAPTER_V_v0.4.99.4r.md`. Berikutnya VI–VII; objective penuh belum selesai.
