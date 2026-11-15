@@ -1,0 +1,81 @@
+{
+  "reviewed_at_utc": "2026-11-15T22:27:34.594842+00:00",
+  "local_head_before_review": "7f9d695c45762125012ad4baa0ecc2567206fc4b",
+  "remote_head_after_fetch": "a82952a6fb9d32c05ba2cf4d96df19329031cafb",
+  "local_commits_ahead": 21,
+  "working_tree_clean_before_review": true,
+  "root_components": {
+    "AGENTS.md": true,
+    "GAME": true,
+    "DESIGN": true,
+    "docs": true,
+    "scripts": true,
+    "GOAL_MODE_PROMPT.md": true
+  },
+  "starter_zip_crc": "PASS, 26 entries",
+  "initialization_commit": "76f5684a8e191a5833bafdb8052de3597b952c04",
+  "active_build": "ALL_UNDER_HEAVEN_v0.4.99.5e_THE_DOWNSTREAM_APPROACH.html",
+  "sha256": "a084e07b0329a0774da65f02bb87865f1ed78fc7a6b9195ec951763fdc3291df",
+  "smoke": "8/8 PASS",
+  "fresh_browser_suite": {
+    "build": "ALL_UNDER_HEAVEN_v0.4.99.5e_THE_DOWNSTREAM_APPROACH.html",
+    "sha256": "a084e07b0329a0774da65f02bb87865f1ed78fc7a6b9195ec951763fdc3291df",
+    "portrait_data_uris": 35,
+    "checks": [
+      {
+        "width": 390,
+        "routes_ten_organic_career_world_duty_seeds_two_branches": 540,
+        "nine_local_results_and_five_frontier_results": [
+          "broken_parley",
+          "costly_hold",
+          "covered_recovery",
+          "defended_bend",
+          "fallback_from_hold",
+          "hurried_refuge",
+          "limited_compact",
+          "ordered_refuge",
+          "unagreed_fallback"
+        ],
+        "five_choice_groups_all_pairs": "PASS",
+        "original_policy_inquiry_property_effects_parity": "PASS",
+        "six_legacy_major_nodes_full_parity": "PASS",
+        "marriage_market_tail_preserved": "PASS",
+        "no_rank_muster_staff_goods_civic_or_recruit_grants": "PASS",
+        "evidence_readonly_replay_negative_legacy_later_post": "PASS",
+        "all_property_exits_to_220": "PASS",
+        "reload_military_dom": "PASS",
+        "full_history_private_dom_clicks": 8,
+        "page_errors": []
+      },
+      {
+        "width": 1280,
+        "routes_ten_organic_career_world_duty_seeds_two_branches": 540,
+        "nine_local_results_and_five_frontier_results": [
+          "broken_parley",
+          "costly_hold",
+          "covered_recovery",
+          "defended_bend",
+          "fallback_from_hold",
+          "hurried_refuge",
+          "limited_compact",
+          "ordered_refuge",
+          "unagreed_fallback"
+        ],
+        "five_choice_groups_all_pairs": "PASS",
+        "original_policy_inquiry_property_effects_parity": "PASS",
+        "six_legacy_major_nodes_full_parity": "PASS",
+        "marriage_market_tail_preserved": "PASS",
+        "no_rank_muster_staff_goods_civic_or_recruit_grants": "PASS",
+        "evidence_readonly_replay_negative_legacy_later_post": "PASS",
+        "all_property_exits_to_220": "PASS",
+        "reload_military_dom": "PASS",
+        "full_history_private_dom_clicks": 8,
+        "page_errors": []
+      }
+    ],
+    "limits": "Ten selected organic career/world/duty seeds, both branches; Cavalry and legacy Major parity synthetic. All policy×tactic×aftermath and pairwise five local groups; not their full Cartesian product or all prior relationships. Matrix suppresses paint/storage and compacts history bodies; DOM full history. Hanzhong is sourced news, not direct attendance. No full X/XI/M3 or physical-device file:// certification."
+  },
+  "last_formal_milestone": "5a, VIII–IX targeted functional checkpoint; M3 incomplete",
+  "goal_mode": "Active persistent instruction in this thread; no external daemon verified",
+  "push": "Authorized; result to be checked after committing this review."
+}

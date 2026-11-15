@@ -2,7 +2,7 @@
 
 ## Baseline
 - Active: v0.4.99.5e; baseline awal terverifikasi v0.4.99.4m.
-- Status: gate M2 dan checkpoint fungsional VIII–IX bertarget; batch crossing 210, charter 211–213, Baxi 215–216 dan kontak Jing 219 terimplementasi/teruji. M3 sedang berjalan pada Chapter X; M3–M11 dan objective penuh belum selesai.
+- Status: gate M2 dan checkpoint fungsional VIII–IX bertarget; batch crossing 210, charter 211–213, Baxi 215–216 dan kontak Jing 219 terimplementasi/teruji. M3 sedang berjalan menuju Chapter XI; M3–M11 dan objective penuh belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 
 ## Evidence already in repository
@@ -190,3 +190,9 @@
 - Temuan nyata: front/clash berlabel 222 masih memakai saved clock 221/usia 47 pada kedua route. Prosa Private/0 juga mengklaim personal troops dan charter yang memberi pengikut militer, bertentangan dengan muster dan charter lokal yang terverifikasi. Core politik/rumah tangga yang valid tetap perlu dipertahankan saat memperbaiki scope/travel/clock.
 - Urutan batch berikutnya: council/mandate 220–221 dan pilihan ikut kampanye; actual deployment/contact/relief 222 dengan kalender new/legacy yang benar; review komisi earned beserta acceptance/refusal dan muster; aftermath personal serta posisi politik 223 sebelum XII. General/Grand General/honour/staff tidak boleh diberikan dari tahun atau audit jump.
 - Bukti: `docs/CHAPTER_XI_AUDIT_v0.4.99.5e.md`, `docs/qa/AUDIT_XI_5e.json`; trace lengkap kerja `/workspace/work/chapter_xi_5e_audit.json`. Build/code tetap 5e / commit `0de1ac7`; audit ini tidak mengubah executable. Goal tetap aktif dalam thread; eksekusi sesi berakhir pada checkpoint terverifikasi ini karena batas sumber daya sesi, bukan objective selesai atau daemon berjalan.
+
+
+## Review ulang workspace pada 5e
+- Root enam komponen wajib tetap lengkap dan terlacak; ZIP starter 26 entri lolos CRC; init commit `76f5684a8e191a5833bafdb8052de3597b952c04` tetap tersedia. Tidak ada re-ekstraksi atau restart. Working tree bersih sebelum review; main 21 commit di depan remote `a82952a6fb9d32c05ba2cf4d96df19329031cafb` setelah fetch.
+- Build aktif 5e/hash cocok dengan receipt ketiga suite. Smoke 8/8 dan suite Jing 540 rute per viewport 390/1280 dijalankan ulang PASS, termasuk delapan klik DOM Private, reload dan exit property ke 220; page error 0. Bukti baru `docs/qa/REVIEW_5e_2026-11-15.json`.
+- Struktur sudah di-commit dalam riwayat; tidak perlu empty initialization commit. Pengguna meminta push ulang. Review dokumentasi ini di-commit sebelum percobaan fast-forward push; hasil GitHub diperiksa sesudahnya. Seluruh development lokal dipertahankan. Milestone formal tetap 5a VIII–IX, batch terbaru 5e; XI, M3–M11 dan XIX/Epilogue belum selesai. Goal aktif sebagai instruksi persisten thread.
