@@ -3,7 +3,7 @@
 import argparse
 from copy import deepcopy
 from pathlib import Path
-from qa_support import fixture, write_report
+from qa_support import fixture, write_report, normalize_chapter_headers
 from qa_m2_continuity import START
 from qa_changban import ADVANCE
 
@@ -68,7 +68,7 @@ def main():
             # Unmodified high-command nodes keep their prior body/labels/effects.
             major=deepcopy(seeds[0]);major['militaryCareer']['rank']='Major'
             project=r"""s=>['ch08_c72_01_guanyu_council','ch08_c72_02_shore_witnesses','ch08_pb55_jiangxia','ch08_pb55_liuqi_council','ch08_shu56_zhugeliang_terms','ch08_pb55_embassy','ch08_pb55_bridge','ch08_zhugeliang_ledger','ch08_lusu_quay','lc81_208_four_courts','ch08_c72_03_lusu_table','ch08_c72_04_eastern_conditions','p86_208_pilots_and_seals','ch08_alliance_register','ch08_player_council'].map(id=>({id,body:SCENES[id].body(s),choices:SCENES[id].choices(s).map(o=>{const x=clone(s);o.effect(x);return {label:o.label,next:o.next,state:x};})}))"""
-            base=context.new_page();base.goto(url+'/baseline.html');assert page.evaluate(project,major)==base.evaluate(project,major);base.close()
+            base=context.new_page();base.goto(url+'/baseline.html');assert normalize_chapter_headers(page.evaluate(project,major))==normalize_chapter_headers(base.evaluate(project,major));base.close()
             page.evaluate(r"""s=>{
              state=clone(s);const once=JSON.stringify(state.militaryCareer);SCENES.ch08_player_council.choices(state)[0].effect(state);if(JSON.stringify(state.militaryCareer)!==once&&state.flags.auh52_war_command==='wing'){
               // The tested example may have selected another task. Repeating an

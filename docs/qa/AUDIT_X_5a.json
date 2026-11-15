@@ -1,0 +1,917 @@
+{
+  "build": "ALL_UNDER_HEAVEN_v0.4.99.5a_CHAPTERS_VIII_IX_X_RECONCILED.html",
+  "sha256": "518ffc85a164668f5322012fe626a19d9bcba5a7b0d6e896da59e79c415c2bc6",
+  "scope": "Audit baca satu rute organik default; bukan QA semua cabang X\u2013XI.",
+  "visits": [
+    {
+      "scene": "ch08_rc54_winners",
+      "year": 209,
+      "age": 35,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch08_shu56_liubei_settlement",
+      "year": 209,
+      "age": 35,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch08_player_battle_result",
+      "year": 209,
+      "age": 35,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch08_alliance_afterfire",
+      "year": 209,
+      "age": 35,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch08_06",
+      "year": 209,
+      "age": 35,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_01",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "lc81_210_shared_table",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "p90_210_the_letter_not_sent",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "lc81_210_shared_table",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "hc92_210_camp",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_p57_01_tide",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "p93_210_a_letter_unsealed",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_p57_01_tide",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_p57_02_testimony",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_p57_03_letters",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_p57_04_terms",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_p57_05_scouts",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_p57_06_landing",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_p57_07_verdict",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_p57_08_council",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_p57_09_depart",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_envoys_echo",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_heqing_clinic",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_heqing_lantern",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_02",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_cai_threshold",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_cai_evening",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_03",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_04",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "p88_210_the_unpaid_words",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_04",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_05",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_06",
+      "year": 210,
+      "age": 36,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_charter_council",
+      "year": 211,
+      "age": 37,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_charter_challenge",
+      "year": 211,
+      "age": 37,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_charter_crossing",
+      "year": 211,
+      "age": 37,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_charter_hearing",
+      "year": 212,
+      "age": 38,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch09_charter_aftermath",
+      "year": 213,
+      "age": 39,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_01",
+      "year": 214,
+      "age": 40,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_02",
+      "year": 214,
+      "age": 40,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_songwan_accounts",
+      "year": 214,
+      "age": 40,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_songwan_lamplight",
+      "year": 214,
+      "age": 40,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_03",
+      "year": 214,
+      "age": 40,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_lan_after_song",
+      "year": 214,
+      "age": 40,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_lan_lamplight",
+      "year": 214,
+      "age": 40,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_04",
+      "year": 214,
+      "age": 40,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_05",
+      "year": 214,
+      "age": 40,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_c58_01_western_messenger",
+      "year": 214,
+      "age": 40,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_c58_02_border_oath",
+      "year": 215,
+      "age": 41,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_c58_03_watchfires",
+      "year": 216,
+      "age": 42,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_c58_04_personal_dispatch",
+      "year": 217,
+      "age": 43,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_c59_01_fair_217",
+      "year": 217,
+      "age": 43,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_c59_02_open_paths",
+      "year": 217,
+      "age": 43,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_c59_linyue",
+      "year": 217,
+      "age": 43,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_c58_06_frontier_218",
+      "year": 218,
+      "age": 44,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "p87_218_a_conversation_in_person",
+      "year": 218,
+      "age": 44,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_c58_06_frontier_218",
+      "year": 218,
+      "age": 44,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch_c66_proposal",
+      "year": 218,
+      "age": 44,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch_c66_wedding_linyue",
+      "year": 218,
+      "age": 44,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch_c67_settle_linyue",
+      "year": 218,
+      "age": 44,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch_c66_home_after",
+      "year": 218,
+      "age": 44,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_c58_06_frontier_218",
+      "year": 218,
+      "age": 44,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_c58_07_jing_219",
+      "year": 219,
+      "age": 45,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_c58_08_road_home",
+      "year": 219,
+      "age": 45,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_c67_home_219",
+      "year": 219,
+      "age": 45,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_c58_08_road_home",
+      "year": 219,
+      "age": 45,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_c73_01_missing_orders_219",
+      "year": 219,
+      "age": 45,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_c73_02_the_cost_of_truth_219",
+      "year": 219,
+      "age": 45,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch10_06",
+      "year": 219,
+      "age": 45,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    },
+    {
+      "scene": "ch11_01",
+      "year": 220,
+      "age": 46,
+      "rank": "Captain",
+      "active_units": [
+        {
+          "id": "m3-208-issued-company",
+          "infantry": 60,
+          "cavalry": 0
+        }
+      ]
+    }
+  ]
+}

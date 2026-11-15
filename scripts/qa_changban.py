@@ -3,7 +3,7 @@
 import argparse
 from copy import deepcopy
 from pathlib import Path
-from qa_support import fixture, write_report
+from qa_support import fixture, write_report, normalize_chapter_headers
 from qa_m2_continuity import START
 
 BASELINE = 'cb7d511:GAME/ALL_UNDER_HEAVEN_v0.4.99.4v_CHAPTER_VIII_THE_ISSUED_ROLL.html'
@@ -73,7 +73,7 @@ def main():
             legacy = deepcopy(seeds[0]); legacy['militaryCareer']['rank'] = 'Major'
             project = r"""s=>['ch08_pb55_succession','ch08_pb55_refugees','ch08_pb55_march','ch08_shu56_zhaoyun_road','ch08_pb55_cavalry','ch08_shu56_zhangfei_bridge','ch08_pb55_hanjin'].map(id=>({id,body:SCENES[id].body(s),options:SCENES[id].choices(s).map(o=>{const x=clone(s);o.effect(x);return {label:o.label,next:o.next,state:x};})}))"""
             base = context.new_page(); base.goto(url + '/baseline.html')
-            assert page.evaluate(project, legacy) == base.evaluate(project, legacy); base.close()
+            assert normalize_chapter_headers(page.evaluate(project, legacy)) == normalize_chapter_headers(base.evaluate(project, legacy)); base.close()
             page.evaluate(r"""seed=>{
              state=clone(seed);state.scene='ch08_pb55_xushu_choice';state.flags.historical_meet_xushu=true;
              for(const o of SCENES[state.scene].choices(state)){const x=clone(state);o.effect(x);if(!x.flags.historical_meet_xushu)throw Error('Legacy acquaintance erased');}

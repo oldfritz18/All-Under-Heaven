@@ -1,7 +1,7 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.4z; baseline awal terverifikasi v0.4.99.4m.
+- Active: v0.4.99.5a; baseline awal terverifikasi v0.4.99.4m.
 - Status: gate fungsional/coverage M2 bertarget; pembuka VIII/W11–W12 dan komisi opsional terimplementasi. M3 sedang berjalan; M3–M11 dan objective penuh belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 
@@ -10,8 +10,8 @@
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
-- Fire assault–settlement/209 kini mengikuti tugas/muster dan empat hasil perang lama pada 4z. Lanjutkan rekonsiliasi struktur chapter sebelum audit 209–219; jangan mengubah perhitungan kemenangan atau menghapus pengakuan/komisi legacy yang valid.
-- Rekonsiliasi penempatan blok legacy VIII ke IX dan blok 209–219 ke X sesuai roadmap tanpa menghapus scene, save atau pilihan valid. Node Xu Shu awal serta sesudah Changban sudah menjadi pembacaan bersumber, bukan pertemuan hidup atau rescue/appointment baru.
+- Struktur VIII/IX/X sudah mengikuti roadmap pada 5a tanpa mengubah kalender/akt/ID internal atau state pilihan. Berikutnya audit Chapter X (209–219): pengalaman Yi/Hanzhong/Jingzhou, mandat yang benar-benar diberikan, muster dan kesinambungan NPC/relasi. Jangan menganggap label baru sebagai sertifikasi prosa legacy 210–219.
+- Node Xu Shu awal serta sesudah Changban sudah menjadi pembacaan bersumber; pertahankan perbedaan laporan/pertemuan serta outcome Red Cliffs ketika melanjutkan dunia 210–223.
 - Tawaran Captain 209 kini eksplisit dan mengembalikan watch yang sesuai pada jalur baru. Tetap audit milestone karier berikutnya di X–XI, dengan penerimaan, muster dan jabatan yang benar-benar tercatat.
 - XII–XIX/Epilogue: adaptasi pemerintahan dan suksesi Shu-Han serta perluas struktur legacy; belum dikerjakan atau disertifikasi. Registry baseline tidak mempunyai tag Chapter XIII–XIX, sehingga konten akhir legacy tidak boleh diklaim setara dengan delapan chapter Emperor Saga.
 - Lanjutkan IV–XIX dan Epilogue sesuai roadmap. Jangan menyamakan hasil QA sampel dengan kelulusan editorial seluruh cabang atau rilis M11.
@@ -129,3 +129,12 @@
 - Komisi Captain 209 kini eksplisit dan hanya diterima pada field choice. Watch terkait dikembalikan pada jalur baru; Captain 208 tidak dipromosikan lagi, Private tidak dipromosikan otomatis. Save 4y dan older-order resume yang mempunyai warrant/watch sah mempertahankan tawaran lama tanpa receipt dinas retroaktif. Tidak ada staff/ship/goods/recruit gratis.
 - Registry 658, portrait 35 identik. Smoke 8/8; `qa_red_cliffs.py` 324 rute pairwise dan 20 klik DOM per viewport 390/1280 lulus; semua empat outcome dan dua matriks parity hasil lama lulus. Regresi patroli 216 rute + sembilan klik DOM per viewport serta 20 node legacy Major body/label/effect parity lulus. Reload dan provenance/idempotence lulus; page error 0.
 - Bukti/hash dan batas: `docs/QA_RED_CLIFFS_v0.4.99.4z.md`, `docs/qa/BATCH_4z.json`. Pemetaan VIII–X, kampanye 209–223, milestone M3 dan objective XIX/Epilogue tetap belum tuntas. Rollback formal tetap 4t; tidak ada ZIP, biaya atau push.
+
+
+## Checkpoint VIII–IX dan struktur VIII–X — v0.4.99.5a
+- Pembagian tampil kini sesuai roadmap: VIII 10 scene pembuka/Bowang/Xinye; IX 61 scene retreat–Changban–Red Cliffs; X 84 scene settlement 209 serta legacy 210–219. 503 scene lainnya tetap. Internal IDs/acts/tabel calendar dan history save lama dipertahankan; tidak ada perubahan reward, pilihan atau timeline dari relabeling.
+- Heading VIII/IX/X tampil sekali pada jalur baru dan benar pada direct legacy entry. Inspector memakai display chapter aktif tanpa membuat fixture/riwayat baru. Parity prosa lama mengabaikan hanya heading H2 yang kini diuji tersendiri; paragraf, pilihan dan efek lainnya tetap dibandingkan.
+- Delapan suite Chromium 390/1280 serta smoke 8/8 PASS pada hash identik: map, VIII, Changban, councils, patrol, fire/settlement, legacy Major dan boundary M2. Map membandingkan rute/state organik Captain dan Private sampai 214; seluruh route-state identik selain teks heading history. Tidak ada page error. Registry 658; portrait tetap 35 identik.
+- Bukti/hash/cakupan: `docs/QA_CHAPTER_MAP_v0.4.99.5a.md`, `docs/qa/CHECKPOINT_5a.json`. Rollback formal diperbarui ke 4z dari Git dengan hash cocok; riwayat versi lain tetap di Git. Tidak membuat ZIP, push atau biaya.
+- Audit awal X: 70 kunjungan/64 ID default sampai entry XI/220, Captain/60 masih tetap. Mandat 210, charter 211–213, ketepatan tahun entry western messenger serta pengalaman Yi/Hanzhong/Jingzhou perlu integrasi berikutnya; jangan memberi rank, attendance, kapal atau jabatan otomatis. Rincian dan bukti: `docs/CHAPTER_X_AUDIT_v0.4.99.5a.md`, `docs/qa/AUDIT_X_5a.json`.
+- Gate ini bersifat fungsional/targeted untuk VIII–IX, bukan M3 sampai XI, editorial semua cabang, Chapter X selesai atau objective XIX/Epilogue tuntas. Android/perangkat nyata/file:// dan M11 masih terbuka.

@@ -3,7 +3,7 @@
 import argparse
 from copy import deepcopy
 from pathlib import Path
-from qa_support import fixture, write_report
+from qa_support import fixture, write_report, normalize_chapter_headers
 from qa_m2_continuity import START
 
 BASELINE = 'a463613:GAME/ALL_UNDER_HEAVEN_v0.4.99.4u_M2_ROADS_AND_WITNESSES.html'
@@ -78,7 +78,7 @@ def main():
             base = context.new_page(); base.goto(url + '/baseline.html')
             legacy = deepcopy(seeds[0]['snapshots']['ch08_pb55_xushu']); legacy['militaryCareer']['rank'] = 'Major'
             project = r"""s=>['ch08_pb55_council','ch08_shu56_liubei_compact'].map(id=>({id,body:SCENES[id].body(s),options:SCENES[id].choices(s).map(o=>{const x=clone(s);o.effect(x);return {label:o.label,next:o.next,state:x};})}))"""
-            assert page.evaluate(project, legacy) == base.evaluate(project, legacy)
+            assert normalize_chapter_headers(page.evaluate(project, legacy)) == normalize_chapter_headers(base.evaluate(project, legacy))
             base.close()
             page.evaluate(r"""seed=>{
              state=clone(seed);const h=clone(state);h.visited=[];if(!auh4vEvidence(h,'xinye'))throw Error('History evidence lost');

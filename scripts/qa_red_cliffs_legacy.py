@@ -2,7 +2,7 @@
 """Unchanged higher-command bodies and effects across the fire/settlement arc."""
 import argparse
 from pathlib import Path
-from qa_support import fixture, write_report
+from qa_support import fixture, write_report, normalize_chapter_headers
 from qa_m2_continuity import START
 from qa_changban import ADVANCE
 from qa_river_councils import TO_HANJIN
@@ -30,7 +30,7 @@ def main():
         expected=base.evaluate(PROJECT,seed);base.close()
         for width in (390,1280):
             page=browser.new_page(viewport={'width':width,'height':900});errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.goto(url+'/active.html')
-            assert page.evaluate(PROJECT,seed)==expected
+            assert normalize_chapter_headers(page.evaluate(PROJECT,seed))==normalize_chapter_headers(expected)
             assert not errors,errors
             result['checks'].append({'width':width,'higher_command_scene_body_label_destination_effect_parity':20,'page_errors':errors});page.close()
     result['limits']='Synthetic Major import parity only; no organic proof of earning Major or certification of legacy strategic fiction.'

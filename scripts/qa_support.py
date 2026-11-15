@@ -13,6 +13,21 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 
 
+def normalize_chapter_headers(value):
+    """Ignore only display chapter H2s in legacy prose parity comparisons.
+
+    Heading placement and numbering have their own qa_chapter_map assertions.
+    Scene IDs, labels, destinations and all state/effects still compare exactly.
+    """
+    if isinstance(value, list):
+        return [normalize_chapter_headers(item) for item in value]
+    if isinstance(value, dict):
+        return {key: (re.sub(r'<h2 class="chapter-title-inline">Chapter [IVX]+</h2>\s*', '', item).strip()
+                      if key == 'body' and isinstance(item, str) else normalize_chapter_headers(item))
+                for key, item in value.items()}
+    return value
+
+
 @contextmanager
 def fixture(baseline_ref):
     from playwright.sync_api import sync_playwright

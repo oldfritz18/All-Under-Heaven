@@ -3,7 +3,7 @@
 import argparse
 from copy import deepcopy
 from pathlib import Path
-from qa_support import fixture, write_report
+from qa_support import fixture, write_report, normalize_chapter_headers
 from qa_m2_continuity import START
 from qa_changban import ADVANCE
 from qa_river_councils import TO_HANJIN
@@ -59,7 +59,7 @@ def main():
             for seed in (seeds[0],seeds[3]):assert page.evaluate(PROJECT,seed)==base.evaluate(PROJECT,seed)
             major=deepcopy(seeds[0]);major['militaryCareer']['rank']='Major'
             high=r"""s=>['ch08_rc54_flotilla','ch08_rc54_council','ch08_rc54_pilots','ch08_shu56_kongming_warroom','ch08_rc54_scout','ch08_rc54_first_clash','ch08_shu56_zhangfei_shore','ch08_rc54_southern_dispute','ch08_rc54_twilight'].map(id=>({id,body:SCENES[id].body(s),choices:SCENES[id].choices(s).map(o=>{const x=clone(s);o.effect(x);return {label:o.label,next:o.next,state:x};})}))"""
-            assert page.evaluate(high,major)==base.evaluate(high,major);base.close()
+            assert normalize_chapter_headers(page.evaluate(high,major))==normalize_chapter_headers(base.evaluate(high,major));base.close()
             page.evaluate(r"""seed=>{
              state=clone(seed);const history=clone(state);history.visited=[];if(!auh4yEvidence(history))throw Error('History evidence');
              const empty=clone(state);empty.history=[];empty.visited=[];if(auh4yEvidence(empty))throw Error('Flag-only evidence');delete empty.militaryCareer.campaignEvidence.riverRecon208;SCENES.ch08_rc54_first_clash.choices(empty)[0].effect(empty);if(empty.militaryCareer.campaignEvidence.riverRecon208)throw Error('Flag-only record');
