@@ -1,0 +1,29 @@
+# All Under Heaven — Codex repository instructions
+
+## Source of truth and priorities
+1. Read `docs/START_HERE.md` and `DESIGN/LOCKED_DESIGN_DECISIONS_2026-11-15.md` FIRST.
+2. `GAME/ACTIVE_BUILD.txt` names the ONLY current active HTML. Edit it in place or create a versioned successor and update the pointer. NEVER start another game from scratch.
+3. Story roadmap: `ROADMAP/01_TWO_PART_190_250_v1.3.md`, `ROADMAP/05_M0_M11_DEVELOPMENT_ROADMAP_v1.0.md`, related matrices; rules in `RULES/`.
+4. `DESIGN/02_WORLD_BIBLE_LEGACY_v1.99.2m.md` and `DESIGN/03_MASTER_GDD_LEGACY_v1.28.md` provide larger reference context. Explicit newer locked decisions take precedence where they differ.
+5. Game prose/UI is in ENGLISH; development notes, checkpoints and communications to the owner are in INDONESIAN; progress reports avoid story spoilers.
+
+## Immutable constraints absent explicit owner approval
+- Chapter I, 190 CE: male protagonist aged 16, Infantry Private under Han Sheng, with NO personal troops or officer authority. Rank and calendar advance through earned, story-supported events. For any rank-and-file assignment only Infantry or Cavalry, never Support.
+- Historical figures (Liu Bei, Guan Yu, Zhang Fei etc.) have independent duties and agency. Introduce knowledge by plausible hearing, witnessing or meeting; no omniscient player knowledge.
+- Battlefield fiction must situate protagonist inside a real unit with formation, commanding officer, soldiers nearby, visible enemy, immediate objective, movement orders and limited information, following ROTK-inspired campaigns.
+- Five Dragon Generals are exactly five FUTURE potential legendary slots, NOT five default initial followers and NOT permanent Infantry/Cavalry general classes. Any named appointments must be explicitly earned.
+- Exactly five *existing* Special Staff roles: Personal Assistant (Sergeant), Strategist and Quartermaster (Captain), Deputy Commander and Intelligence Officer (Major). Eligibility is not appointment. Preserve original IDs and thresholds; demo staff are not hired staff.
+- Mature romance only between adults, consensual and non-graphic/fade-to-black, no sexualization of minors. Humor, banter, friendship, daily life and legendary companions are high priorities.
+- Universal Timeless Heroes convention stays; chronological aging continues. Portrait production deferred. Preserve all valid existing embedded portraits.
+- Do not auto-award rank, honors, resources, relationships, historical encounters, NPC recruitment, staff, or troops.
+- Preserve all valid previous scene IDs, choice paths, save/import/export compatibility and Story–Character–People–Military–Civic–Chronicle coherence.
+
+## Working style (Fast Development)
+- Ship substantial integrated chapter sections (prose, decisions, effects, callbacks, menu sync, QA), not small cosmetic patches each turn.
+- First inspect the current HTML architecture, then improve it in-place. Do not replace its code engine.
+- QA ONLY new/changed paths and their contracts after each batch; wider regression at chapter/milestone completion. Start with `python3 scripts/smoke.py`; extend targeted tests with verified evidence.
+- Record clear completion criteria in `docs/PROGRESS.md`, with done/in-progress/blocked and proof; do not claim simulated QA as full browser/device QA.
+- Update `GAME/ACTIVE_BUILD.txt` whenever replacing the active file; keep only the immediate previous build in ROLLBACK when creating a formal milestone checkpoint. Commit meaningful source changes to Git.
+- Do NOT create full ZIPs every patch; make them at milestones, major migrations, or for transfer.
+- No costs, paid APIs, uploads of sensitive information or changing locked design without the owner's approval.
+- If context is missing, find it in the repository or report a precise blocker; NEVER fabricate an implementation or test result.

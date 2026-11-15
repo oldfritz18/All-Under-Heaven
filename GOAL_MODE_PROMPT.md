@@ -1,0 +1,8 @@
+# Ready-to-use Codex Goal (paste the single `/goal` paragraph below)
+
+/goal Complete the existing offline HTML narrative RPG All Under Heaven (Prologue–Chapter XIX and Epilogue, 190–250 CE) according to this repository's locked design and M0–M11 roadmap, verified by playable branches, preserved legacy scenes and save compatibility, coherent historical-NPC visibility, consequences synchronized across Story/Character/People/Military/Civic/Chronicle, and documented targeted QA. Work from GAME/ACTIVE_BUILD.txt and never rebuild the game from scratch. Prioritize ROTK historical characters, immersive rank-and-file warfare and epic English prose, character-driven comedy, earned ranks and command, adult non-graphic romance, and the earned Five Dragon Generals plus existing five Special Staff posts. Implement large integrated chapter batches, commit meaningful changes, keep docs/PROGRESS.md current and work forward automatically rather than waiting for 'continue'. Preserve existing portraits; defer new portraits and milestone ZIPs unless required. Before changing any locked decisions or spending money, stop for user approval. If budget, context, environment, or testing blocks reliable progress, stop with precise evidence and the smallest action needed to resume. Never claim tests passed unless executed.
+
+## Notes
+- This is a persistent objective in the SAME Codex thread, not an always-on daemon or a global project setting.
+- Use `/goal` to see status, `/goal pause`, `/goal resume`, `/goal clear` to manage it.
+- If the tool or UI does not accept a long `/goal` command, paste the text after `/goal` into the Goals prompt area or first ask Codex to read `GOAL_MODE_PROMPT.md` and activate the documented Goal.
