@@ -1,0 +1,827 @@
+{
+  "build": "ALL_UNDER_HEAVEN_v0.4.99.5e_THE_DOWNSTREAM_APPROACH.html",
+  "sha256": "a084e07b0329a0774da65f02bb87865f1ed78fc7a6b9195ec951763fdc3291df",
+  "portrait_data_uris": 35,
+  "scope": "Audit baca dua rute organik default Major dan Private, dari XI/220 sampai first XII/224; bukan QA semua cabang atau gate M3.",
+  "audits": [
+    {
+      "route": "Major",
+      "visits": 39,
+      "unique_ids": 35,
+      "rows": [
+        {
+          "id": "ch11_01",
+          "year": 220,
+          "age": 46,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_01_the_two_seals",
+          "year": 220,
+          "age": 46,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_02_decree",
+          "year": 220,
+          "age": 46,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c73_03_counterseals_220",
+          "year": 220,
+          "age": 46,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c73_04_the_messenger_cost_220",
+          "year": 220,
+          "age": 46,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c73_04_the_messenger_cost_220",
+          "year": 220,
+          "age": 46,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_03_witnesses",
+          "year": 220,
+          "age": 46,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_04_bridge_221",
+          "year": 221,
+          "age": 47,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c74_01_rival_orders_221",
+          "year": 221,
+          "age": 47,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c74_02_answer_the_offices_221",
+          "year": 221,
+          "age": 47,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_02",
+          "year": 221,
+          "age": 47,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_cai_waystation",
+          "year": 221,
+          "age": 47,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_cai_lamplight",
+          "year": 221,
+          "age": 47,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_03",
+          "year": 221,
+          "age": 47,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_04",
+          "year": 221,
+          "age": 47,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_05_eastern_front_222",
+          "year": 221,
+          "age": 47,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p61_01_at_the_standard_222",
+          "year": 221,
+          "age": 47,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p61_02_clash_222",
+          "year": 221,
+          "age": 47,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p61_03_cost_of_command_222",
+          "year": 221,
+          "age": 47,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_06_cost_222",
+          "year": 221,
+          "age": 47,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_07_meeting_222",
+          "year": 221,
+          "age": 47,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_person_linyue",
+          "year": 221,
+          "age": 47,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_08_turn_223",
+          "year": 223,
+          "age": 49,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_08_turn_223",
+          "year": 223,
+          "age": 49,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_08_turn_223",
+          "year": 223,
+          "age": 49,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c68_offer",
+          "year": 223,
+          "age": 49,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c68_choose",
+          "year": 223,
+          "age": 49,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c68_meet_heqing",
+          "year": 223,
+          "age": 49,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c68_rite_heqing",
+          "year": 223,
+          "age": 49,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c68_private_heqing",
+          "year": 223,
+          "age": 49,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c68_after",
+          "year": 223,
+          "age": 49,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_08_turn_223",
+          "year": 223,
+          "age": 49,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_09_oath_223",
+          "year": 223,
+          "age": 49,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c73_05_successors_hearing_223",
+          "year": 223,
+          "age": 49,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c74_03_officers_refuse_223",
+          "year": 223,
+          "age": 49,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c74_04_countermoves_223",
+          "year": 223,
+          "age": 49,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_05",
+          "year": 223,
+          "age": 49,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_06",
+          "year": 223,
+          "age": 49,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch12_01",
+          "year": 224,
+          "age": 50,
+          "rank": "Major",
+          "muster": 180,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        }
+      ]
+    },
+    {
+      "route": "Private",
+      "visits": 39,
+      "unique_ids": 35,
+      "rows": [
+        {
+          "id": "ch11_01",
+          "year": 220,
+          "age": 46,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_01_the_two_seals",
+          "year": 220,
+          "age": 46,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_02_decree",
+          "year": 220,
+          "age": 46,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c73_03_counterseals_220",
+          "year": 220,
+          "age": 46,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c73_04_the_messenger_cost_220",
+          "year": 220,
+          "age": 46,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c73_04_the_messenger_cost_220",
+          "year": 220,
+          "age": 46,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_03_witnesses",
+          "year": 220,
+          "age": 46,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_04_bridge_221",
+          "year": 221,
+          "age": 47,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c74_01_rival_orders_221",
+          "year": 221,
+          "age": 47,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c74_02_answer_the_offices_221",
+          "year": 221,
+          "age": 47,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_02",
+          "year": 221,
+          "age": 47,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_cai_waystation",
+          "year": 221,
+          "age": 47,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_cai_lamplight",
+          "year": 221,
+          "age": 47,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_03",
+          "year": 221,
+          "age": 47,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_04",
+          "year": 221,
+          "age": 47,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_05_eastern_front_222",
+          "year": 221,
+          "age": 47,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p61_01_at_the_standard_222",
+          "year": 221,
+          "age": 47,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p61_02_clash_222",
+          "year": 221,
+          "age": 47,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p61_03_cost_of_command_222",
+          "year": 221,
+          "age": 47,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_06_cost_222",
+          "year": 221,
+          "age": 47,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_07_meeting_222",
+          "year": 221,
+          "age": 47,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_person_linyue",
+          "year": 221,
+          "age": 47,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_08_turn_223",
+          "year": 223,
+          "age": 49,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_08_turn_223",
+          "year": 223,
+          "age": 49,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_08_turn_223",
+          "year": 223,
+          "age": 49,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c68_offer",
+          "year": 223,
+          "age": 49,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c68_choose",
+          "year": 223,
+          "age": 49,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c68_meet_heqing",
+          "year": 223,
+          "age": 49,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c68_rite_heqing",
+          "year": 223,
+          "age": 49,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c68_private_heqing",
+          "year": 223,
+          "age": 49,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c68_after",
+          "year": 223,
+          "age": 49,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_08_turn_223",
+          "year": 223,
+          "age": 49,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_p60_09_oath_223",
+          "year": 223,
+          "age": 49,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c73_05_successors_hearing_223",
+          "year": 223,
+          "age": 49,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c74_03_officers_refuse_223",
+          "year": 223,
+          "age": 49,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_c74_04_countermoves_223",
+          "year": 223,
+          "age": 49,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_05",
+          "year": 223,
+          "age": 49,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch11_06",
+          "year": 223,
+          "age": 49,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        },
+        {
+          "id": "ch12_01",
+          "year": 224,
+          "age": 50,
+          "rank": "Private",
+          "muster": 0,
+          "crowned": false,
+          "emperor": false,
+          "civicOffice": null
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "type": "calendar_mismatch",
+      "scene": "ch11_p60_05_eastern_front_222",
+      "saved_year": 221,
+      "saved_age": 47,
+      "prose_year": 222,
+      "affected": "both audited routes, including subsequent clash/meeting nodes"
+    },
+    {
+      "type": "unsupported_personal_command",
+      "scene": "ch11_p61_01_at_the_standard_222",
+      "route": "Private",
+      "active_muster": 0,
+      "prose_excerpt": "Your own charter gives you men who followed you by choice"
+    },
+    {
+      "type": "next_career_review",
+      "route": "Major",
+      "entry_xii_rank": "Major",
+      "entry_xii_muster": 180,
+      "status": "No General/Grand General offer verified on this route; not an instruction to auto-promote."
+    }
+  ],
+  "working_full_trace": "/workspace/work/chapter_xi_5e_audit.json"
+}
