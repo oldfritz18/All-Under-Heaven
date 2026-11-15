@@ -1,8 +1,8 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.4r; baseline awal terverifikasi v0.4.99.4m.
-- Status: checkpoint fungsional M1 (I–III) dan batch IV–V selesai pada cakupan review/QA yang dicatat. M2 berlanjut ke VI–VII; M3–M11 belum selesai.
+- Active: v0.4.99.4s; baseline awal terverifikasi v0.4.99.4m.
+- Status: checkpoint fungsional M1 (I–III) dan batch IV–VI selesai pada cakupan review/QA yang dicatat. M2 berlanjut ke VII; M3–M11 belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 
 ## Evidence already in repository
@@ -10,7 +10,7 @@
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
-- Chapter VI–VII: audit konflik Xiaopei/Xiapi/Xuzhou dan Runan/Jingzhou, kewenangan saat promosi, konsekuensi relasi serta posisi tempur sebelum checkpoint M2.
+- Chapter VII: audit Runan/Jingzhou, promosi yang diterima/ditolak, kepemilikan unit, konsekuensi relasi dan posisi tempur sebelum checkpoint M2. W07/Xiapi tetap cakupan laporan dunia; W08 dan kampanye berikutnya perlu rekonsiliasi terhadap timeline aktual.
 - Lanjutkan IV–XIX dan Epilogue sesuai roadmap. Jangan menyamakan hasil QA sampel dengan kelulusan editorial seluruh cabang atau rilis M11.
 
 ## QA limitations
@@ -62,3 +62,11 @@
 - Registry 635: 630 ID baseline + dua opsional III + tiga kampanye V; 35 gambar dan sistem lama dipertahankan. Tidak ada promosi, pasukan, barang, kuda, atau anggota circle gratis dari arc baru.
 - `scripts/qa_chapter5.py`: 16 scene, 33 edge lama dan delapan edge scene baru; seluruh 108 kombinasi lokal (preferensi, Infantry/fixture Cavalry, posisi, aksi, laporan) per viewport 390/1280 lulus. Parity, chronology, penutupan posisi, consent/no-grant, recall VI, idempotence, legacy 198, flag-only dan HTTP reload lulus; page error 0.
 - Rincian serta sumber adaptasi historis: `docs/QA_CHAPTER_V_v0.4.99.4r.md`. Berikutnya VI–VII; objective penuh belum selesai.
+
+## Batch Chapter VI — v0.4.99.4s, selesai pada cakupan W06
+- Empat scene Xiaopei 198 ditambahkan khusus pilihan forward-service, dengan penugasan, tekanan, penarikan dan after-action. Pilihan lain tetap menuju scene lama; save yang sudah lebih akhir tidak dipundurkan.
+- Tiga aksi menimbulkan konsekuensi lokal berbeda: hilangnya ransum bersama, keterlambatan demi comrade, atau rusaknya shield perusahaan. Ini bukti naratif unit yang disaksikan, bukan pengurangan/pemberian barang pribadi atau angka korban rekaan. Protagonis tidak memenangkan kampanye atau menggantikan duel komandan ROTK.
+- Posisi aktif ditutup setelah file mencapai collecting point; People/Chronicle dan recall akhir 198 memakai visit/history aktual. Rank, branch, unit, circle, staff, coins dan items dipertahankan.
+- Bahasa awal VI dan rekomendasi council dikoreksi agar Private menyampaikan laporan/rekomendasi, bukan memerintah clerk atau mendirikan otoritas sipil. Peran belakang garis tetap perlindungan bersenjata, bukan transfer Support.
+- `scripts/qa_chapter6.py`: 12 scene lama + empat baru, 25 edge lama dibandingkan pada input identik dan 11 edge scene baru; seluruh 108 kombinasi lokal per viewport 390/1280 lulus, termasuk no-grant, posisi, bypass preference/tahun, flag-only, idempotence, save/reload serta UI Military; page error 0.
+- Registry 639, seluruh ID lama dan 35 gambar dipertahankan. Rincian: `docs/QA_CHAPTER_VI_v0.4.99.4s.md`. VII dan M2 secara keseluruhan belum selesai.

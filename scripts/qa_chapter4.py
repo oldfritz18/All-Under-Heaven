@@ -117,6 +117,7 @@ def main():
                 assert len(previous['ids']) == 632 and set(previous['ids']).issubset(actual['ids'])
                 assert set(actual['ids']) - set(previous['ids']) == {
                     'm2_197_road_orders', 'm2_197_road_contact', 'm2_197_road_aftermath',
+                    'm2_198_xiaopei_orders', 'm2_198_xiaopei_pressure', 'm2_198_xiaopei_retreat', 'm2_198_xiaopei_after',
                 }
                 assert len(actual['edges']) == len(previous['edges'])
                 for old, new in zip(previous['edges'], actual['edges']):
