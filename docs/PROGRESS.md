@@ -1,8 +1,8 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.4o; baseline awal terverifikasi v0.4.99.4m.
-- Status: batch Chapter I dan Chapter II selesai pada cakupan review/QA yang dicatat. Pengembangan berikutnya: Chapter III dan checkpoint M1, lalu IV dan seterusnya secara berurutan.
+- Active: v0.4.99.4p; baseline awal terverifikasi v0.4.99.4m.
+- Status: checkpoint fungsional M1 (I–III) selesai pada cakupan review/QA yang dicatat. M2 dimulai dari Chapter IV; M3–M11 belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 
 ## Evidence already in repository
@@ -10,7 +10,7 @@
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
-- Chapter III: tinjau pemulihan, relasi, penilaian layanan dan integrasi state sebelum checkpoint M1.
+- Chapter IV: selesaikan integrasi posisi tempur Beihai/Xuzhou dan perluas interaksi singkat awal chapter; kemudian lanjutkan V–VII.
 - Lanjutkan IV–XIX dan Epilogue sesuai roadmap. Jangan menyamakan hasil QA sampel dengan kelulusan editorial seluruh cabang atau rilis M11.
 
 ## QA limitations
@@ -38,3 +38,12 @@
 - Migrasi hanya mematikan posisi Pan yang cocok dengan proof, pilihan, branch Infantry, tahun 191, scene laporan dan bukti visit/history. Tidak ada penugasan, reward atau ingatan baru yang dibuat untuk flag-only, cavalry, proof lain atau scene lain.
 - Smoke 8/8; `scripts/qa_chapter2.py` lulus 70 edge pada 43 scene sampel dan 27 rute taktis lengkap per viewport 390/1280. Rute mencakup seluruh pasangan keputusan dari enam pilihan tiga-arah; bukan seluruh kombinasi. Dua kasus migrasi positif dan empat negatif per viewport, save/reload HTTP serta Military/People/Chronicle lulus, page error 0.
 - Semua ID, label/tujuan pilihan, portrait dan state lama identik selain perbaikan status posisi yang disengaja beserta satu catatan Chronicle baru. Detail: `docs/QA_CHAPTER_II_v0.4.99.4o.md`.
+
+## Checkpoint M1 — v0.4.99.4p, selesai pada cakupan bertarget
+- Dua scene opsional pada 192 ditambahkan setelah `ch03_02`, dengan jalur Continue lama tetap tersedia. Wei Zhen, driver dan Han Sheng dapat saling mengoreksi; protagonis tidak mengeluarkan perintah perjalanan.
+- Jalur perkenalan 191 + pemeriksaan bersama 192 + persetujuan eksplisit kini dapat membuka kesempatan personal adviser pada 193 meskipun 190 dilewatkan. Baru bertemu pada 192 tidak cukup; menolak pada 192 dihormati; tawaran asli 190 + 191 tetap ada.
+- Keanggotaan tetap membutuhkan pilihan menerima pada 193. Tidak ada Special Staff, pangkat atau unit baru dari hubungan personal. Efek baru idempotent; People/Chronicle dan recall menghormati visit/history.
+- Registry 632: seluruh 630 ID lama dipertahankan, ditambah dua scene opsional. Semua 35 gambar dan lima role/threshold Special Staff tetap identik.
+- `scripts/qa_m1.py`: 14 scene III, 28 edge lama identik dan tujuh edge opsional baru; tujuh rute Prologue–193 per viewport 390/1280, masing-masing 146–148 pilihan. Accept/refuse, peluang kedua, pertemuan terlambat, save/reload, efek berulang, history-only, flag-only, bypass Pan Cavalry/tahun lebih akhir, dan UI People lulus; page error 0.
+- Checkpoint juga menjalankan ulang `qa_chapter1.py` dan `qa_chapter2.py` pada build 4p: seluruh hasil bertarget lulus. Batas full-combination, editorial seluruh novel dan perangkat nyata tetap terbuka; tidak mengklaim M8–M11 selesai.
+- Rollback milestone: v0.4.99.4o. Rincian dan hash: `docs/QA_M1_v0.4.99.4p.md`.

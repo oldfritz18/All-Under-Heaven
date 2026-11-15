@@ -124,7 +124,9 @@ def main():
                 page.on('pageerror', lambda error: errors.append(str(error)))
                 page.goto(url + '/active.html')
                 actual = page.evaluate(WALK, seed)
-                assert actual['ids'] == previous['ids'] and len(actual['ids']) == 630
+                assert len(previous['ids']) == 630
+                assert set(previous['ids']).issubset(actual['ids'])
+                assert set(actual['ids']) - set(previous['ids']) == {'m1p_192_route_table', 'm1p_192_second_reading'}
                 assert actual['staff'] == previous['staff']
                 assert len(actual['edges']) == len(previous['edges'])
                 for old, new in zip(previous['edges'], actual['edges']):

@@ -40,7 +40,7 @@ WALK = r"""() => {
    if(!seen.has(state.scene))queue.push(clone(state));
   }
  }
- return {sceneCount:Object.keys(SCENES).length,edges,snapshots,staff:AUH_MC_SPECIAL_STAFF};
+ return {sceneCount:Object.keys(SCENES).length,ids:Object.keys(SCENES).sort(),edges,snapshots,staff:AUH_MC_SPECIAL_STAFF};
 }"""
 
 
@@ -96,7 +96,9 @@ def main():
                 page.on('pageerror', lambda error: errors.append(str(error)))
                 page.goto(url + '/active.html')
                 data = page.evaluate(WALK)
-                assert data['sceneCount'] == old['sceneCount'] == 630
+                assert old['sceneCount'] == 630
+                assert set(old['ids']).issubset(data['ids'])
+                assert set(data['ids']) - set(old['ids']) == {'m1p_192_route_table', 'm1p_192_second_reading'}
                 assert data['staff'] == old['staff']
                 assert len(data['edges']) == len(old['edges'])
                 for previous, successor in zip(old['edges'], data['edges']):

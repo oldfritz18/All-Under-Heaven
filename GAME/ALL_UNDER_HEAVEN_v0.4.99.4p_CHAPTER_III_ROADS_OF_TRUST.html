@@ -15,8 +15,8 @@
  document.documentElement.style.colorScheme=dark?'dark':'light';
 }catch(e){document.documentElement.setAttribute('data-theme','light')}})();
 </script>
-<title>All Under Heaven — v0.4.99.4l Chapter I Rework</title>
-<meta name="auh-build" content="v0.4.99.4l">
+<title>All Under Heaven — v0.4.99.4p Roads of Trust</title>
+<meta name="auh-build" content="v0.4.99.4p">
 <style>
 :root{--bg:#11151b;--panel:#1a2029;--panel2:#222a35;--ink:#f1e9db;--muted:#abb5be;--gold:#dfb978;--gold-dark:#9e7847;--line:#38414a;--accent:#bcd0d9;--danger:#ee9b98;--font-scale:1;--shadow:0 12px 55px rgba(0,0,0,.25)}
 *{box-sizing:border-box}html{min-height:100%}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% -180px,#27313c 0%,var(--bg) 55%);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.76}button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--gold);outline-offset:3px}button:disabled{opacity:.4;cursor:not-allowed}.app{max-width:1160px;min-height:100vh;display:grid;grid-template-columns:260px minmax(0,1fr);margin:0 auto}.sidebar{background:rgba(21,27,34,.94);border-right:1px solid var(--line);padding:28px 22px;min-height:100vh;position:sticky;top:0;height:100vh;display:flex;flex-direction:column;gap:18px}.brand-mark{font-size:27px;color:var(--gold);line-height:1}.brand{letter-spacing:.17em;text-transform:uppercase;font-size:13px;font-weight:700;line-height:1.6}.subtitle{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}.rule{height:1px;background:linear-gradient(90deg,var(--gold-dark),transparent)}.nav{display:flex;flex-direction:column;gap:5px}.nav button,.side-actions button{color:var(--muted);background:transparent;text-align:left;border:1px solid transparent;border-radius:8px;padding:11px 13px;font:600 13px system-ui,sans-serif}.nav button:hover,.side-actions button:hover{color:var(--ink);background:var(--panel2)}.nav button.active{border-color:var(--gold-dark);background:rgba(223,185,120,.10);color:var(--gold)}.side-progress{padding:14px;border:1px solid var(--line);border-radius:10px;font:12px system-ui,sans-serif}.side-progress b{font-size:13px;color:var(--gold);display:block;margin:7px 0}.side-progress span{color:var(--muted)}.side-actions{margin-top:auto;border-top:1px solid var(--line);padding-top:15px}.main{min-width:0;padding:30px clamp(18px,5vw,80px) 60px}.topbar{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:42px;font:12px system-ui,sans-serif;color:var(--muted)}.top-buttons{display:flex;gap:8px}.mini-btn{background:transparent;border:1px solid var(--line);border-radius:7px;padding:7px 11px;color:var(--ink);font:12px system-ui,sans-serif}.mini-btn:hover{border-color:var(--gold-dark)}.story-area{max-width:740px;margin:0 auto}.overline{font:700 11px system-ui,sans-serif;text-transform:uppercase;letter-spacing:.18em;color:var(--gold);margin-bottom:14px}.chapter-title{font-size:clamp(33px,5vw,50px);font-weight:400;line-height:1.16;letter-spacing:-.025em;margin:0 0 17px;color:var(--ink)}.chapter-intro{font-size:15px;color:var(--muted);font-style:italic;margin-bottom:26px}.ornament{color:var(--gold);letter-spacing:.7em;text-align:center;margin:24px 0 28px;font-size:15px}.prose{font-size:calc(18px * var(--font-scale));line-height:1.85}.prose p{margin:0 0 1.22em}.prose em{color:#e8d4b6}.prose strong{color:#f3d49f;font-weight:600}.prose .spoken{padding-left:18px;border-left:2px solid var(--gold-dark)}.prose .short-note{font-size:.87em;color:var(--muted);font-style:italic}.divider{height:1px;background:linear-gradient(90deg,transparent,var(--line),transparent);margin:33px 0 25px}.prompt{font:600 13px system-ui,sans-serif;color:var(--gold);text-transform:uppercase;letter-spacing:.1em;margin:0 0 16px}.choices{display:grid;gap:11px}.choice{width:100%;color:var(--ink);background:rgba(36,46,57,.78);border:1px solid var(--line);border-radius:11px;padding:15px 18px;text-align:left;line-height:1.58;transition:background .15s,border-color .15s,transform .15s}.choice:hover{background:#303a48;border-color:var(--gold-dark);transform:translateY(-1px)}.choice-num{font:700 11px system-ui,sans-serif;letter-spacing:.08em;color:var(--gold);margin-right:11px}.choice-detail{display:block;color:var(--muted);font:12px/1.55 system-ui,sans-serif;margin:6px 0 0 27px}.feedback{margin:22px 0;padding:12px 16px;border-left:3px solid var(--gold);background:rgba(223,185,120,.08);font:13px/1.6 system-ui,sans-serif;color:var(--accent)}.footer{max-width:740px;margin:34px auto 0;text-align:center;color:var(--muted);font:11px system-ui,sans-serif;letter-spacing:.04em}.mobile-header{display:none}.panel{max-width:740px;margin:0 auto}.panel h2{font-size:32px;font-weight:normal;margin:0 0 10px}.panel h3{color:var(--gold);font:600 14px system-ui,sans-serif;letter-spacing:.06em;margin:26px 0 10px}.panel p,.panel li{color:var(--muted)}.card{padding:18px 20px;border:1px solid var(--line);border-radius:10px;background:rgba(35,44,54,.65);margin:11px 0}.card-title{font-size:18px;color:var(--ink)}.fine{font:12px/1.6 system-ui,sans-serif;color:var(--muted)}.stat{margin:12px 0}.stat-label{display:flex;justify-content:space-between;font:13px system-ui,sans-serif;color:var(--ink)}.bar{height:5px;background:#3b4550;border-radius:10px;overflow:hidden;margin-top:7px}.bar-fill{height:100%;background:linear-gradient(90deg,var(--gold-dark),var(--gold));border-radius:10px}.simple-list{list-style:none;padding:0;margin:0}.simple-list li{padding:12px 0;border-bottom:1px solid var(--line)}.simple-list li:last-child{border:0}.big-btn{background:var(--gold);color:#1b2028;border:0;border-radius:8px;padding:12px 20px;font:700 13px system-ui,sans-serif;letter-spacing:.02em}.big-btn:hover{background:#eacc99}.secondary-btn{background:transparent;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:11px 17px;font:600 13px system-ui,sans-serif}.secondary-btn:hover{border-color:var(--gold)}.controls{display:flex;flex-wrap:wrap;gap:9px;margin:15px 0}.form-label{display:block;color:var(--gold);font:600 12px system-ui,sans-serif;letter-spacing:.06em;margin:15px 0 7px}.input{width:100%;max-width:370px;background:var(--panel);border:1px solid var(--line);border-radius:7px;color:var(--ink);padding:11px 13px}.check-row{display:flex;gap:9px;align-items:flex-start;margin:14px 0;color:var(--ink);font:13px/1.5 system-ui,sans-serif}.check-row input{accent-color:var(--gold);margin-top:3px}.notice{border-left:3px solid var(--gold);background:rgba(223,185,120,.08);padding:14px 17px;color:var(--ink);font:13px/1.7 system-ui,sans-serif;margin:18px 0}.error{border-left-color:var(--danger)}.history-entry{margin:0 0 20px;padding-bottom:18px;border-bottom:1px solid var(--line)}.history-entry h4{margin:0 0 8px;color:var(--gold);font-size:15px}.history-entry p{font-size:14px;line-height:1.7;color:var(--muted)}.history-entry .selected{color:var(--ink);font-style:italic}.chip{display:inline-block;background:rgba(223,185,120,.10);border:1px solid var(--gold-dark);color:var(--gold);padding:2px 8px;border-radius:20px;font:11px system-ui,sans-serif;margin-right:6px}.badged{font:12px system-ui,sans-serif;color:var(--muted)}.meter{display:flex;gap:3px;margin-top:8px}.meter span{height:6px;border-radius:8px;flex:1;background:#353e49}.meter span.on{background:var(--gold)}.save-id{word-break:break-all}.sepia{--bg:#eae1cf;--panel:#e4dac5;--panel2:#ddd1b9;--ink:#312d28;--muted:#635f58;--gold:#8d5e2c;--gold-dark:#9c7b4b;--line:#b6a891;--accent:#44402f;--shadow:0 12px 55px rgba(66,49,29,.08);background:#eae1cf}.sepia .sidebar{background:#e1d5c1}.sepia .choice{background:#ece2d0}.sepia .choice:hover{background:#e4d4b8}.sepia .card{background:#e6dac5}.sepia .prose em{color:#6b4a28}.sepia .prose strong{color:#74471d}.sepia .input{background:#f1e8d9}.sepia .bar{background:#cbbba2}.sepia .meter span{background:#cbbba2}.sepia .meter span.on{background:#9c7b4b}.sepia .chip{background:#d7c5a3}.sepia .mini-btn{color:#352c22}@media(max-width:780px){.app{display:block}.sidebar{display:none;position:static;height:auto;min-height:auto}.main{padding:15px 19px 48px}.topbar{margin-bottom:27px}.mobile-header{display:flex;align-items:center;justify-content:space-between;gap:9px;margin-bottom:17px}.mobile-title{font:700 11px system-ui,sans-serif;letter-spacing:.13em;color:var(--gold)}.mobile-nav{display:flex;gap:6px;overflow:auto;scrollbar-width:none;padding-bottom:4px}.mobile-nav button{white-space:nowrap;border:1px solid var(--line);border-radius:7px;background:var(--panel);color:var(--ink);padding:7px 11px;font:12px system-ui,sans-serif}.topbar .label-hide{display:none}.chapter-title{font-size:35px}.prose{font-size:calc(17px * var(--font-scale))}.choice{padding:15px}.panel h2{font-size:30px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;scroll-behavior:auto!important}}@media(min-width:781px){.main{min-height:100vh}}@media print{.sidebar,.topbar,.mobile-header,.choices,.footer{display:none!important}.app{display:block}.main{padding:0}.prose{color:black}}
@@ -9356,32 +9356,56 @@ function ic80Eligible(s,id){
  if(id==='xuwen')return s.flags.ic80_xu_190==='share' && !!s.flags.ic80_group_191 && (s.relationships.xuwen?.trust||0)>=2;
  return false;
 }
-scene('ic80_register_190',1,'A Voice Among the Tallies',s=>`
-<p>On the way to the northern gate, you pass an open registry beneath the eaves. Three delivery tablets lie on a board. A young copyist has set two side by side and left the third apart. Beside him an older runner insists that all three prove the road is open.</p>
-<p>“Two men saw a wagon reach the ford,” the copyist says. “The third heard that it would. Those are not the same road.” He has no uniform, no authority to stop a convoy, and ink on the edge of one sleeve. The runner is irritated that a young scholar has found a difference he cannot dismiss.</p>
-<p>You have your own appointment and no duty here. The copyist looks up only when your shadow crosses the table.</p>`,s=>[
+scene('ic80_register_190',1,'A Voice Among the Tallies',s=>`<p>The northern collection point is still ahead when a gust tears three loose slips from a table beneath the eaves. One catches against your sandal. Before you can pick it up, a grey-haired runner presses a stone upon the other two with the solemn care of a man preventing the empire from blowing into a drain.</p>
+<p>“There,” he tells the young copyist behind the table. “Three deliveries, three reports. You may write that the ford is open.” His sleeves are crusted with dried mud. Whatever else he has misunderstood this morning, he has plainly travelled farther than the men waiting to inspect his marks.</p>
+<p>The copyist does not reach for his brush. Two tablets lie together; a third has been placed beside an empty cup. A narrow rectangle of dry wood shows where he has moved it again and again. “You saw two carts reach the near bank,” he says. “Who saw the third cross?”</p>
+<p>“The driver said he would.”</p>
+<p>“Before he went?”</p>
+<p>“When else should a man tell me where he is going?” The runner looks around for an audience capable of appreciating this answer. You happen to be standing in the unfortunate place where an audience would stand.</p>
+<p>A cart waits in the lane with its ox still in the yoke. The driver has a boy perched beside him and a skin of water swinging from the rail. He calls that daylight is passing. He wants a decision about his road, not a lecture about anyone's handwriting. Behind the table, the official clerk continues checking a different register; the young man is only his copyist, without the seal that could approve a route or stop a convoy.</p>
+<p>“I cannot tell him the road is closed,” the copyist says quietly. “I have not been there. I cannot tell him this proves it open either.” He turns the doubtful tablet so the runner can see the space reserved for an arrival mark. It is blank. The runner rubs his chin. He is impatient rather than stupid, and a little less certain than he was.</p>
+<p>The slip beneath your foot carries a cart number and a smudged time of departure. You could hand it back and go. Your own wooden token promises only an examination at the northern gate; it will not explain a late arrival. Neither stranger has a claim on your service, and the clerk has other witnesses he can question.</p>
+<p>The copyist finally notices you. Ink darkens the edge of his sleeve. He looks first at the slip, then at your token, and shifts his stool so the lane remains clear. “You need not miss your appointment,” he says. “But if you read that number, read all of it.” The driver gathers the reins without yet urging the ox forward.</p>`,s=>[
  opt('Help check the reports before anyone sends a cart.','ic80_scholar_190',x=>flag(x,'ic80_approach_190','verify'),'A few minutes may spare someone an unnecessary journey.'),
  opt('Ask what makes the third tablet doubtful.','ic80_scholar_190',x=>flag(x,'ic80_approach_190','question'),'Hear his reasoning without promising allegiance.'),
  opt('Keep the appointment. The clerk has other witnesses.','gate',x=>flag(x,'ic80_approach_190','passed'),'You do not owe every stranger your morning.')
 ],'Act I · Before the Banners');
-scene('ic80_scholar_190',1,'The Third Tablet',s=>`
-<p>The copyist introduces himself as <strong>Wei Zhen</strong>. He is studying route records for an official who has not yet trusted him with a seal. When you ask what he knows, he names the two confirmed crossings, then admits he has not visited the ford himself.</p>
-<p>${s.flags.ic80_approach_190==='verify'?'You compare the damaged clay against the registry. The supposed third crossing carries yesterday’s cart number, but tomorrow’s delivery mark. The mistake is small enough to survive a careless inspection.':'You ask him why he left one tablet apart. He shows you where an expected shipment was copied into the column for arrivals. He could have made the same mistake if nobody had challenged him.'}</p>
-<p>The runner listens, corrects his statement, and departs with an accurate warning rather than a useless assurance. Wei Zhen does not celebrate. “The road may still be open,” he says. “It is our certainty that has been closed for repairs.” He offers to exchange observations if your journeys cross again.</p>`,s=>[
- opt('Agree to compare what each of you actually witnesses.','gate',x=>{flag(x,'ic80_wei_190',true);flag(x,'ic80_wei_agreement_190',true);rel(x,'weizhen','trust',1);note(x,'A Careful Copyist','You agreed to compare verified accounts with Wei Zhen, without promising future service.');},'An open acquaintance, not a lifelong oath.'),
- opt('Thank him, but make no commitment.','gate',x=>{flag(x,'ic80_wei_190',true);flag(x,'ic80_wei_agreement_190',false);rel(x,'weizhen','respect',1);},'Part politely and let the road decide another meeting.'),
- opt('Tell him there are times when bold guesses are more useful.','gate',x=>{flag(x,'ic80_wei_190',true);flag(x,'ic80_wei_agreement_190',false);rel(x,'weizhen','trust',-1);},'He accepts the disagreement but does not pretend to agree.')
+scene('ic80_scholar_190',1,'The Third Tablet',s=>`<p>The copyist gives his name as <strong>Wei Zhen</strong> and asks yours before he takes the fallen slip. He works for the clerk under the awning, copying route accounts until someone with a seal will trust him to assemble one. He is old enough to dislike being corrected in front of the runner and young enough to show it before mastering his face.</p>
+<p>${s.flags.ic80_approach_190==='verify'?'You lay the slip beside the register and hold its curled edge flat. The third cart number is yesterday’s; beside it someone has copied an expected delivery into the space for arrivals. Wei Zhen checks your finger against his own neat transcription. For a moment he says nothing. Then he crosses out the line he himself wrote.':'You ask him to show the difference instead of merely naming it. He points to the blank arrival mark, then stops at his own transcription. The entry in his careful hand puts an expected delivery among completed journeys. Your question has uncovered a mistake in the very copy he meant to defend.'}</p>
+<p>“Yours?” the runner asks. He does not sound displeased to find that the scholar can be wrong too.</p>
+<p>“Mine.” Wei Zhen puts the incorrect copy where the clerk will see it. He does not scrape away the ink and pretend it was never there. “The third cart may have crossed. This tablet cannot tell us that it did.”</p>
+<p>The runner leans against the post. He remembers a woman driving two pigs along the eastern track, a wheel being repaired, and the water reaching above a standing stone. He saw those things before noon yesterday. When Wei Zhen asks what happened afterward, he spreads his hands. Yesterday's mud is still on his boots; today's river is somewhere else.</p>
+<p>The clerk at last joins you. He checks the marks himself, questions the runner, and writes a limited warning for the waiting driver: two arrivals confirmed; the third unverified; water reported rising at the previous inspection. He sends the runner to seek a newer account. The boy on the cart asks whether they are going. His father answers that they are waiting until he knows which road he can bring them home by.</p>
+<p>Wei Zhen watches them. “I thought a clean copy would be useful,” he says. “It appears I made a very orderly mistake.” You can hear how much the admission costs him. Then he smiles at the ruined line. “The road may still be open. It is our certainty that has been closed for repairs.”</p>
+<p>He wants to learn why armies lose their way when every desk possesses a map. For now, his ambition must fit inside someone else's registry and the hours left after copying it. He has never seen a battlefield. He cannot know how he would judge one.</p>
+<p>As you turn toward the northern gate, he offers to compare observations if your journeys cross again. A genuine invitation, modest enough to refuse. Perhaps you value his willingness to be corrected. Perhaps you think an army sometimes needs a decision before the last report arrives. Wei Zhen waits for your answer without putting his brush to any imagined promise.</p>`,s=>[
+ opt('Agree to compare what each of you actually witnesses.','gate',x=>{flag(x,'ic80_wei_190',true);flag(x,'ic80_wei_reply_190','exchange');flag(x,'ic80_wei_agreement_190',true);rel(x,'weizhen','trust',1);note(x,'A Careful Copyist','You agreed to compare verified accounts with Wei Zhen, without promising future service.');},'An open acquaintance, not a lifelong oath.'),
+ opt('Thank him, but make no commitment.','gate',x=>{flag(x,'ic80_wei_190',true);flag(x,'ic80_wei_reply_190','courtesy');flag(x,'ic80_wei_agreement_190',false);rel(x,'weizhen','respect',1);note(x,'A Copyist with His Own Work','You parted politely from Wei Zhen without agreeing to a continuing exchange.');},'Part politely and let the road decide another meeting.'),
+ opt('Tell him there are times when bold guesses are more useful.','gate',x=>{flag(x,'ic80_wei_190',true);flag(x,'ic80_wei_reply_190','disagree');flag(x,'ic80_wei_agreement_190',false);rel(x,'weizhen','trust',-1);note(x,'A Disagreement at the Registry','You argued for timely guesses; Wei Zhen refused to turn an uncertain crossing into a certified arrival.');},'He accepts the disagreement but does not pretend to agree.')
 ],'Act I · Before the Banners');
-scene('ic80_han_190',4,'The Veteran’s Measure',s=>`
-<p>Before the small patrol leaves, Han Sheng is repairing a fastening on a supply cart. He does not ask you to lift the heavy frame. He asks you to count which pegs have worn through and which have merely darkened with rain.</p>
-<p>“An order can be brave and wrong,” he says. “A broken axle seldom cares which.” His inspection is not a test of your right to command. It is work that must be finished before anyone crosses the ford.</p>`,s=>[
+scene('ic80_han_190',4,'The Veteran’s Measure',s=>`<p>Behind the infantry's assembly place, a wagon has been pulled clear of the departure lane. Han Sheng kneels beside its fastening while the driver searches a box for a sound peg. Beyond them, the foot files gather under Liu Bei's banner. Your spear belongs in that muster. The quartermaster's people remain responsible for the cart and its load.</p>
+<p>Han Sheng calls you over long enough to look, not to take the driver's work. “Which one would you trust down a bank?” He holds up two pegs, one dark with rain, the other pale where it has rubbed against its socket. You can see a thin split running beneath the pale one's head. Looking sound and being sound have become different questions.</p>
+<p>A mounted orderly passes and tells him the patrol is wanted at the ford. Han Sheng rises at once. He asks whether the order changes their departure point. It does not. He sends word that his infantry will be ready, then tells the driver to report the defect to the quartermaster before anyone loads that wagon again. The orderly has other companies to find; he rides on without listening to the argument over whose cart was sound yesterday.</p>
+<p>“The sound one is wet,” Han Sheng says, returning to your answer. “The dry one is nearly broken. If I ask only which looks better, I deserve the ditch.” He leaves the damaged peg on the rail where the driver cannot mistake it for a spare.</p>
+<p>You have already heard men speak of brilliant advances and victories won before an enemy knows he is beaten. Here the veteran speaks of the slope by which his soldiers must return. On a narrow road, a stalled wagon can close the space that a wounded man needs. It is a soldier's concern even when a soldier does not own the wagon or direct its driver.</p>
+<p>“Would you hold the patrol for a fastening?” you ask.</p>
+<p>“I would report why the road might fail us. Then the officer decides what risk he means to take.” Han Sheng looks toward the gathering files. “An order can be brave and wrong. So can a private's objection. Say what you know, and make room for the answer.” He does not offer a tale in which every superior is wise or every brave recruit deserves to replace him.</p>
+<p>A soldier nearby asks if that means they will be late. Han Sheng tells him to inspect his shield strap instead of measuring everyone else's morning. The man looks down, discovers a loose buckle, and becomes deeply interested in silence.</p>
+<p>You have a little time before the muster call. You can ask Han Sheng to correct what you missed, listen without pretending to have discovered it, or return to the mission's preparations. He has men to bring home and orders of his own to obey. Whether a friendship might grow from his instruction is a matter for years of shared conduct. Today, he will settle for an honest answer and a spear in its proper file.</p>`,s=>[
  opt('Work beside him and ask him to correct your mistakes.','ic80_xu_190',x=>{flag(x,'ic80_han_190','care');rel(x,'hansheng','trust',1);note(x,'A Veteran’s Lesson','You learned by inspecting the wagon with Han Sheng instead of claiming authority.');}),
  opt('Ask him to explain the risks while you observe.','ic80_xu_190',x=>{flag(x,'ic80_han_190','observe');rel(x,'hansheng','respect',1);}),
  opt('Keep your attention on the mission and leave his repair to him.','ic80_xu_190',x=>flag(x,'ic80_han_190','distant'))
 ],'Act IV · People Before Rank');
-scene('ic80_xu_190',4,'One Dry Joke',s=>`
-<p>Xu Wen is checking the straps on his pack, moving too fast because everyone else seems ready. The knot loosens twice. “The straps have decided I am unfit for command,” he says. Han Sheng, still within hearing, replies, “They have excellent judgment.”</p>
-<p>Xu Wen laughs, then looks at you. “If we come back from this road, we should remember who helped whom. There will be a time when someone claims he crossed the entire river alone.” He is asking for companionship, not a superior’s praise.</p>`,s=>[
+scene('ic80_xu_190',4,'One Dry Joke',s=>`<p>Xu Wen's pack falls open as you return to the assembly place. A bowl rolls toward the lane, pursued by a strip of cloth and a curse that Han Sheng hears perfectly. Xu catches the bowl with his heel. He has moved too quickly because everyone else seemed ready; now he is the centre of a small and thoroughly unhelpful audience.</p>
+<p>“The straps have decided I am unfit for command,” he says.</p>
+<p>Han Sheng, still within hearing, replies, “They have excellent judgment.”</p>
+<p>The laughter makes Xu Wen's ears redden, but he bows to the strap as though accepting a superior's rebuke. Then he begins the knot again. At his feet the bowl rocks on a chipped edge. A little scrap of cloth protects it from the spear butt beside his pack. For all his jokes, he has taken care of the cheapest thing he carries.</p>
+<p>${s.flags.ic80_han_190==='care'?'He asks what you found at the wagon. When you describe the split peg, he listens instead of making another joke. “Show me which way the strain runs,” he says, holding out the troublesome strap. He would rather learn it now than lose his food in front of the enemy.':s.flags.ic80_han_190==='observe'?'He asks what the veteran was explaining. You tell him about a fastening that looked sound until someone checked where it bore the strain. Xu Wen studies his own knot with a new and slightly aggrieved respect.':'He glances toward the wagon and decides your attention belongs to the approaching patrol. He does not insist on a story you chose not to share. Instead he asks whether you have checked your own pack.'}</p>
+<p>The company begins dressing its line. Xu Wen takes the place beside yours because that is where the muster puts him, not because either of you has recruited the other. Ahead, Han Sheng checks the interval between the front pairs. Beyond him men are arguing over whether a ford is shallow enough for wheels; you cannot hear the answer. You will reach it under an officer's orders, carrying a spear.</p>
+<p>“If we come back,” Xu Wen says, “somebody will explain that he crossed the whole river alone.” He tightens the knot until his fingers whiten. “I intend to be there when he explains who carried the other end of the world.”</p>
+<p>His voice is light. His hands are not. When a distant shout rises he looks toward it too quickly, then pretends to be inspecting the sky. You could make him laugh; you could help with the buckle without promising years of friendship. You could remind him that discipline matters more than getting along. He is entitled to dislike that answer, and still do his duty beside you.</p>
+<p>A man in the next pair offers to carry Xu Wen's bowl if he does not return. “You may mourn me first,” Xu says. “Briefly, if necessary.” The man promises an appropriately economical grief. For a moment the little line sounds like neighbours waiting for rain rather than soldiers waiting for danger.</p>
+<p>Han Sheng raises a hand. Conversations break off, one after another. Xu Wen pulls the strap once more and looks at you. The joke has made room for a question he means: when the account of this road is told, will you remember whose hands were beside your own?</p>`,s=>[
  opt('Offer to share the work and the credit, if you both return.','ford_approach',x=>{flag(x,'ic80_xu_190','share');rel(x,'xuwen','trust',1);note(x,'A Shared Road','You and Xu Wen agreed that any credit for the patrol would name its other hands.');}),
  opt('Help him fasten the pack, but promise nothing beyond today.','ford_approach',x=>{flag(x,'ic80_xu_190','work');rel(x,'xuwen','respect',1);}),
  opt('Tell him friendship is no substitute for discipline.','ford_approach',x=>flag(x,'ic80_xu_190','distant'))
@@ -11580,9 +11604,10 @@ function hc01Report(x,subject,summary){
 const hc01CouncilChoices=SCENES.council.choices;
 SCENES.council.choices=s=>hc01CouncilChoices(s).map(c=>c.next==='preparation'?{...c,next:'ch01_hc01_01_camp_dispatches'}:c);
 scene('ch01_hc01_01_camp_dispatches',4,'The War Beyond One Tent',s=>`
-<p><em>Coalition camp, 190 CE.</em> The council breaks without pretending that its little escort plan has settled the larger rebellion. Beyond the tent you pass a table covered with letters whose origins are separated by many days' riding. A messenger must explain why one northern camp requests grain it has not yet received, while a southern commander asks how an eastern muster expects to move an army without wagons.</p>
-<p>The names circulate even among the cooks: Yuan Shao, whose leadership does not make every allied army obedient; Yuan Shu, whose officers count supplies for their own column; Sun Jian, whose advance cannot be ordered from this tent; and Han Fu, whose province has obligations and roads of its own. A scribe takes down the testimony in separate columns. None of these men has summoned you, nor does hearing their names bring them within your reach.</p>
-<p>Han Sheng pauses by the water jars. “The medicine party leaves soon. Our own orders remain. If you wish to see how the coalition keeps its different promises, one of these clerks may have something small that an unranked recruit can do.”</p>
+<p><em>Coalition camp, 190 CE.</em> A council's decisions travel badly through a camp. At the tent door they are orders; at the cooking fires they are rumours; by the last wagon someone swears a general has promised to feed everyone for a month. The banner of Yuan Shao rises beyond the headquarters enclosure, but the shouting below it belongs to three men arguing over the same broken axle. Their quarrel halts a medical cart whose driver cannot afford another hour.</p>
+<p>You return to Han Sheng's file with mud on the hem of your tunic. He is counting straps and men, not provinces. The little escort has received its instructions; the soldiers of other lords answer to officers who stand elsewhere. A rider from the eastern tents hands a damp letter to an administrator, who holds the seal away from the rain as though it were a living coal. Farther on, one of Yuan Shu's quartermasters demands a receipt before he will release grain. The sick in the cart can neither eat a seal nor sleep beneath a receipt.</p>
+<p>Names pass along the road: Yuan Shao, Yuan Shu, Sun Jian, Han Fu. You have heard of their responsibilities and their quarrels, not seen their private councils. Their separate flags explain why two guards can both be following orders while blocking the same crossing. Xu Wen, looking at the waiting ox, asks whether the animal must swear allegiance to both camps before it can move. The ox answers by sitting down. Nobody finds this helpful except Xu Wen.</p>
+<p>Han Sheng nods toward three small errands awaiting an extra pair of hands. One requires an honest account of carts on the eastern road; another carries medicine records to displaced families; the last brings a copied route to a scouting officer. None would make you a clerk or a commander. All could put what you have actually seen to use. Your file is still expected back before the next roll. Han Sheng asks which burden you can carry without losing the duty you already owe.</p>
 `,s=>[
  opt('Help reconcile the eastern administrators’ ration accounts.','ch01_hc01_02_eastern_register',x=>{x.flags.hc01_duty='register'},'Optional civilian and military record work; this does not confer an office.'),
  opt('Carry a medicine tally to the injured and displaced families.','ch01_hc01_03_relief_rolls',x=>{x.flags.hc01_duty='relief'},'An optional limited relief errand, not a promotion.'),
@@ -11590,36 +11615,40 @@ scene('ch01_hc01_01_camp_dispatches',4,'The War Beyond One Tent',s=>`
  opt('Keep the council’s plan foremost and return to Liu Bei’s escort.','preparation',x=>{x.flags.hc01_duty='declined'},'The wider coalition continues without requiring your involvement.')
 ],'Act IV · Voices Beyond the Camp');
 scene('ch01_hc01_02_eastern_register',4,'Seals Without Grain',s=>`
-<p>The eastern administrator's tables stand under an awning that cannot keep the rain out. Zhang Miao's clerks have recorded more wagons on paper than the road guard admits seeing. Beside the tally is a letter bearing Qiao Mao's authority, but the letter proves only that someone wrote and sealed it—not that the goods reached the people awaiting them.</p>
-<p>A runner draws you into the argument because you saw the Chenliu road yourself. Zhang Miao is within earshot, troubled by the discrepancy. Qiao Mao has come to compare the copies before his couriers depart. Neither man knows you, and both command officers who have better claims upon their time.</p>
-<p>“A missing cart is not recovered by borrowing another man's signature,” a clerk says. “What did you actually see?” You can answer as a witness, leave the account to the officials, or return immediately to the work Liu Bei entrusted to you.</p>
+<p>The eastern registers occupy an awning with six legs and only five that touch the ground. Rain creeps across the writing boards. A young clerk holds one corner aloft with his shoulder while another scratches figures so quickly his brush leaves ink on his sleeve. A second tally lists three carts more than the road guard remembers seeing. Their argument has outlived breakfast; it may yet outlive the awning.</p>
+<p>The messenger calls the difference a matter between the officers of Zhang Miao and the couriers carrying Qiao Mao's authority. You are brought forward because you passed the road barrier earlier. You can identify the collapsed wheel by its split iron rim, and remember one driver dragging an empty cart toward the repair line. You did <em>not</em> inspect every covered wagon, and cannot tell whether the missing grain was diverted, delayed, or counted twice. The clerk looks disappointed: a complete accusation would fit more neatly on his board.</p>
+<p>Zhang Miao stands beside the far end of the table; Qiao Mao has come to inspect a matching letter before the couriers leave. Neither knows you. Their men keep the path clear while the damaged receipts are laid out. If you speak to both officials, it must be through the clerk's question and in the few heartbeats before their escorts move them on. The seal on a letter confirms its sender, not the arrival of the food that sender intended.</p>
+<p>“A cart doesn't multiply when two officers count it,” mutters the clerk beneath the failing awning. “If it did, we would have won the war already.” Your knowledge is narrower than the accusation they want: a particular broken rim, a particular gate, and the road you walked. You may offer that evidence where the two commanders can hear it, leave the discrepancy anonymously with the clerks, or decline to sign for goods you did not see. Whatever you decide, the wagons and the men protecting them remain answerable to their own officers.</p>
 `,s=>[
  opt('Give the specific road evidence, accepting questions from both officials.','ch01_hc01_05_regional_dispatches',x=>{x.flags.historical_meet_zhangmiao=true;x.flags.historical_meet_qiaomao=true;x.flags.hc01_account='witness';note(x,'Witness Before the Eastern Registers','You testified to Zhang Miao and Qiao Mao about a road count without claiming either man as a patron.')},'Both officials hear you directly; no new affiliation is acquired.'),
  opt('Pass the written discrepancy to the clerks without approaching their superiors.','ch01_hc01_05_regional_dispatches',x=>{x.flags.hc01_account='anonymous';note(x,'The Corrected Copy','You left a specific discrepancy for the eastern clerks to investigate, without a personal audience.')},'You have not personally met these commanders.'),
  opt('Decline to certify goods you did not see and return the tally.','ch01_hc01_05_regional_dispatches',x=>{x.flags.hc01_account='refused'},'Neither a false confirmation nor an automatic friendship follows.')
 ],'Act IV · Eastern Coalition Accounts');
 scene('ch01_hc01_03_relief_rolls',4,'Those Whose Names Remain',s=>`
-<p>The medicine carts are smaller than their escort reports imply. A dozen displaced households wait beside a torn awning, each hoping that a name on a sheet will mean a place in the next wagon. Bao Xin's men have prepared one roll for the wounded and a second for the people left on the road. Liu Dai's contingent is nearby, insisting that its own losses should not disappear beneath another commander's seal.</p>
-<p>When an argument breaks out about who must receive the bandages first, a runner asks you to carry the two accounts forward. Bao Xin and Liu Dai stand by the table, each guarded by officers. Both are visibly impatient to return to their own responsibilities; neither has offered his soldiers to your party.</p>
-<p>You can tell them what you saw, keep the matter to an orderly transfer, or leave the decision to the men authorized to make it. A starving child asks for water before any officer reaches for his brush.</p>
+<p>The medicine cart is halted between two lists of names. One counts soldiers wounded in the last skirmish; the other counts households whose roofs, animals, and fields have disappeared beneath the moving armies. A woman holds a sleeping child against her shoulder and watches the clerk's brush as if it were a physician's hand. Every time it stops, she looks toward the road.</p>
+<p>Bao Xin's men guard the first list. Liu Dai's officers have carried in the second, arguing that their own injured must not be erased under another contingent's seal. Both commanders are within sight of the table, separated by a ring of attendants. They have not called for your advice. The messenger who needs the two rolls carried together finds you beside the cart and points to a missing column. The shortage is simple and terrible: fewer bandages than people waiting for them.</p>
+<p>You know that the child has been waiting since your arrival, that one wounded spearman cannot put weight on his left leg, and that the medicine wagon has not advanced a spear's length. You do not know how many other wagons are coming or which official has promised what in private. A soldier asks if he can take water from the jar. Xu Wen says that jars are extremely loyal to whichever man happens to be thirsty, a political principle he recommends to the whole coalition. The tired attendant does not laugh until the child drinks.</p>
+<p>There are several kinds of help within your reach. You may carry the two lists to Bao Xin and Liu Dai and state only what you witnessed; you may give the families water while the authorized clerks resolve their dispute; or you may deliver the medical list without pretending to decide whose command takes precedence. Each choice leaves the larger allocation to men who actually have authority, and the people beside the cart to live with the delay.</p>
 `,s=>[
  opt('Present the wounded and family rolls plainly to both commanders.','ch01_hc01_05_regional_dispatches',x=>{x.flags.historical_meet_baoxin=true;x.flags.historical_meet_liudai=true;x.flags.hc01_relief='testimony';note(x,'Names on Two Relief Rolls','You offered eyewitness facts to Bao Xin and Liu Dai. Their soldiers and obligations remained their own.')},'You meet both commanders in person; no retinue is awarded.'),
  opt('Give water to the waiting families and let the authorized clerks argue over the seals.','ch01_hc01_05_regional_dispatches',x=>{x.flags.hc01_relief='families';note(x,'Water Before Signatures','You helped the waiting families but made no personal approach to the commanders.')},'A limited voluntary intervention that does not change troop allegiance.'),
  opt('Deliver the medical list and return without making a claim you cannot verify.','ch01_hc01_05_regional_dispatches',x=>{x.flags.hc01_relief='delivery'},'The commanders remain unknown to you personally.')
 ],'Act IV · Separate Obligations');
 scene('ch01_hc01_04_march_ledger',4,'Before a Column Departs',s=>`
-<p>A scouting officer is looking for a messenger who can distinguish a measured ford from the name of a ford copied from an old tablet. The column belongs to Cao Cao's growing force, a separate command with its own supply and retreat decisions. Your small escort cannot seize the column, and its officers have not asked you to lead it.</p>
-<p>At the edge of the mustering ground Cao Cao studies a tablet beneath the shadow of a horse. A captain offers three answers about a road; only one is based on a traveler's observation. Cao Cao refuses to turn the other two into facts merely because someone has written them cleanly.</p>
-<p>The captain beckons you. You may speak briefly, hand the copy to another courier, or decline to interfere in orders that are not yours.</p>
+<p>The scouting detachment has tied its horses along a ditch below the eastern road. Some wear fresh mud above the knees; others have stood saddled long enough to begin chewing their reins. A captain has three copies of a route tablet. All bear the same ford's name. Only one bears the shallow crossing you saw while coming into camp; the others repeat an older description whose depth you cannot test from a strip of bamboo.</p>
+<p>Beyond the horses, Cao Cao is examining the tablet with the captain. His column has its own officers, its own baggage and its own decisions about where to march. The captain asks you to stand on the near side of the horse line and wait until called. A soldier behind you whispers that his chief can smell a dishonest map. “Then let him smell the ford,” another replies. Their laughter is brief; one courier is already riding out, and a wrong bank can cost more than pride.</p>
+<p>The captain summons you forward. Through the gap between two horses you can see the commander's face and the tablet in his hand. You remember the rock that split the current, the marked pole near the southern bank, and how far the mud climbed your boot. You cannot know whether the ford is still passable now, after rain and the movement of heavier wagons. A true account of what you saw would be useful, but it would not be a plan for the entire column.</p>
+<p>You have time for a sentence before the captain moves on: speak directly to Cao Cao about the crossing and its limits, hand the accurate copy to the captain without a personal audience, or return the uncertain report rather than let a remembered road become a false promise. Then you must return to Han Sheng's file. The general will make his own decisions; the man who carried the tablet still has his ordinary watch to stand.</p>
 `,s=>[
  opt('Tell Cao Cao directly what the road allowed, including what you could not see.','ch01_hc01_05_regional_dispatches',x=>{x.flags.historical_meet_caocao=true;x.flags.hc01_route='testimony';note(x,'A Commander’s Road Question','You answered Cao Cao as a road witness, not as a subordinate officer or sworn ally.')},'A brief direct meeting; no promotion, favor or victory is granted.'),
  opt('Hand the copied route to the captain and return to the original escort.','ch01_hc01_05_regional_dispatches',x=>{x.flags.hc01_route='courier';note(x,'An Accurate Route Copy','The captain received your route copy; you did not speak directly to the commander.')},'No direct meeting is recorded.'),
  opt('Return the uncertain report rather than let a guess become an order.','ch01_hc01_05_regional_dispatches',x=>{x.flags.hc01_route='uncertain'},'You withdraw from a decision outside your evidence.')
 ],'Act IV · Different Banners');
 scene('ch01_hc01_05_regional_dispatches',4,'The Names Behind the Seals',s=>`
-<p>The work ends without ceremony. The northern messenger still carries separate orders from Yuan Shao's camp and the officers toward Henei. Dispatches bearing the names of Wang Kuang and Han Fu may take days to reconcile. Reports from Yuan Shu and Sun Jian describe preparations along roads you have not traveled. Kong Zhou's administration, Zhang Chao's distant messengers and the eastern officers gathered beneath Qiao Mao's seals all have priorities that an agreement in this camp cannot simply erase.</p>
-<p>${s.flags.hc01_account==='witness'?'The eastern officials do not promise to follow your counsel. They do, however, keep a second copy of the account.':s.flags.hc01_relief==='testimony'?'Bao Xin and Liu Dai depart to answer their own commands. The names of the displaced remain on the relief roll.':s.flags.hc01_route==='testimony'?'Cao Cao gives no oath and takes no instruction from you; his column will choose its march on its own grounds.':'No famous commander has become your personal acquaintance merely because his name was written on a dispatch.'}</p>
-<p>Across the camp Liu Bei's escort is forming up. Whatever the coalition decides elsewhere, the medicine wagon must still cross a real road. Your own next decision has not been made for you.</p>
+<p>By afternoon the coalition seems less like one army than a procession of unanswered letters. A dispatch bearing Wang Kuang's name travels north; another, attributed to Han Fu's administration, cannot depart until someone finds the courier's spare horse. The camps of Yuan Shu and Sun Jian have their own schedules. A runner speaks of Kong Zhou and Zhang Chao, and you repeat neither name as if you had met its bearer. All those roads exist beyond the little stretch of mud you know. A handful of accurate marks may matter more than a grand conclusion assembled from hearsay.</p>
+<p>${s.flags.hc01_account==='witness'?'At the eastern table a clerk has copied your account beside the name of the damaged cart. You spoke before Zhang Miao and Qiao Mao; what follows is their decision, not an appointment for you.':s.flags.hc01_account==='anonymous'?'The eastern clerks have retained an unsigned discrepancy. Your evidence can be checked without the officials ever learning the name of the messenger.':s.flags.hc01_account==='refused'?'You returned the tally rather than certify grain hidden beneath wagon covers. The blank remains visible, inconvenient and true.':s.flags.hc01_relief==='testimony'?'Bao Xin and Liu Dai heard what you could tell them about the waiting lists. Their officers carried the papers away; the families remained on the road until transport could be arranged.':s.flags.hc01_relief==='families'?'You remember the weight of the water jar and the child’s cold fingers more clearly than either commander’s seal. You offered no testimony to Bao Xin or Liu Dai.':s.flags.hc01_relief==='delivery'?'The medical roll reached its clerk. Bao Xin and Liu Dai remained at their table, strangers whose names you heard but whose counsel you did not enter.':s.flags.hc01_route==='testimony'?'You answered Cao Cao about the road and told him what rain might have changed. The captain retrieved his tablet; his column would march or wait under its own command.':s.flags.hc01_route==='courier'?'The route copy passed through the captain’s hands. Cao Cao remained across the horse line, a commander you saw but did not address.':s.flags.hc01_route==='uncertain'?'You returned the doubtful route rather than turn an untested crossing into an order. No commander summoned you to explain further.':'Your assigned work ended without an audience or a remarkable reward.'}</p>
+<p>Xu Wen spots you beside the wagon lane and offers a heroic account of the battle he has fought with an unpaid cook. Han Sheng asks for the names of the men actually on duty, then sends both of you to the proper place in the file. The separate standards continue moving over the ridge. So do the medicine wagons and the men pulling them. What you carried today was a fragment of the truth; it will have to be enough until someone returns with more.</p>
+<p>You fall in beside the escort. At the next halt, you may remember how much of a commander's work depends on clerks, witnesses, and people who never see the battlefield. Today you still answer to the same sergeant and the same roll, and must help the company reach its next station before dark.</p>
 `,s=>[
  opt('Return to Liu Bei’s escort and carry out the choice already made.','preparation',x=>{x.flags.hc01_report_heard=true;note(x,'The Coalition Has Many Commands','In 190 CE you saw how regional officers kept separate obligations while the coalition assembled. Hearing a name did not mean meeting its bearer.')},'The previous war-council choice is preserved; no new commander is recruited.')
 ],'Act IV · The Wider World');
@@ -13189,9 +13218,9 @@ const AUH_M1X_PAN_MOVES={
   rear:'Han Sheng orders your file one rank back to guard the lane behind the returning horsemen. The bridge timbers and nearby shields restrict what you can see of the fighting beyond.'
  },
  pan_06_account:{
-  front:'Han Sheng’s next withdrawal signal reaches the front file. You step backward beneath the cover of the adjacent spears, keeping your weapon toward the immediate threat.',
-  outer:'Han Sheng places your withdrawing file along the ditch so the company cannot be rolled up from its open side. You move with that file, one ordered pace at a time.',
-  cover:'Han Sheng orders your file to cover the others until the next signal. You remain in fighting formation, not in a porter or staff assignment, as the men ahead clear the bank.'
+  front:'Han Sheng’s next withdrawal signal had reached the front file. You stepped backward beneath the cover of the adjacent spears, keeping your weapon toward the immediate threat until the file cleared the bank.',
+  outer:'Han Sheng had placed your withdrawing file along the ditch so the company could not be rolled up from its open side. You moved with that file, one ordered pace at a time, until the bank was behind you.',
+  cover:'Han Sheng had ordered your file to cover the others until the next signal. You stayed in fighting formation as the men ahead cleared the bank, then withdrew when he released your rank.'
  }
 };
 const AUH_M1X_PAN_SELECTION_KEYS={pan_03_vanguard:'hc06_pan_contact',pan_04_bridge:'hc06_pan_defense',pan_05_rider:'hc06_pan_riderView',pan_06_account:'hc06_pan_withdraw'};
@@ -14552,6 +14581,289 @@ SCENES.m1v_190_morning_roll.body=s=>{
    ?'The copyist checks the spacing of his figures twice. Xu Wen says the numbers have become more obedient than the soldiers. The copyist, without looking up, asks whether that includes him.'
    :'You wait until Han Sheng finishes the roll before asking your question about responsibility. He answers by pointing to the men whose names must still be checked before the company can march.';
  return html+`<p>${testimony}</p><p>${comrades} The file closes ranks at Han Sheng’s order. You are called by name, answer as a private, and take your place.</p>`;
+};
+
+
+/* v0.4.99.4m Chapter I: eyewitness-limited regional coalition memory.
+   Only called for scenes actually visited, never for flag-only/imported states. */
+const AUH4M_WITNESS_SCENES=[
+ 'ch01_hc01_02_eastern_register',
+ 'ch01_hc01_03_relief_rolls',
+ 'ch01_hc01_04_march_ledger'
+];
+const auh4mSeen=(s,id)=>!!(s&&Array.isArray(s.visited)&&s.visited.includes(id));
+const auh4mOldCh2Body=SCENES.ch2_05.body;
+SCENES.ch2_05.body=s=>{
+ const base=auh4mOldCh2Body(s);
+ if(!auh4mSeen(s,'ch01_hc01_05_regional_dispatches'))return base;
+ const memory=auh4mSeen(s,AUH4M_WITNESS_SCENES[0])
+  ?s.flags?.hc01_account==='witness'?'Your memory of the eastern registers is the broken wheel you described before Zhang Miao and Qiao Mao, not anything their officers decided beyond your hearing.':s.flags?.hc01_account==='anonymous'?'You left an anonymous road discrepancy with the eastern clerks. Whether their officers ever learned your name is unknown.':'You remember declining to certify grain hidden from your sight, even when a completed tally would have pleased the clerk.'
+  :auh4mSeen(s,AUH4M_WITNESS_SCENES[1])
+   ?s.flags?.hc01_relief==='testimony'?'You remember naming the waiting families and the wounded before Bao Xin and Liu Dai, not learning the outcome of their later discussions.':s.flags?.hc01_relief==='families'?'The touch of a cold water jar and a child drinking beside the medical cart returns to you; the commanders at the far table remained strangers.':'The medical list passed from your hands to its proper clerk. What the commanders did with it happened elsewhere.'
+   :auh4mSeen(s,AUH4M_WITNESS_SCENES[2])
+    ?s.flags?.hc01_route==='testimony'?'You remember telling Cao Cao how a ford looked before the rain, and making no claim about the road after you left.':s.flags?.hc01_route==='courier'?'You entrusted the ford tablet to a captain and returned to your infantry file without speaking to Cao Cao.':'You gave back an uncertain road copy rather than mistake an old drawing for a current report.'
+    :'';
+ return memory?base+`<p>On another road, you once learned how difficult it was to carry only the truth one had witnessed. ${memory} The lesson has not made you an officer, but it has made you slower to trust a tidy story told from far away.</p>`:base;
+};
+
+
+/* v0.4.99.4n — first acquaintances keep the player's actual answer.
+   Read-only callbacks; history-only legacy ledgers remain usable. */
+const AUH4N_WEI_REPLY={
+ exchange:'Wei Zhen repeats your name so that he will remember it. He promises observations when he has them, not a place beside you wherever you go. When you look back, he is already showing the runner his corrected copy.',
+ courtesy:'Wei Zhen accepts your thanks without treating it as a promise. He turns back to the waiting driver. Whatever becomes of your own enlistment, his morning still belongs to the registry.',
+ disagree:'Wei Zhen hears your argument for acting before every doubt is settled. “A commander may choose a risk,” he replies. “Let him be told which part is a risk.” You leave in disagreement, without either man winning the right to speak for the other.'
+};
+const auh4nSeen=(s,id)=>!!((s?.visited||[]).includes(id)||(s?.history||[]).some(h=>h?.sceneId===id));
+const auh4nGateBody=SCENES.gate.body;
+SCENES.gate.body=s=>{
+ const reply=AUH4N_WEI_REPLY[s.flags?.ic80_wei_reply_190];
+ return (auhIc80Witnessed(s,190)&&reply?`<p>${reply}</p>`:'')+auh4nGateBody(s);
+};
+const auh4nFordBody=SCENES.ford_approach.body;
+SCENES.ford_approach.body=s=>{
+ const html=auh4nFordBody(s);
+ if(!auh4nSeen(s,'ic80_xu_190'))return html;
+ const answer=s.flags?.ic80_xu_190;
+ const recall=answer==='share'?'Xu Wen checks your interval before looking toward the ford. “Two ends of the world,” he murmurs. Then Han Sheng signals silence, and you both attend to the bank. A shared promise will be tested by how each of you holds his place.':answer==='work'?'Xu Wen tests the buckle you helped fasten and gives you a quick nod. He has asked for no promise beyond this patrol, and neither of you needs one to watch the other man’s footing.':answer==='distant'?'Xu Wen is quieter beside you after your answer about discipline. When Han Sheng signals the file to close, he moves promptly into place. Disagreement has not excused either of you from protecting the same line.':'';
+ return recall?`<p>${recall}</p>`+html:html;
+};
+const auh4nPriorMemories=npcMemories;
+npcMemories=function(id){
+ const list=auh4nPriorMemories(id);
+ if(!state)return list;
+ let memory='';
+ if(id==='weizhen'&&auhIc80Witnessed(state,190)){
+  const replies={exchange:'At the Chenliu registry you agreed to exchange witnessed observations with Wei Zhen; neither promised future employment.',courtesy:'You thanked Wei Zhen at the Chenliu registry without promising another exchange.',disagree:'You and Wei Zhen disagreed about useful guesses at Chenliu; he insisted that uncertainty remain visible to the person deciding.'};
+  memory=replies[state.flags?.ic80_wei_reply_190]||'';
+ }
+ if(id==='hansheng'&&auh4nSeen(state,'ic80_han_190')){
+  const lessons={care:'Before the ford patrol you asked Han Sheng to correct your inspection of a damaged fastening.',observe:'Before the ford patrol you listened to Han Sheng explain how a blocked road could endanger his infantry.',distant:'You left Han Sheng to the wagon inspection and attended to the patrol preparations.'};
+  memory=lessons[state.flags?.ic80_han_190]||'';
+ }
+ if(id==='xuwen'&&auh4nSeen(state,'ic80_xu_190')){
+  const answers={share:'Before your first ford patrol you promised Xu Wen that shared work would receive shared credit.',work:'You helped Xu Wen fasten his pack without promising companionship beyond the day.',distant:'You answered Xu Wen’s invitation to friendship by stressing discipline; he kept his place beside you.'};
+  memory=answers[state.flags?.ic80_xu_190]||'';
+ }
+ if(memory&&!list.includes(memory))list.push(memory);
+ return list;
+};
+
+
+/* v0.4.99.4o — Chapter II: the left crossing, seen from the foot line.
+   Existing scene IDs, option labels, destinations, and historical actors remain.
+   The withdrawal ends its own position record before the evening account. */
+const AUH4O_PAN_PROSE={
+ pan_01_muster:s=>`
+<p>A rider from the allied command waits while Han Sheng repeats the instruction back to him. They disagree about which track the mounted men mean by the rear road. The rider points to a dry rise; Han Sheng points to the channel running before it. At length they walk far enough to put both places in view. Only then does the rider leave. An agreement between commanders has become ground that a private can find with his feet.</p>
+<p>Han Sheng sets two shield-bearers near the willow roots and places the next pair within reach of their rims. The wet strip between your file and the crossing must stay clear. A man asks who will stop a horse that will not stop itself. “The same men who must stop the enemy behind it,” Han Sheng answers. He looks along the spears until the questioner meets his eyes. “Keep the points where I tell you. Do not stab a frightened ally because a frightened horse brought him near.”</p>
+<p>Xu Wen studies the approach. “A narrow place to receive so many distinguished visitors.” The shield-bearer beside him says he will reserve the softest mud for officers. Nobody laughs loudly. Across the flats the cavalry continues dressing its ranks, following signals that were never addressed to you.</p>
+<p>You test your footing. Water wells around the edge of your sole; beneath it lies firmer grit. You can stand forward where the first pressure will come, one rank back where a steady shield might keep the passage from closing, or toward the willows where fewer men will see an attack begin. Han Sheng will place the neighboring files to cover whichever ground he assigns you. No position promises a view of the whole field. Each leaves something important behind another man's shoulder.</p>`,
+ pan_02_contact:s=>`
+<p>The man ahead of you has looped a thread around his smallest finger. Each time he changes his grip, it tightens against his skin. You cannot ask what it means now. Han Sheng has raised his hand for silence; even Xu Wen is listening. Somewhere beyond the horsemen, metal strikes a shield in a measured rhythm. You hear it stop. The sudden absence is worse than the sound.</p>
+<p>A small riderless shape moves along the opposite bank. For an instant you think the advance has already broken. Then it turns and becomes a loose pack horse, running before the battle has properly reached it. The soldier to your left breathes out through his teeth. Fear has supplied a conclusion faster than your eyes could supply its cause.</p>
+<p>${s.flags.hc06_pan_start==='willows'?'The willows limit your view of the crossing, but the exposed ditch lies plainly before you. If mounted men try to turn your line, you will see their feet before their banners. The second-rank shield beside you must cover the moment when you turn to give warning.':s.flags.hc06_pan_start==='shield'?'The front shield hides much of the ground. You judge the pressure by its movement against your knuckles and the sound of boots behind it. You can help keep a gap from opening without seeing what drove the first man backward.':'From the forward file you can see the mouth of the passage and the approaching horses. You cannot see whether the outer willow rank is holding. Your shield-bearer glances toward Han Sheng rather than asking you to decide for that flank.'}</p>
+<p>The first arrows begin to fall short, then closer. One bites into the mud with an absurdly small sound. Han Sheng calls for the spears to hold their interval. You have a breath in which to brace where you stand, heed the danger beside the ditch, or help Xu Wen keep the neighboring shields together. The ground will not let one pair of hands do all three at once.</p>`,
+ pan_03_vanguard:s=>`
+<p>A chestnut horse comes through without its rider. A strap dangles from its flank, bright with a stain you cannot identify while it moves. The animal sees the shields and swerves toward the opening Han Sheng kept clear. Your neighbor begins to thrust. Han Sheng knocks the shaft aside with his own. “Enemy behind! Passage before!” The horse plunges past, taking a clod of bank with it. The opening remains a danger and a necessity.</p>
+<p>Farther out, another rider tries to turn his mount back into the advance. Men going the other way force him sideways. He shouts a name until his voice breaks. You cannot tell whether it belongs to his commander, his friend, or the man he hopes is still alive. Then the horsemen hide him. No single cry explains an army coming apart.</p>
+<p>Xu Wen has dirt between his teeth. He spits it out and says, very softly, “I withdraw my request for distinguished visitors.” The man with the thread around his finger says he should have been more specific. You hear both voices clearly because they are close enough to touch. The famous names in the shouting beyond the river remain much farther away.</p>
+<p>Han Sheng watches the infantry pressing behind the retreat. Their spearpoints show through the movement of horses. He gives his own line room to answer them without trapping the men who must come through it. You may help preserve that corridor, strengthen the flank threatened through the reeds, or take the ordered pace back that gives the shields room to reform. Each answer leaves Han Sheng relying on a different part of his company. None carries permission to ride after another man's banner.</p>`,
+ pan_04_bridge:s=>`
+<p>A runner reaches Han Sheng from the road behind you. You hear only the end of the message: keep the approach long enough for the scattered files to find it; fall back by bounds when the signal comes. The runner will not repeat the rest to an audience. He turns toward Liu Bei's other foot soldiers and is gone. Whatever their commander has decided must reach each detachment through people moving over this same crowded ground.</p>
+<p>The pressure in front eases for two breaths. Men begin to look outward. Han Sheng strikes the rim of the nearest shield. An enemy spear comes through the reeds before its owner is visible. Your neighbor catches it on the wood; the jolt travels down the file. The man beyond him braces instead of running after the retreating point. The opening that might have swallowed him closes again.</p>
+<p>${s.flags.hc06_pan_defense==='flank'?'You have chosen the outer pressure, and now the crossing is mostly a noise behind your right shoulder. Xu Wen calls when a returning mount approaches that blind side. You must trust his warning while you watch the reeds.':s.flags.hc06_pan_defense==='reform'?'The ordered step backward gives the rear shields room to straighten. It also means yielding a strip of ground you had held. A man begins to curse the loss, then sees that he can lower his spear again without striking the shoulder before him.':'Holding the passage has kept returning riders from breaking into the foot line. It has also left your front pair exposed to every change of pace. Han Sheng sends another shield alongside before their knees begin to give.'}</p>
+<p>Across the field a mounted fighter cuts toward the disordered advance. Men see him at different moments and immediately disagree about what he has done. You have a nearer decision: the center needs steady spears, the outward gap needs watching, and the rear lane needs room for men still coming back. Han Sheng gestures to those three places. You can answer from one of them; the others belong to soldiers with their own courage and fear.</p>`,
+ pan_05_rider:s=>`
+<p>Xu Wen begins a question about the name being shouted, then breaks it off as a shield ahead dips. He puts his shoulder where the next man can brace against it. When the line settles, the chance to see the distant fighting has gone. The story that reaches camp tonight may linger over a shining spear. Your memory will also contain the moment when looking away nearly opened a gap.</p>
+<p>${s.flags.hc06_pan_riderView==='rear'?'From behind the timbers you cannot turn the noise into a visible duel. A riderless horse clears the bridge and the gap closes behind it. The men standing forward will have accounts you do not. That difference will matter when someone asks who saw what.':'A space opens between the standards, then closes before you can be sure of the rider’s next movement. You have seen a part of an action. Men who stood elsewhere will know other parts, and some may contradict you without either account being a lie.'}</p>
+<p>Then Han Sheng's withdrawal call comes plainly enough to end speculation. The nearest shield-bearer repeats it, and the second rank answers. The route leads to the rise identified at muster; it has not become a different road merely because the battle has changed around it. Han Sheng waits until the next file can cover the first before letting anyone turn.</p>
+<p>On the outer side, reeds conceal the distance an enemy might close. At the center, the passage still carries men who cannot move faster. Behind them, a covering rank must remain until its own release. You can keep your spear outward with the moving front, take the ditchward edge, or hold for the next signal. Xu Wen looks from the company to you, asking nothing he can honestly promise is safe. The call reaches your place in the file.</p>`,
+ pan_06_account:s=>`
+<p>The last slope is behind you by the time the evening account begins. The surgeons have taken the wounded into their own care. Your spear rests against a pack; Han Sheng has not sent you back to hold the bank. What remains of that position is the place you can describe and the order by which you left it.</p>
+<p>The soldier with the thread around his finger sits on an overturned basket. It was his sister who tied it there, he tells Xu Wen, to remind him to send word when the company stopped moving. He cannot find the end of the knot now. Xu Wen offers to cut it. The soldier covers it with his other hand and shakes his head. The two of them sit without speaking until the clerk asks for the next name.</p>
+<p>A cavalry survivor objects when another man makes his report sound finer. “I saw him fall,” he says of one rider. “I did not see who struck him.” Han Sheng makes the clerk leave that space alone. Reports of Qu Yi, Yan Gang, and the fighter called Zhao Yun can retain their named sources without lending you eyes on the far side of the river. Liu Bei and his brothers have their own account to give; your file's survival does not make you a member of their mounted fight.</p>
+<p>You can begin with what your boots and shield could verify, preserve the farther accounts with their witnesses, or put the company's losses before the contest of great names. The clerk will keep the original reports whichever emphasis you choose. A man's absence must be checked; you cannot declare him dead because nobody has answered yet. The ink waits while Han Sheng asks you to speak.</p>`,
+ pan_07_return:s=>`
+<p>At the halt before the ridge, Xu Wen discovers that his bowl has survived the crossing. He shows you the chipped rim with the wonder other men reserve for a relic. “A weapon of exceptional endurance.” The shield-bearer beside him asks if the cook can break it. “The cook,” Xu replies, “has had years to prepare.” A little laughter follows the file until a man farther back asks them to keep it down. They do. The morning has room for both sounds.</p>
+<p>${s.flags.hc06_pan_report==='losses'?'The clerk carries the casualty entries wrapped apart from the stories of commanders. Han Sheng will check them against the next muster before an uncertain name receives a final mark. Your choice has given those absences the first place in your own account.':s.flags.hc06_pan_report==='attributed'?'A cavalry survivor has put his own mark beside the account you preserved. His voice can now be questioned by somebody who stood closer, instead of becoming another tale credited to everyone and no one.':'When a soldier asks whether you saw the famous mounted fight, you give him the ground you actually held. He seems disappointed until Xu Wen tells him how narrow it was. Then he looks back toward the men still walking through the space your file kept open.'}</p>
+<p>Liu Bei's banner is ahead, rising beyond the next bend. You follow it because your detachment has received its march order. Gongsun Zan's riders are returning to their own muster; Yuan Shao's movements will reach you when somebody brings a report. Neither army has become an extension of your choices. The men beside you still need dry ground, a meal, and news of the ones who have not answered.</p>
+<p>You cannot tell what another year will ask of this company. Today Han Sheng calls the halt, gives the tired file time to close, and waits until the last pair is ready before moving again. You take your place with them.</p>`,
+ ch02_hc01_06_letters_without_lords:s=>`
+<p>The courier has removed one boot to examine the raw place beneath it. He looks less like the voice of a great commander than a man deciding which foot will hurt less inside the stirrup. The junior reader offers him wine. He asks for water and the name of the person who will sign for receipt. Tomorrow's argument should not include whether he ever arrived.</p>
+<p>One account describes a route as secure; another records carts waiting beyond it. The dates differ. So do the offices responsible. A commander may have ordered something that another commander had neither the men nor the reason to carry out. A copied notice of Sun Jian's advance tells you what its sender reported then, not where his soldiers stand tonight. You can read the disagreement without pretending to know whose private intention caused it.</p>
+<p>“Which one goes on top?” the reader asks. He means which is most important, but his hands have already stacked the pages as if importance were a physical weight. The older clerk takes them apart again. “Whichever you want the next tired man to mistake for the whole truth.” The courier, nursing his foot, says that tired men usually choose the shortest one.</p>
+<p>Beyond the lamp Xu Wen calls that your portion will acquire a skin if left much longer. This is his only convincing claim to influence over foreign affairs. Han Sheng has not assigned you to a courier unit or made you the judge of distant councils. You may help the clerk preserve sources, give only the local account you can stand behind, or leave the correspondence to its proper readers and return to your comrades. The courier's next departure belongs to his orders, whether or not you stay.</p>`
+};
+for(const [id,addition] of Object.entries(AUH4O_PAN_PROSE)){
+ const prior=SCENES[id].body;
+ SCENES[id].body=s=>prior(s)+addition(s);
+}
+const AUH4O_PAN_WITHDRAWAL={
+ front:'You stepped back with the spear wall on Han Sheng’s signal and reached the rear rise with your infantry file.',
+ outer:'You guarded the ditchward edge during the ordered withdrawal and returned with Han Sheng’s infantry.',
+ cover:'You kept the covering rank until Han Sheng’s next signal released it, then rejoined the company on the rear rise.'
+};
+const auh4oWithdrawChoices=SCENES.pan_05_rider.choices;
+SCENES.pan_05_rider.choices=s=>auh4oWithdrawChoices(s).map(o=>({...o,effect:x=>{
+ o.effect(x);
+ const position=x.militaryCareer?.fieldPosition;
+ if(x.militaryCareer?.combatService?.branch==='Infantry'&&position?.proof?.startsWith('pan_05:')){
+  position.active=false;
+  const record=AUH4O_PAN_WITHDRAWAL[x.flags.hc06_pan_withdraw];
+  if(record)note(x,'Leaving the Pan River Bank',record+' Your field position is now a last witnessed position, not an active battle order.');
+ }
+}}));
+const auh4oPreviousMilitary=militaryPanel;
+// A baseline save already at the evening account has completed this movement.
+// Retire only the matching witnessed Pan position; do not infer a new posting,
+// replay a choice, add a journal reward, or overwrite a later/cavalry assignment.
+const auh4oPreviousResolve=resolve;
+resolve=function(s){
+ const out=auh4oPreviousResolve(s),position=out.militaryCareer?.fieldPosition;
+ const withdrawal=out.flags?.hc06_pan_withdraw;
+ if(out.scene==='pan_06_account'&&auh4nSeen(out,'pan_05_rider')&&
+    out.militaryCareer?.combatService?.branch==='Infantry'&&position?.year===191&&
+    AUH4O_PAN_WITHDRAWAL[withdrawal]&&position.proof==='pan_05:'+withdrawal){
+  position.active=false;
+ }
+ return out;
+};
+militaryPanel=function(){
+ const html=auh4oPreviousMilitary();
+ if(!state||!auh4nSeen(state,'pan_05_rider'))return html;
+ const withdrawal=AUH4O_PAN_WITHDRAWAL[state.flags?.hc06_pan_withdraw];
+ if(!withdrawal)return html;
+ const report=auh4nSeen(state,'pan_06_account')?AUH_M1Z_PAN_REPORT_ECHO[state.flags?.hc06_pan_report]:'';
+ return html+`<section class="panel mc-panel"><div class="mc-content" role="region" aria-label="Pan River service record"><h3>191 CE · Pan River Service</h3><p>${withdrawal}</p>${report?`<p>${report}</p>`:''}<p class="fine">This records your own infantry service. No personal meeting, new command, or promotion is implied.</p></div></section>`;
+};
+const auh4oPreviousMemories=npcMemories;
+npcMemories=function(id){
+ const list=auh4oPreviousMemories(id);
+ if(!state||!auh4nSeen(state,'pan_05_rider')||!['hansheng','xuwen'].includes(id))return list;
+ const memory=AUH4O_PAN_WITHDRAWAL[state.flags?.hc06_pan_withdraw];
+ if(memory&&!list.includes(memory))list.push(memory);
+ return list;
+};
+
+
+/* v0.4.99.4p — Chapter III: a second road to earned acquaintance.
+   The original continue path is retained. Missing the 190 meeting need not bar
+   an explicit 191 + 192 shared-work route; no membership is ever automatic. */
+const auh4pRelayBody=SCENES.ic80_relay_191.body;
+SCENES.ic80_relay_191.body=s=>auh4pRelayBody(s)+`
+<p>The flood messenger has taken off his wet outer coat and spread it over a fence. Wei Zhen asks when he last saw the bridge, then changes the heading on his sketch from <em>passage</em> to <em>passage to be checked</em>. The messenger corrects him again: one end was still standing, but the bank behind it was giving way. The copyist draws a second line. A broken bridge and a road that cannot reach it are different problems, though either can stop a company.</p>
+<p>Xu Wen asks whether the ink will cost more than building a new crossing. “Not if we stop drowning the men who know how,” Wei replies. Then he looks at the coat dripping over the rail and asks the messenger if he has eaten. The answer is no. Han Sheng sends him to the fire before anyone asks him to remember another measurement. A witness is still a tired man; questioning him harder does not make his eyes travel back across the river.</p>
+<p>There is no order here for you to choose an army's route. The clerk needs a usable comparison for the officers who will decide it. You can help test the plan against the new report, or leave that task with the appointed readers and return to your own duty. Wei Zhen does not confuse either answer with a promise to follow him. He turns the sketch where you can see the place his earlier confidence failed.</p>`;
+const auh4pRosterBody=SCENES.ic80_roster_191.body;
+SCENES.ic80_roster_191.body=s=>auh4pRosterBody(s)+`
+<p>At the fire a soldier tries to persuade the cook that a man returned from battle should receive a larger ladle. The cook asks how much larger a man should become before the pot runs dry. Xu Wen proposes that officers be weighed before and after supper. Han Sheng says he would begin with soldiers who talk too much. The proposal loses its most enthusiastic supporter.</p>
+<p>Yet when the clerk asks which hands will be available tomorrow, the jokes stop. Men have watches, family messages, injuries and promises made before they met you. Han Sheng's first obligation is to his company. Xu Wen still owes another soldier a borrowed pair of sandals. Friendship cannot make either debt vanish. It can mean hearing the truth about them without demanding to come first.</p>
+<p>The relay is ready. Some relationships may last because the people in them choose to return; others will remain the courtesy of one shared road. No place beside your future council has been reserved in this afternoon's muster. You may keep faith with people whose work you actually shared, or part without binding them to a future they have not seen.</p>`;
+const auh4pOldAfterRecovery=SCENES.ch03_02.choices;
+SCENES.ch03_02.choices=s=>{
+ const original=auh4pOldAfterRecovery(s);
+ // Optional, local, and available only while this chapter is actually in 192.
+ if(s.storyClock?.year!==192)return original;
+ return [...original,opt(auhIc80Witnessed(s,190)||auhIc80Witnessed(s,191)
+  ?'Speak with Wei Zhen about the route board before the drill.'
+  :'Speak to the copyist examining a damaged route board.',
+  'm1p_192_route_table',()=>{},'A brief optional conversation. Your combat assignment and the scheduled drill remain unchanged.')];
+};
+scene('m1p_192_route_table',7,'The Road the Map Forgot',s=>`
+<p>The practice horn has not yet sounded. At the edge of the wagon park, a copyist has laid a route board across two empty baskets. One corner of the board is charred. A driver waits beside it with a yoke pin in his hands, turning the piece of wood each time the copyist asks him another question. Han Sheng has allowed the men a little time before drill; he has not dismissed the file for the day.</p>
+<p>${auhIc80Witnessed(s,190)||auhIc80Witnessed(s,191)?'Wei Zhen recognizes you and moves a basket so you can see the board. He asks about the road you actually travelled, not whether you have become more important since your last meeting.':'The copyist introduces himself as Wei Zhen. Ink has dried along the side of his thumb. He is assembling a route comparison for the camp clerk, who will send it to the responsible officers. Neither of you pretends to have met before.'}</p>
+<p>He has drawn two crossings. The northern one would shorten a day's march if a small bridge can still bear loaded wheels. The southern one is longer and passes a village whose people have already seen too many strangers. “If the front reaches the northern bank by midday,” he says, “the rear could clear it before dark.”</p>
+<p>The driver taps the unburnt edge. “Which rear?”</p>
+<p>Wei Zhen points to the last cart. The driver shakes his head. He has brought a lame ox back from the road, and he cannot promise its replacement. A schedule made for the leading pair will not tell him when the weakest team arrives. Worse, the bridge report was made before the last rain. He has seen wheel marks leading toward it, not wheels coming home.</p>
+<p>For a moment Wei Zhen protects the line he has drawn with his hand. Then he lifts it. “I counted carts,” he says. “I should have counted what could move them.” He takes a fresh strip rather than rubbing the mistake away. The officer who receives the proposal will need to see why the estimate changed.</p>
+<p>“I have made a fine road,” he says, “for an army composed entirely of its first wagon.” The driver laughs despite himself. From the practice ground Xu Wen calls that such an army should eat very little. Han Sheng tells him to see whether his own spear is ready for service before he redesigns the muster.</p>
+<p>Wei Zhen has a genuine choice to make. He can ask for newer bridge evidence and time the march by the slowest verified team. He can also prepare a fallback that leaves room for delay, making the cost of the longer road visible. Neither is a command; the officers may reject both. You can help him examine one of those questions, challenge his wish to keep the shorter route at all, or return to drill without taking responsibility for his proposal.</p>
+<p>The driver does not wait for you to become wise. “Tell them the ox is lame,” he says. “Whatever fine words go around it, put that where they cannot miss it.” Wei Zhen offers the blank strip. The horn remains silent for another few breaths.</p>`,s=>[
+ opt('Check the bridge report and the slowest team before trusting the short road.','m1p_192_second_reading',x=>{
+  if(x.flags.m1p_192_method)return;
+  flag(x,'m1p_192_wei_met',true);flag(x,'m1p_192_method','verify');
+  note(x,'The Road the Map Forgot','You and Wei Zhen compared the age of a bridge report with the limits of a lame wagon team. No route was ordered by your discussion.');
+ }),
+ opt('Challenge the short route and ask him to show an honest fallback.','m1p_192_second_reading',x=>{
+  if(x.flags.m1p_192_method)return;
+  flag(x,'m1p_192_wei_met',true);flag(x,'m1p_192_method','challenge');
+  note(x,'The Road the Map Forgot','You challenged Wei Zhen to show the delay and civilian cost of an alternate road instead of hiding uncertainty in a neat schedule.');
+ }),
+ opt('Leave the proposal with its readers and return to the drill.','m1v_192_before_the_file',x=>{
+  if(x.flags.m1p_192_method)return;
+  flag(x,'m1p_192_wei_met',true);flag(x,'m1p_192_method','leave');
+  note(x,'A Conversation Left Open','You met Wei Zhen at the 192 route board, then returned to your combat drill without promising a collaboration.');
+ })
+],'Chapter III · Before the Practice Horn');
+scene('m1p_192_second_reading',7,'A Plan with Room for Other People',s=>`
+<p>${s.flags.m1p_192_method==='challenge'?'Wei Zhen draws the southern road in a second column and leaves the northern estimate beside it. The longer road costs another day; the village will need warning before soldiers and carts appear at its boundary. He cannot promise its people will welcome them. “If I call it the safe road,” he says, “I ought to say for whom.”':'The clerk finds the date on the bridge report. It describes yesterday’s water before the last rain. Wei Zhen leaves that date visible and writes a request for a fresh inspection by the appointed scouts. Alongside it he notes the lame ox and the uncertain replacement. The short route remains a possibility, with its conditions still unmet.'}</p>
+<p>The driver has an objection to the second version too. It assumes his team can rest while another cart takes the load. He has not offered the cart, and its owner has not offered the space. Wei Zhen puts down his brush, asks whose permission is missing, and adds the answer without turning it into agreement. It takes longer than drawing an arrow.</p>
+<p>Han Sheng comes to collect the waiting soldiers. He reads enough of the board to see the disagreement and asks the driver whether it records his account properly. The man corrects one word: the ox is lame, not merely slow. Wei Zhen changes it. Han Sheng gives no verdict about which road the company will take. The camp clerk must still send the proposal to the officer responsible for the movement.</p>
+<p>“A useful plan,” Han Sheng says, “ought to survive the people it is for.” Wei Zhen looks at the crossed-out times. “This one is learning reluctantly.” He asks whether soldiers find the same fault in orders. Han Sheng answers that soldiers may name a fault without gaining authority to write another man's orders. Then he turns toward the practice ground. It is time.</p>
+<p>There is a little mud on Wei Zhen's clean margin where the driver rested his thumb. He leaves it there. Beyond the wagon park a recruit attempts to raise the stretcher frame alone; the drill master tells him to wait for the other hands. You recognize the same problem drawn in wood rather than ink.</p>
+<p>${auhIc80Witnessed(s,191)?'You have worked beside Wei Zhen before, at the flood reports in 191. Another year has given you a different problem and another chance to see how he accepts an unwelcome correction. There is something on which a continuing exchange might honestly be built.':auhIc80Witnessed(s,190)?'You remember the disputed tablet at Chenliu. What has passed between you today belongs to this road and this year, not to an unbroken friendship invented to fill the time between them.':'This is your first shared examination with Wei Zhen. An afternoon can make an acquaintance worth meeting again; it cannot supply the years you have not spent together.'}</p>
+<p>He offers another exchange when your duties permit, then makes clear that his own work may take him elsewhere. You may welcome that possibility, thank him for today without promising more, or refuse a personal advisory relationship. Your place at drill will be waiting whichever answer you choose. So will his unfinished proposal.</p>`,s=>[
+ opt('Agree to compare future plans, including the mistakes each of us finds.','m1v_192_before_the_file',x=>{
+  if(x.flags.m1p_192_reply)return;
+  flag(x,'m1p_192_reply','exchange');rel(x,'weizhen','trust',1);
+  note(x,'A Plan Worth Correcting','After working through the 192 route proposal, you and Wei Zhen agreed to exchange criticism when your independent duties permit. No office or membership was granted.');
+ }),
+ opt('Thank him for this examination without promising another.','m1v_192_before_the_file',x=>{
+  if(x.flags.m1p_192_reply)return;
+  flag(x,'m1p_192_reply','bounded');rel(x,'weizhen','respect',1);
+  note(x,'One Useful Afternoon','You acknowledged a shared route examination in 192 without committing to a continuing private exchange.');
+ }),
+ opt('Make clear that I am not seeking a personal adviser.','m1v_192_before_the_file',x=>{
+  if(x.flags.m1p_192_reply)return;
+  flag(x,'m1p_192_reply','refuse');
+  note(x,'Separate Roads by Choice','You declined a continuing personal advisory relationship with Wei Zhen in 192; he retained his own work.');
+ })
+],'Chapter III · Two Readers, Separate Duties');
+DISCOVERY_SCENES.weizhen.push('m1p_192_route_table','m1p_192_second_reading');
+function auh4pWorked192(s){
+ return !!(s.flags?.m1p_192_wei_met&&['verify','challenge'].includes(s.flags?.m1p_192_method)&&
+  auh4nSeen(s,'m1p_192_route_table')&&auh4nSeen(s,'m1p_192_second_reading'));
+}
+const auh4pEarlierEligibility=ic80Eligible;
+ic80Eligible=function(s,id){
+ if(id!=='weizhen')return auh4pEarlierEligibility(s,id);
+ // An explicit later refusal supersedes earlier willingness, without ejecting
+ // anyone already appointed in an imported save or granting fresh membership.
+ if(auh4pWorked192(s)&&s.flags?.m1p_192_reply==='refuse')return false;
+ if(auh4pEarlierEligibility(s,id))return true;
+ return !!(auhIc80Witnessed(s,191)&&auh4pWorked192(s)&&s.flags.m1p_192_reply==='exchange'&&
+  (s.relationships.weizhen?.trust||0)>=2&&!s.flags.ic80_wei_declined_193);
+};
+const auh4pCouncilBody=SCENES.ic80_council_193.body;
+SCENES.ic80_council_193.body=s=>{
+ let html=auh4pCouncilBody(s);
+ if(!auh4pWorked192(s))return html;
+ if(s.flags?.m1p_192_reply==='refuse')html=html.replace(
+  'Your acquaintance with Wei Zhen has not yet become the mutual trust necessary for a permanent place among your closest advisers. He continues his studies and duties without resentment.',
+  'Wei Zhen remembers that you declined a personal advisory relationship. He does not turn the time you worked together into permission to ask for a place you have refused.'
+ );
+ const reply={exchange:'You also remember the route proposal in 192, when you agreed to keep testing ideas against the people who would have to live with them. The invitation now can rest on those actual meetings, without borrowing a morning at Chenliu you may never have shared.',bounded:'You remember the 192 route board as one useful afternoon, without a promise to continue. He does not turn courtesy into your consent to a post.',refuse:'At the route board in 192 you said you were not seeking a personal adviser. Wei Zhen respects that answer. He presents the clerk’s proposal, then returns to his own work.'}[s.flags?.m1p_192_reply];
+ return reply?html+`<p>${reply}</p>`:html;
+};
+const auh4pPreviousWitnessed=hasWitnessed;
+hasWitnessed=function(id){
+ if(id==='weizhen'&&state?.flags?.m1p_192_wei_met&&auh4nSeen(state,'m1p_192_route_table'))return true;
+ return auh4pPreviousWitnessed(id);
+};
+const auh4pPreviousObservations=npcObservations;
+npcObservations=function(id){
+ const list=auh4pPreviousObservations(id);
+ if(id==='weizhen'&&state&&auh4pWorked192(state))list.push('In 192 you saw Wei Zhen revise a route proposal after the driver and Han Sheng challenged its assumptions.');
+ return list;
+};
+const auh4pPreviousMemories=npcMemories;
+npcMemories=function(id){
+ const list=auh4pPreviousMemories(id);
+ if(id!=='weizhen'||!state||!auh4pWorked192(state))return list;
+ const memory={exchange:'You and Wei Zhen agreed in 192 to exchange criticism of future plans when your duties permit.',bounded:'You shared one route examination in 192, without promising Wei Zhen another.',refuse:'You told Wei Zhen in 192 that you were not seeking a personal adviser; he accepted your decision.'}[state.flags?.m1p_192_reply];
+ if(memory&&!list.includes(memory))list.push(memory);
+ return list;
 };
 
 const storageAvailableAtBoot=storageProbe();
