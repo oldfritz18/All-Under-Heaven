@@ -1,4 +1,7 @@
-# Push GitHub — terhalang akses tulis
+# Riwayat push GitHub — hambatan 403 sudah teratasi
+
+**Status terbaru: RESOLVED.** Review ulang pada 5e berhasil menjalankan `git push origin main`. GitHub menerima fast-forward dari `a82952a6fb9d32c05ba2cf4d96df19329031cafb` ke `d97b9510c9d7945b5b1668935b6900dfbbbcf224`; `git ls-remote origin refs/heads/main` mengonfirmasi hash itu, dan branch lokal/remote cocok. Tidak ada force, reset, perubahan visibility atau credential yang dipaparkan. Catatan kegagalan lama di bawah dipertahankan sebagai riwayat.
+
 
 Pengguna memberi izin eksplisit commit/push pada review 15 November 2026. Struktur starter sudah berada di root dan terlacak; inisialisasi serta seluruh pengembangan disimpan dalam riwayat lokal. Tidak dilakukan re-ekstraksi/reset/force-push atau perubahan visibility.
 

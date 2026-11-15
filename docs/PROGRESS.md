@@ -1,8 +1,8 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.5e; baseline awal terverifikasi v0.4.99.4m.
-- Status: gate M2 dan checkpoint fungsional VIII–IX bertarget; batch crossing 210, charter 211–213, Baxi 215–216 dan kontak Jing 219 terimplementasi/teruji. M3 sedang berjalan menuju Chapter XI; M3–M11 dan objective penuh belum selesai.
+- Active: v0.4.99.5f; baseline awal terverifikasi v0.4.99.4m.
+- Status: gate M2 dan checkpoint fungsional VIII–IX bertarget; batch crossing 210, charter 211–213, Baxi 215–216 dan kontak Jing 219 terimplementasi/teruji. M3 sedang berjalan pada Chapter XI; M3–M11 dan objective penuh belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 
 ## Evidence already in repository
@@ -10,7 +10,7 @@
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
-- Struktur VIII/IX/X mengikuti roadmap pada 5a. Kelompok hearing–crossing 210 sudah direvisi pada 5b dan charter 211–213 pada 5c; rotasi ke Yi/Baxi dan river screen 215–217 terintegrasi pada 5d. Laporan Hanzhong dipisahkan dari kontak Jing yang dimainkan pada 5e. Berikutnya XI/220–223, komisi lanjutan dan legitimasi sesuai bukti, kesinambungan NPC/relasi serta gate M3. Jangan menganggap label bab atau batch 210 sebagai kelulusan seluruh X.
+- Struktur VIII/IX/X mengikuti roadmap pada 5a. Kelompok hearing–crossing 210 sudah direvisi pada 5b dan charter 211–213 pada 5c; rotasi ke Yi/Baxi dan river screen 215–217 terintegrasi pada 5d. Laporan Hanzhong dipisahkan dari kontak Jing yang dimainkan pada 5e. Rangkaian XI/220–222 serta review field warrant sudah terintegrasi pada 5f. Berikutnya settlement 223 dan bridge XII/legitimasi sesuai bukti, kesinambungan NPC/relasi serta gate M3. Jangan menganggap label bab atau batch 210 sebagai kelulusan seluruh X.
 - Node Xu Shu awal serta sesudah Changban sudah menjadi pembacaan bersumber; pertahankan perbedaan laporan/pertemuan serta outcome Red Cliffs ketika melanjutkan dunia 210–223.
 - Tawaran Captain 209 kini eksplisit dan mengembalikan watch yang sesuai pada jalur baru. Tetap audit milestone karier berikutnya di X–XI, dengan penerimaan, muster dan jabatan yang benar-benar tercatat.
 - XII–XIX/Epilogue: adaptasi pemerintahan dan suksesi Shu-Han serta perluas struktur legacy; belum dikerjakan atau disertifikasi. Registry baseline tidak mempunyai tag Chapter XIII–XIX, sehingga konten akhir legacy tidak boleh diklaim setara dengan delapan chapter Emperor Saga.
@@ -196,3 +196,23 @@
 - Root enam komponen wajib tetap lengkap dan terlacak; ZIP starter 26 entri lolos CRC; init commit `76f5684a8e191a5833bafdb8052de3597b952c04` tetap tersedia. Tidak ada re-ekstraksi atau restart. Working tree bersih sebelum review; main 21 commit di depan remote `a82952a6fb9d32c05ba2cf4d96df19329031cafb` setelah fetch.
 - Build aktif 5e/hash cocok dengan receipt ketiga suite. Smoke 8/8 dan suite Jing 540 rute per viewport 390/1280 dijalankan ulang PASS, termasuk delapan klik DOM Private, reload dan exit property ke 220; page error 0. Bukti baru `docs/qa/REVIEW_5e_2026-11-15.json`.
 - Struktur sudah di-commit dalam riwayat; tidak perlu empty initialization commit. Pengguna meminta push ulang. Review dokumentasi ini di-commit sebelum percobaan fast-forward push; hasil GitHub diperiksa sesudahnya. Seluruh development lokal dipertahankan. Milestone formal tetap 5a VIII–IX, batch terbaru 5e; XI, M3–M11 dan XIX/Epilogue belum selesai. Goal aktif sebagai instruksi persisten thread.
+
+
+## Push struktur dan seluruh riwayat berhasil
+- Percobaan baru `git push origin main` berhasil: remote maju normal dari `a82952a` ke review commit `d97b9510c9d7945b5b1668935b6900dfbbbcf224`. `git ls-remote origin refs/heads/main` cocok; working tree bersih dan main sinkron sesudah push. Struktur inisialisasi dan seluruh batch sampai 5e/audit sekarang ada di GitHub.
+- 403 lama sudah teratasi pada percobaan ini. Tidak ada reset/rebase/force, biaya atau perubahan visibility. Catatan lama dipertahankan sebagai riwayat; receipt review dan status blocker diperbarui. Pengembangan diteruskan dari audit XI/5e.
+
+
+## Chapter XI, dinas dan field warrant — v0.4.99.5f
+- Enam hearing/courier/bridge 220–221, persiapan serta tiga scene frontline/aftermath 222 dan campaign return diperluas sesuai rank/muster. Proposals tidak menjadi pasukan pribadi; Private bertempur dalam file, komandan memimpin unit yang benar-benar tercatat. Parley Lu Xun tetap pertemuan fiksi lokal yang dimainkan; laporan dunia tidak menjadi acquaintance gratis.
+- Entry dari council sekarang maju satu kali ke 222/usia 48 sebelum kampanye. Save lama mid-arc 221 tetap 221/47 dan header mengikuti clock; tidak ada migrasi/load yang memberi dinas atau menua ulang. Field position berasal dari pilihan assignment/role, ditutup pada recall/return; receipt `campaignEvidence.eastern222` memerlukan order/source/history/aksi sah. Military/People/Character 220–222 memakai scope yang sama.
+- Dua scene baru review/after-review menawarkan warrant hanya dari return yang sesuai vacancy dan komisi/muster sebelumnya yang dapat diverifikasi. Private→Sergeant, Sergeant→Captain, Captain dengan company→Major; Captain 209 tanpa company mendapat assignment Captain saja. Major Baxi dengan bukti Jing serta return ford yang sesuai dapat menerima General. Semua acceptance eksplisit; menolak/defer/pending tetap mempertahankan rank dan muster. Tidak ada rank baru pada rute parley/shelter atau return yang belum cocok dengan vacancy ini.
+- General yang diterima memegang tiga detachment pimpinan Major dengan total 600 Infantry +120 Cavalry dari reformed field formations; company sebelumnya ditutup ke total baru. Ini appointment game spesifik melalui western Han field warrant, bukan standar tentara Han atau class General per branch. Staff lima role tetap eligibility tanpa appointment; tidak memberi Grand General/Sixth Tiger/Five Dragon General, barang, coins, circle, Governor atau crown.
+- Family/meeting tail serta semua personal choices yang valid tetap; handover memberi ruang untuk visit tanpa mengubah consent. Smoke 8/8 dan tiga suite pada hash sama PASS di 390/1280: eastern 3.078 rute per viewport pada sembilan seed karier/world/charter organik, semua 3×3 proposals/travel, delapan jalur mission/role/action dan opsi warrant; Jing 540 rute; map dua route 207–214. Uji 23 klik DOM Major→General, HTTP save/reload, exact muster, legacy nine-node Major parity, older starting age/mid-arc, source negatif, replay/read-only, later-post dan Character PASS. Page error 0.
+- Registry 669; seluruh 667 ID lama dan 35 embedded image URI identik. Bukti/hash/limits: `docs/QA_EASTERN_220_222_v0.4.99.5f.md`, `docs/qa/BATCH_5f.json`. Milestone formal terakhir tetap 5a VIII–IX; XI/223, M3–M11 dan XIX/Epilogue belum selesai. Rollback formal 4z tetap.
+- Push struktur sampai review `d97b951` sudah terverifikasi berhasil. Batch 5f dicatat dalam Git dan dikirim dengan push normal setelah pemeriksaan; remote head diperiksa sebelum pelaporan akhir. Tidak ada restart, force-push, biaya, portrait baru atau perubahan locked decisions.
+
+
+## Checkpoint kelanjutan setelah review/push
+- Lanjut dari 5f ke settlement 223: bedakan accepted/declined/delegated charter, rank/muster serta field warrant barat yang sungguh diterima; politik tidak otomatis menjadikan tentara field formation sebagai milik pribadi. Pertahankan semua personal/marriage/consent detour, lalu susun bridge XII/legitimasi dan regression gate M3.
+- Sesi berakhir pada batch teruji ini karena batas sumber daya sesi. Goal tetap aktif sebagai instruksi kerja thread; tidak mengklaim eksekusi atau daemon berjalan setelah respons selesai. Objective penuh belum selesai.
