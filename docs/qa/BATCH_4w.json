@@ -1,0 +1,74 @@
+{
+  "build": "ALL_UNDER_HEAVEN_v0.4.99.4w_CHANGBAN_THE_RECEIVING_LINE.html",
+  "sha256": "c16ff751d643d0239a7f628b2cbf025c3895af11bf42ec8a069768d301d696b0",
+  "smoke": "8/8 PASS",
+  "suites": [
+    {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.4w_CHANGBAN_THE_RECEIVING_LINE.html",
+      "sha256": "c16ff751d643d0239a7f628b2cbf025c3895af11bf42ec8a069768d301d696b0",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "pairwise_routes_four_organic_careers_two_branches": 216,
+          "no_rank_units_staff_goods_or_recruit_grants": "PASS",
+          "local_orders_retired_position": "PASS",
+          "legacy_enums_and_high_command_parity": "PASS",
+          "xu_shu_report_no_new_meeting_legacy_flag_preserved": "PASS",
+          "negative_provenance_and_later_position": "PASS",
+          "readonly_idempotence_reload_military_dom": "PASS",
+          "full_history_private_dom_clicks": 9,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "pairwise_routes_four_organic_careers_two_branches": 216,
+          "no_rank_units_staff_goods_or_recruit_grants": "PASS",
+          "local_orders_retired_position": "PASS",
+          "legacy_enums_and_high_command_parity": "PASS",
+          "xu_shu_report_no_new_meeting_legacy_flag_preserved": "PASS",
+          "negative_provenance_and_later_position": "PASS",
+          "readonly_idempotence_reload_military_dom": "PASS",
+          "full_history_private_dom_clicks": 9,
+          "page_errors": []
+        }
+      ],
+      "limits": "Retreat through Hanjin only; pairwise five 3-way decisions. Cavalry/Major are synthetic legacy fixtures. Later river councils/Red Cliffs and chapter relabeling remain pending; no physical-device file:// certification."
+    },
+    {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.4w_CHANGBAN_THE_RECEIVING_LINE.html",
+      "sha256": "c16ff751d643d0239a7f628b2cbf025c3895af11bf42ec8a069768d301d696b0",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "pairwise_campaign_and_all_commission_routes": 324,
+          "organic_private_and_sergeant_synthetic_cavalry": "PASS",
+          "earned_accept_decline_defer_no_extra_grants": "PASS",
+          "bounded_council_and_compact": "PASS",
+          "legacy_major_contract_parity": "PASS",
+          "late_unknown_branch_and_flag_only_negative": "PASS",
+          "idempotence_readonly_reload": "PASS",
+          "dom_choice_clicks": 11,
+          "military_dom_overflow": false,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "pairwise_campaign_and_all_commission_routes": 324,
+          "organic_private_and_sergeant_synthetic_cavalry": "PASS",
+          "earned_accept_decline_defer_no_extra_grants": "PASS",
+          "bounded_council_and_compact": "PASS",
+          "legacy_major_contract_parity": "PASS",
+          "late_unknown_branch_and_flag_only_negative": "PASS",
+          "idempotence_readonly_reload": "PASS",
+          "dom_choice_clicks": 11,
+          "military_dom_overflow": false,
+          "page_errors": []
+        }
+      ],
+      "limits": "Targeted opening VIII only. Prior 208 retreat/Red Cliffs prose and IX\u2013X relabeling remain under audit. Synthetic Cavalry/legacy Major fixtures; no physical-device file:// or full-novel certification."
+    }
+  ],
+  "scope": "Retreat\u2013Changban\u2013Hanjin dan regresi pembuka VIII; bukan M3 penuh."
+}

@@ -1,7 +1,7 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.4v; baseline awal terverifikasi v0.4.99.4m.
+- Active: v0.4.99.4w; baseline awal terverifikasi v0.4.99.4m.
 - Status: gate fungsional/coverage M2 bertarget; pembuka VIII/W11–W12 dan komisi opsional terimplementasi. M3 sedang berjalan; M3–M11 dan objective penuh belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 
@@ -10,8 +10,8 @@
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
-- Lanjutkan audit/perbaikan blok retreat–Changban–Red Cliffs legacy sesudah dewan pembuka. Dewan dan compact awal sudah mengikuti muster pada 4v, tetapi `ch08_player_council` dan beberapa scene sesudahnya masih melebihkan otoritas Private/Sergeant/Captain. Komisi Captain baru pada pembuka VIII tidak otomatis membenarkan seluruh klaim pasukan independen dalam prosa lama.
-- Rekonsiliasi penempatan blok legacy VIII ke IX dan blok 209–219 ke X sesuai roadmap tanpa menghapus scene, save atau pilihan valid. Koreksi node dilema Xu Shu legacy setelah Changban yang masih menyajikan pertemuan hidup 208; pembacaan packet awal sudah diperbaiki pada 4u.
+- Lanjutkan audit/perbaikan dewan sungai–Red Cliffs sesudah Hanjin. Pembuka dan retreat/Changban sudah mengikuti muster pada 4v–4w, tetapi `ch08_player_council` dan beberapa scene sesudahnya masih melebihkan otoritas Private/Sergeant/Captain. Komisi Captain pada pembuka VIII tidak otomatis membenarkan seluruh klaim pasukan independen dalam prosa lama.
+- Rekonsiliasi penempatan blok legacy VIII ke IX dan blok 209–219 ke X sesuai roadmap tanpa menghapus scene, save atau pilihan valid. Node Xu Shu awal serta sesudah Changban sudah menjadi pembacaan bersumber, bukan pertemuan hidup atau rescue/appointment baru.
 - Tinjau tawaran Captain legacy `ch08_06`/209 agar asal komisi dan pengembalian muster sesuai pilihan baru 208. Jangan memberi promosi kedua atau menghapus komisi lama yang valid.
 - XII–XIX/Epilogue: adaptasi pemerintahan dan suksesi Shu-Han serta perluas struktur legacy; belum dikerjakan atau disertifikasi. Registry baseline tidak mempunyai tag Chapter XIII–XIX, sehingga konten akhir legacy tidak boleh diklaim setara dengan delapan chapter Emperor Saga.
 - Lanjutkan IV–XIX dan Epilogue sesuai roadmap. Jangan menyamakan hasil QA sampel dengan kelulusan editorial seluruh cabang atau rilis M11.
@@ -99,3 +99,11 @@
 - Registry 658; seluruh 650 ID 4u dan 35 embedded images dipertahankan. Bukti dinas baru tersimpan opsional dan dibaca Military/People dengan source serta visit/history.
 - Smoke 8/8; `qa_chapter8.py` 324 variasi per viewport 390/1280 + 11 klik DOM nyata, reload, acceptance/refusal/defer, provenance, no-grant dan legacy Major parity lulus. `qa_m2_continuity.py` kembali lulus 108 W08 + 144 W10 rute per viewport pada hash yang sama. Tidak ada page error.
 - Bukti: `docs/qa/BATCH_4v.json`; batas dan sumber: `docs/QA_CHAPTER_VIII_v0.4.99.4v.md`. Rollback formal tetap 4t; 4u tersedia dalam Git. Tidak membuat ZIP atau push.
+
+
+## Retreat–Changban–Hanjin — v0.4.99.4w
+- Sembilan node lama direvisi tanpa menghapus ID/arah keputusan/enum. Private tetap berada di bawah section leader; Sergeant/Captain hanya mengarahkan active muster. Prosa memperjelas formasi, officer, sektor, tekanan, pilihan hold/counterstroke/river approach, recall dan akibat lokal. Zhao Yun serta Zhang Fei memilih tugas dan memimpin pasukan sendiri.
+- Xu Shu pada node sesudah Changban kini berupa dispatch/laporan terdahulu pada semua rank, bukan pertemuan yang salah waktu. Acquaintance legacy dipertahankan; inquiry/forwarding/verification tidak menjadi rescue atau penugasan pasukan gratis.
+- Bukti dinas Changban baru hanya dicatat ketika exit crossing yang dimainkan benar-benar dipilih. Military, People dan callback mengikuti sumber/aksi/visit/history; flag-only tidak memberi credit. Semua rank, unit, staff, coins/items dan circle tetap. Posisi retired pada recall, tanpa menimpa penugasan tahun lebih akhir.
+- Registry 658, 35 embedded images identik. Smoke 8/8, `qa_changban.py` 216 rute pairwise + sembilan klik DOM per viewport 390/1280 lulus; regresi `qa_chapter8.py` kembali lulus 324 rute + 11 klik DOM per viewport pada hash 4w yang sama. Page error 0.
+- Bukti dan batas: `docs/QA_CHANGBAN_v0.4.99.4w.md`, `docs/qa/BATCH_4w.json`. M3 masih berjalan; dewan sungai/Red Cliffs, komisi 209 serta relabeling chapter menjadi prioritas berikutnya. Rollback formal tetap 4t; tidak membuat ZIP atau push.
