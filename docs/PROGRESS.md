@@ -1,7 +1,7 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.4y; baseline awal terverifikasi v0.4.99.4m.
+- Active: v0.4.99.4z; baseline awal terverifikasi v0.4.99.4m.
 - Status: gate fungsional/coverage M2 bertarget; pembuka VIII/W11–W12 dan komisi opsional terimplementasi. M3 sedang berjalan; M3–M11 dan objective penuh belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 
@@ -10,9 +10,9 @@
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
-- Lanjutkan audit/perbaikan fire assault Red Cliffs mulai `ch08_rc54_anchors` sampai settlement/209; pertahankan adegan valid core/romance `ch08_03`–`ch08_05`. Pembuka, retreat, councils dan first patrol mengikuti muster pada 4v–4y; node fire battle/settlement berikutnya masih melebihkan otoritas Private/Sergeant/Captain. Penugasan company tidak otomatis membenarkan klaim pasukan/fleet independen.
+- Fire assault–settlement/209 kini mengikuti tugas/muster dan empat hasil perang lama pada 4z. Lanjutkan rekonsiliasi struktur chapter sebelum audit 209–219; jangan mengubah perhitungan kemenangan atau menghapus pengakuan/komisi legacy yang valid.
 - Rekonsiliasi penempatan blok legacy VIII ke IX dan blok 209–219 ke X sesuai roadmap tanpa menghapus scene, save atau pilihan valid. Node Xu Shu awal serta sesudah Changban sudah menjadi pembacaan bersumber, bukan pertemuan hidup atau rescue/appointment baru.
-- Tinjau tawaran Captain legacy `ch08_06`/209 agar asal komisi dan pengembalian muster sesuai pilihan baru 208. Jangan memberi promosi kedua atau menghapus komisi lama yang valid.
+- Tawaran Captain 209 kini eksplisit dan mengembalikan watch yang sesuai pada jalur baru. Tetap audit milestone karier berikutnya di X–XI, dengan penerimaan, muster dan jabatan yang benar-benar tercatat.
 - XII–XIX/Epilogue: adaptasi pemerintahan dan suksesi Shu-Han serta perluas struktur legacy; belum dikerjakan atau disertifikasi. Registry baseline tidak mempunyai tag Chapter XIII–XIX, sehingga konten akhir legacy tidak boleh diklaim setara dengan delapan chapter Emperor Saga.
 - Lanjutkan IV–XIX dan Epilogue sesuai roadmap. Jangan menyamakan hasil QA sampel dengan kelulusan editorial seluruh cabang atau rilis M11.
 
@@ -121,3 +121,11 @@
 - Handler/enum/score/relasi/tujuan lama dipertahankan; prosa dan Chronicle kini mengikuti active muster. Tiga tujuan patroli memberi laporan berbeda dan keterbatasan nyata, tersimpan hanya setelah embarkation/kontak yang terbukti. Military dan People membaca bukti yang sama; replay tidak menggandakan record.
 - Registry 658, portrait 35 identik. Smoke 8/8; `qa_river_patrol.py` 216 rute + sembilan klik DOM per viewport 390/1280 lulus, termasuk parity efek lama dan legacy Major, no-grant, cavalry dismounted, provenance, idempotence serta reload. Regresi councils 216 rute + 17 klik DOM per viewport kembali lulus, termasuk posisi retired pada laporan pagi 209. Page error 0.
 - Bukti dan batas: `docs/QA_RIVER_PATROL_v0.4.99.4y.md`, `docs/qa/BATCH_4y.json`. Fire assault/settlement, komisi 209, pemetaan VIII–X dan objective M3–M11 tetap belum selesai. Tidak ada biaya, ZIP, push atau perubahan locked decisions.
+
+
+## Fire assault–settlement — v0.4.99.4z
+- Dua puluh node sampai exit 209 diperluas/dikoreksi sebagai engagement yang dapat diputuskan pemain dalam assigned combat file. Briefing, intel, signal, api, tiga aksi, shore report, objective, pursuit, loss review dan hearing tersambung; Huang Gai/Zhou Yu/awak tetap otonom. Adegan core/romance 208 yang valid dipertahankan.
+- Perhitungan lama dan empat hasil perang tetap. Tindakan company dibedakan dari laporan koalisi; tidak mengubah kemenangan menjadi kepemilikan armada/provinsi. Receipt W14 baru memerlukan order proof dan kunjungan nyata; Military/People/Character/Chronicle serta callback memakai scope yang sama. Posisi retired sebelum 209.
+- Komisi Captain 209 kini eksplisit dan hanya diterima pada field choice. Watch terkait dikembalikan pada jalur baru; Captain 208 tidak dipromosikan lagi, Private tidak dipromosikan otomatis. Save 4y dan older-order resume yang mempunyai warrant/watch sah mempertahankan tawaran lama tanpa receipt dinas retroaktif. Tidak ada staff/ship/goods/recruit gratis.
+- Registry 658, portrait 35 identik. Smoke 8/8; `qa_red_cliffs.py` 324 rute pairwise dan 20 klik DOM per viewport 390/1280 lulus; semua empat outcome dan dua matriks parity hasil lama lulus. Regresi patroli 216 rute + sembilan klik DOM per viewport serta 20 node legacy Major body/label/effect parity lulus. Reload dan provenance/idempotence lulus; page error 0.
+- Bukti/hash dan batas: `docs/QA_RED_CLIFFS_v0.4.99.4z.md`, `docs/qa/BATCH_4z.json`. Pemetaan VIII–X, kampanye 209–223, milestone M3 dan objective XIX/Epilogue tetap belum tuntas. Rollback formal tetap 4t; tidak ada ZIP, biaya atau push.

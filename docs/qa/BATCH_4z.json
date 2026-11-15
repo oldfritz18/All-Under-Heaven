@@ -1,0 +1,106 @@
+{
+  "build": "ALL_UNDER_HEAVEN_v0.4.99.4z_FIRE_AND_THE_RECEIVING_BANK.html",
+  "sha256": "1fc2cf5a197f1c5fe0e89e20d895b47f10910b26c3639523e97f77ec798bafdb",
+  "smoke": "8/8 PASS",
+  "suites": [
+    {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.4z_FIRE_AND_THE_RECEIVING_BANK.html",
+      "sha256": "1fc2cf5a197f1c5fe0e89e20d895b47f10910b26c3639523e97f77ec798bafdb",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "routes_four_careers_two_branches_and_two_weak_preparations": 324,
+          "nine_choice_groups_all_pairs": "PASS",
+          "four_world_outcomes": [
+            "contested_river",
+            "independent_command",
+            "northern_foothold",
+            "southern_breakthrough"
+          ],
+          "original_calculation_and_two_route_matrices_parity": "PASS",
+          "209_explicit_accept_and_refusal_no_duplicate_muster": "PASS",
+          "no_other_grants": "PASS",
+          "provenance_idempotence_readonly_and_later_post": "PASS",
+          "legacy_save_no_backfill_and_offer_preserved": "PASS",
+          "synthetic_midarc_legacy_order_resume": "PASS",
+          "reload_military_dom": "PASS",
+          "full_history_private_dom_clicks": 20,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "routes_four_careers_two_branches_and_two_weak_preparations": 324,
+          "nine_choice_groups_all_pairs": "PASS",
+          "four_world_outcomes": [
+            "contested_river",
+            "independent_command",
+            "northern_foothold",
+            "southern_breakthrough"
+          ],
+          "original_calculation_and_two_route_matrices_parity": "PASS",
+          "209_explicit_accept_and_refusal_no_duplicate_muster": "PASS",
+          "no_other_grants": "PASS",
+          "provenance_idempotence_readonly_and_later_post": "PASS",
+          "legacy_save_no_backfill_and_offer_preserved": "PASS",
+          "synthetic_midarc_legacy_order_resume": "PASS",
+          "reload_military_dom": "PASS",
+          "full_history_private_dom_clicks": 20,
+          "page_errors": []
+        }
+      ],
+      "limits": "Fire assault/settlement company paths through 210; pairwise nine 3-way groups, not full Cartesian product. Two legacy outcome matrices compared; higher-command prose uses fallback. Cavalry synthetic; no physical-device file:// or full M3 certification. Chapter labels remain to reconcile."
+    },
+    {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.4z_FIRE_AND_THE_RECEIVING_BANK.html",
+      "sha256": "1fc2cf5a197f1c5fe0e89e20d895b47f10910b26c3639523e97f77ec798bafdb",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "pairwise_routes_four_careers_two_branches": 216,
+          "all_legacy_choice_effects_parity_except_documented_scope_evidence": "PASS",
+          "nine_legacy_major_nodes_full_parity": "PASS",
+          "no_grants_and_cavalry_dismounted_service": "PASS",
+          "branch_report_memory_readonly_idempotence": "PASS",
+          "negative_provenance_and_later_post": "PASS",
+          "reload_military_dom": "PASS",
+          "full_history_private_dom_clicks": 9,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "pairwise_routes_four_careers_two_branches": 216,
+          "all_legacy_choice_effects_parity_except_documented_scope_evidence": "PASS",
+          "nine_legacy_major_nodes_full_parity": "PASS",
+          "no_grants_and_cavalry_dismounted_service": "PASS",
+          "branch_report_memory_readonly_idempotence": "PASS",
+          "negative_provenance_and_later_post": "PASS",
+          "reload_military_dom": "PASS",
+          "full_history_private_dom_clicks": 9,
+          "page_errors": []
+        }
+      ],
+      "limits": "Nine preparation/patrol nodes through ch08_03; five 3-way choices pairwise. Later fire battle/settlement and chapter relabeling pending. Matrix suppresses old history bodies/render/storage; DOM uses full history. Cavalry/Major synthetic, no physical-device file://."
+    },
+    {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.4z_FIRE_AND_THE_RECEIVING_BANK.html",
+      "sha256": "1fc2cf5a197f1c5fe0e89e20d895b47f10910b26c3639523e97f77ec798bafdb",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "higher_command_scene_body_label_destination_effect_parity": 20,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "higher_command_scene_body_label_destination_effect_parity": 20,
+          "page_errors": []
+        }
+      ],
+      "limits": "Synthetic Major import parity only; no organic proof of earning Major or certification of legacy strategic fiction."
+    }
+  ],
+  "scope": "Fire assault\u2013settlement dan komisi 209; bukan M3 penuh atau perangkat nyata."
+}
