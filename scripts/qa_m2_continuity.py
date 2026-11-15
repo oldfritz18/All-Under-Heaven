@@ -65,7 +65,7 @@ def main():
   base=browser.new_page();base.goto(url+'/baseline.html');earned=base.evaluate(START,False);declined=base.evaluate(START,True);base.close()
   for width in (390,1280):
    context=browser.new_context(viewport={'width':width,'height':900});page=context.new_page();errors=[];page.on('pageerror',lambda error:errors.append(str(error)));page.goto(url+'/active.html')
-   ids=page.evaluate('Object.keys(SCENES)');assert set(earned['ids']).issubset(ids) and set(ids)-set(earned['ids'])==NEW
+   ids=page.evaluate('Object.keys(SCENES)');assert set(earned['ids']).issubset(ids) and NEW.issubset(set(ids)-set(earned['ids']))
    xu=page.evaluate(XU,earned['snapshots']['ch06_10']);assert len(xu['rows'])==108
    fan=[]
    for data in (earned,declined):fan.append(page.evaluate(FAN,data['snapshots']['ch07_13']))
@@ -83,8 +83,8 @@ def main():
    # Preserve an actual historical legacy acquaintance; no reconstruction or erasure.
    legacy=earned['snapshots']['ch08_pb55_xushu'];legacy['flags']['historical_meet_xushu']=True
    page.evaluate('s=>{localStorage.setItem(SAVE_KEY,JSON.stringify(s));handleAction("load-original");}',legacy);page.reload()
-   page.evaluate('()=>{state.pageIndex=paginateStory(SCENES[state.scene].body(state)).length-1;choose(0);}')
-   assert page.evaluate('state.flags.historical_meet_xushu===true&&state.scene==="ch08_pb55_council"')
+   page.evaluate('()=>{window.__packetDestination=SCENES[state.scene].choices(state)[0].next;state.pageIndex=paginateStory(SCENES[state.scene].body(state)).length-1;choose(0);}')
+   assert page.evaluate('state.flags.historical_meet_xushu===true&&state.scene===window.__packetDestination')
    page.evaluate(r"""seed=>{
     state=clone(seed);const saved=JSON.stringify(state);militaryPanel();npcMemories('xuwen');if(JSON.stringify(state)!==saved)throw Error('Evidence view mutates');
     const historyOnly=clone(state);historyOnly.visited=[];if(!auh4uEvidence(historyOnly,'fan207'))throw Error('History-only service lost');

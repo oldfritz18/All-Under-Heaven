@@ -1,0 +1,76 @@
+{
+  "build": "ALL_UNDER_HEAVEN_v0.4.99.4v_CHAPTER_VIII_THE_ISSUED_ROLL.html",
+  "sha256": "5260f7cb408217b4d4d60c3a8d3b924442e221269b18f8f09c17ac128080b904",
+  "smoke": "8/8 PASS",
+  "suites": [
+    {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.4v_CHAPTER_VIII_THE_ISSUED_ROLL.html",
+      "sha256": "5260f7cb408217b4d4d60c3a8d3b924442e221269b18f8f09c17ac128080b904",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "pairwise_campaign_and_all_commission_routes": 324,
+          "organic_private_and_sergeant_synthetic_cavalry": "PASS",
+          "earned_accept_decline_defer_no_extra_grants": "PASS",
+          "bounded_council_and_compact": "PASS",
+          "legacy_major_contract_parity": "PASS",
+          "late_unknown_branch_and_flag_only_negative": "PASS",
+          "idempotence_readonly_reload": "PASS",
+          "dom_choice_clicks": 11,
+          "military_dom_overflow": false,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "pairwise_campaign_and_all_commission_routes": 324,
+          "organic_private_and_sergeant_synthetic_cavalry": "PASS",
+          "earned_accept_decline_defer_no_extra_grants": "PASS",
+          "bounded_council_and_compact": "PASS",
+          "legacy_major_contract_parity": "PASS",
+          "late_unknown_branch_and_flag_only_negative": "PASS",
+          "idempotence_readonly_reload": "PASS",
+          "dom_choice_clicks": 11,
+          "military_dom_overflow": false,
+          "page_errors": []
+        }
+      ],
+      "limits": "Targeted opening VIII only. Prior 208 retreat/Red Cliffs prose and IX\u2013X relabeling remain under audit. Synthetic Cavalry/legacy Major fixtures; no physical-device file:// or full-novel certification."
+    },
+    {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.4v_CHAPTER_VIII_THE_ISSUED_ROLL.html",
+      "sha256": "5260f7cb408217b4d4d60c3a8d3b924442e221269b18f8f09c17ac128080b904",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "xu200_pairwise_routes": 108,
+          "fan207_all_local_routes": 144,
+          "earned_and_declined_commission": "PASS",
+          "no_grants": "PASS",
+          "207_meeting_optional_208_copy_only": "PASS",
+          "legacy_acquaintance_preserved": "PASS",
+          "late_and_flag_only_negative": "PASS",
+          "evidence_idempotent_and_history_only": "PASS",
+          "http_reload_and_military_dom": "PASS",
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "xu200_pairwise_routes": 108,
+          "fan207_all_local_routes": 144,
+          "earned_and_declined_commission": "PASS",
+          "no_grants": "PASS",
+          "207_meeting_optional_208_copy_only": "PASS",
+          "legacy_acquaintance_preserved": "PASS",
+          "late_and_flag_only_negative": "PASS",
+          "evidence_idempotent_and_history_only": "PASS",
+          "http_reload_and_military_dom": "PASS",
+          "page_errors": []
+        }
+      ],
+      "limits": "Xu route: pairwise preference/station/action/exit, both branches/reports. 207 routes: all local combinations, organic Sergeant/Private seeds, synthetic Cavalry variant. Full novel and physical-device file:// not certified."
+    }
+  ],
+  "scope": "Pembuka VIII dan regresi M2; bukan full milestone M3 atau M11."
+}

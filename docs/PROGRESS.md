@@ -1,8 +1,8 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.4u; baseline awal terverifikasi v0.4.99.4m.
-- Status: gate fungsional dan klasifikasi coverage M2 terverifikasi pada cakupan QA bertarget. M3–M11 dan objective penuh belum selesai.
+- Active: v0.4.99.4v; baseline awal terverifikasi v0.4.99.4m.
+- Status: gate fungsional/coverage M2 bertarget; pembuka VIII/W11–W12 dan komisi opsional terimplementasi. M3 sedang berjalan; M3–M11 dan objective penuh belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 
 ## Evidence already in repository
@@ -10,8 +10,9 @@
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
-- Chapter VIII: perbaiki kewenangan sebelum melanjutkan alur. Audit 4u menunjukkan Sergeant/20 personel ditawari pasukan independen dan river wing pada `ch08_pb55_council`/`ch08_player_council`, sementara Captain baru ditawarkan setelah Red Cliffs pada `ch08_06`/209. Ini belum sesuai locked military progression.
-- Tambahkan Bowangpo/Xinye pada 208 sebelum Changban/Red Cliffs; rekonsiliasi penempatan blok legacy VIII ke IX sesuai roadmap tanpa menghapus scene, save atau pilihan valid. Pertahankan jalur Private yang menolak komisi.
+- Lanjutkan audit/perbaikan blok retreat–Changban–Red Cliffs legacy sesudah dewan pembuka. Dewan dan compact awal sudah mengikuti muster pada 4v, tetapi `ch08_player_council` dan beberapa scene sesudahnya masih melebihkan otoritas Private/Sergeant/Captain. Komisi Captain baru pada pembuka VIII tidak otomatis membenarkan seluruh klaim pasukan independen dalam prosa lama.
+- Rekonsiliasi penempatan blok legacy VIII ke IX dan blok 209–219 ke X sesuai roadmap tanpa menghapus scene, save atau pilihan valid. Koreksi node dilema Xu Shu legacy setelah Changban yang masih menyajikan pertemuan hidup 208; pembacaan packet awal sudah diperbaiki pada 4u.
+- Tinjau tawaran Captain legacy `ch08_06`/209 agar asal komisi dan pengembalian muster sesuai pilihan baru 208. Jangan memberi promosi kedua atau menghapus komisi lama yang valid.
 - XII–XIX/Epilogue: adaptasi pemerintahan dan suksesi Shu-Han serta perluas struktur legacy; belum dikerjakan atau disertifikasi. Registry baseline tidak mempunyai tag Chapter XIII–XIX, sehingga konten akhir legacy tidak boleh diklaim setara dengan delapan chapter Emperor Saga.
 - Lanjutkan IV–XIX dan Epilogue sesuai roadmap. Jangan menyamakan hasil QA sampel dengan kelulusan editorial seluruh cabang atau rilis M11.
 
@@ -89,3 +90,12 @@
 - Seluruh 642 ID sebelumnya dipertahankan + delapan scene baru = 650. Portrait tetap 35 data URI identik, schema save utama dan lima Special Staff tetap.
 - `qa_m2_continuity.py`: 108 rute pairwise W08 dan 144 kombinasi lokal W10 per viewport 390/1280; seed Sergeant dan Private diperoleh lewat keputusan organik baseline, Cavalry memakai fixture legacy. No-grant, consent pertemuan, timeline, field position, legacy acquaintance, flag-only, idempotence, history-only dan reload/UI lulus.
 - Smoke 8/8 dan delapan suite browser pada source 4u yang sama lulus; page error 0. Rincian: `docs/QA_M2_v0.4.99.4u.md`, data: `docs/qa/CHECKPOINT_4u.json`. Gate bukan sertifikasi seluruh kombinasi novel, biografi lengkap atau perangkat nyata. Rollback formal: 4t.
+
+
+## Pembuka VIII — v0.4.99.4v, selesai pada cakupan bertarget
+- Delapan scene Bowang/Xinye dan review/aftermath ditambahkan sebelum dewan Jing legacy. Tugas, formasi, officer, signal, recall, pengetahuan terbatas, biaya lokal, humor serta kehidupan setelah kontak ditulis sebagai prosa Inggris orisinal.
+- Komisi baru memerlukan dua laporan dinas yang terbukti dan penerimaan eksplisit. Private dapat menerima Sergeant/20; Sergeant dengan road watch valid dapat menerima Captain/60 Infantry atau 30 Cavalry. Watch lama dikembalikan saat Captain diterima, tanpa duplikasi; refusal/defer mempertahankan pangkat dan muster. Angka adalah penugasan fiktif yang dibacakan dalam scene. Tidak ada staff/recruit/resource gratis.
+- Pembuka, dewan dan compact awal sekarang membedakan penugasan company dari pasukan/otoritas independen pada rank Private–Captain. Legacy command lebih tinggi dipertahankan; beberapa scene retreat/Red Cliffs berikutnya masih perlu perbaikan terpisah. Belum menandai VIII atau M3 tuntas.
+- Registry 658; seluruh 650 ID 4u dan 35 embedded images dipertahankan. Bukti dinas baru tersimpan opsional dan dibaca Military/People dengan source serta visit/history.
+- Smoke 8/8; `qa_chapter8.py` 324 variasi per viewport 390/1280 + 11 klik DOM nyata, reload, acceptance/refusal/defer, provenance, no-grant dan legacy Major parity lulus. `qa_m2_continuity.py` kembali lulus 108 W08 + 144 W10 rute per viewport pada hash yang sama. Tidak ada page error.
+- Bukti: `docs/qa/BATCH_4v.json`; batas dan sumber: `docs/QA_CHAPTER_VIII_v0.4.99.4v.md`. Rollback formal tetap 4t; 4u tersedia dalam Git. Tidak membuat ZIP atau push.
