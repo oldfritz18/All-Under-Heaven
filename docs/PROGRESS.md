@@ -1,8 +1,8 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.5a; baseline awal terverifikasi v0.4.99.4m.
-- Status: gate fungsional/coverage M2 bertarget; pembuka VIII/W11–W12 dan komisi opsional terimplementasi. M3 sedang berjalan; M3–M11 dan objective penuh belum selesai.
+- Active: v0.4.99.5b; baseline awal terverifikasi v0.4.99.4m.
+- Status: gate M2 dan checkpoint fungsional VIII–IX bertarget; batch crossing 210 terimplementasi/teruji. M3 sedang berjalan pada Chapter X; M3–M11 dan objective penuh belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 
 ## Evidence already in repository
@@ -10,7 +10,7 @@
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
-- Struktur VIII/IX/X sudah mengikuti roadmap pada 5a tanpa mengubah kalender/akt/ID internal atau state pilihan. Berikutnya audit Chapter X (209–219): pengalaman Yi/Hanzhong/Jingzhou, mandat yang benar-benar diberikan, muster dan kesinambungan NPC/relasi. Jangan menganggap label baru sebagai sertifikasi prosa legacy 210–219.
+- Struktur VIII/IX/X mengikuti roadmap pada 5a. Kelompok hearing–crossing 210 sudah direvisi pada 5b; berikutnya charter 211–213, pengalaman Yi/Hanzhong/Jingzhou, mandat/muster dan kesinambungan NPC/relasi. Jangan menganggap label bab atau batch 210 sebagai kelulusan seluruh X.
 - Node Xu Shu awal serta sesudah Changban sudah menjadi pembacaan bersumber; pertahankan perbedaan laporan/pertemuan serta outcome Red Cliffs ketika melanjutkan dunia 210–223.
 - Tawaran Captain 209 kini eksplisit dan mengembalikan watch yang sesuai pada jalur baru. Tetap audit milestone karier berikutnya di X–XI, dengan penerimaan, muster dan jabatan yang benar-benar tercatat.
 - XII–XIX/Epilogue: adaptasi pemerintahan dan suksesi Shu-Han serta perluas struktur legacy; belum dikerjakan atau disertifikasi. Registry baseline tidak mempunyai tag Chapter XIII–XIX, sehingga konten akhir legacy tidak boleh diklaim setara dengan delapan chapter Emperor Saga.
@@ -145,3 +145,15 @@
 - Checkpoint aktif 5a / commit `300ebb3` bersih dan 15 commit mendahului remote sebelum review ini. Hash HTML cocok dengan delapan suite checkpoint; smoke 8/8 dan suite map organik 207–214 pada 390/1280 dijalankan ulang dan PASS. Bukti: `docs/qa/REVIEW_2026-11-15.json`.
 - Pengguna sekarang memberi izin eksplisit commit/push struktur ke GitHub. Review dicatat tanpa mengubah executable atau gameplay. Push memakai fast-forward branch main dan mempertahankan seluruh riwayat development; hasil remote diverifikasi sesudah pengiriman.
 - Goal tetap aktif sebagai instruksi persisten dalam percakapan ini. Tidak ada bukti atau API untuk menyatakan scheduler eksternal/daemon berjalan. Pekerjaan berikutnya tetap mengikuti audit Chapter X, bukan restart dari starter.
+
+
+## Batch pertama Chapter X — v0.4.99.5b
+- Sembilan node hearing–crossing–reply 210 diperluas dengan laporan bertanggal, empat proposal, perintah company, tiga tindakan lokal, relief, balasan yang dapat ditolak dan aftermath. Rekomendasi tidak menjadi kepemilikan kapal/pasukan atau jabatan; NPC dan perwira mempertahankan kewenangan masing-masing. Optional letter dan seluruh ID/route/enum/efek lama dipertahankan.
+- Delapan hasil lama tetap dihitung dengan rumus yang sama. Receipt crossing baru membutuhkan order dan visit/history; Military/Character/People/Chronicle mengikuti scope dan bukti yang sama. Tidak ada rank/muster/staff/goods/recruit/Civic office gratis; posisi tugas retired setelah relief, tanpa menimpa posting lebih akhir.
+- Smoke 8/8 dan tiga suite pada hash 5b identik PASS di 390/1280: `qa_crossing210.py` 504 rute/11 klik DOM; regresi Red Cliffs 324 rute/20 klik DOM; dua route map Captain/Private sampai 214. Crossing menguji seluruh pilihan lokal pada tujuh seed karier/world, delapan replies, parity efek, sembilan node Major, no-grant, reload, idempotence, legacy no-backfill dan later-post guard. Page error 0.
+- Bukti dan batas: `docs/QA_CROSSING_210_v0.4.99.5b.md`, `docs/qa/BATCH_5b.json`. Milestone formal terakhir tetap 5a (VIII–IX); rollback formal tetap 4z dan semua build lain ada dalam Git. Berikutnya charter 211–213, kalender messenger 214/215, Yi/Hanzhong/Jing serta karier berikutnya. M3 sampai XI dan XIX/Epilogue belum selesai.
+
+## Hasil push pada review ini
+- Review commit `10f50c4` tersimpan, tetapi push normal dan helper resmi gh sama-sama ditolak GitHub HTTP 403. Read/fetch berhasil; remote main masih `a82952a6fb9d32c05ba2cf4d96df19329031cafb`. Struktur dan seluruh perkembangan tetap lokal; jangan menyatakan sudah dipush.
+- Status jaringan environment current/enforced menunjukkan unrestricted. Akun terlihat memiliki hak repo, tetapi kredensial sesi tidak berhasil menulis. Akses tulis/Contents ke repo ini perlu diperbarui melalui koneksi/kredensial GitHub; bukan permission untuk merombak game atau alasan menghapus/rebase riwayat. Detail: `docs/GITHUB_PUSH_BLOCKER_2026-11-15.md`.
+- Goal tetap aktif sebagai instruksi kerja thread. Tidak ada bukti scheduler eksternal/daemon berjalan. Pengembangan lokal dilanjutkan dari checkpoint 5a sampai batch 5b yang teruji sambil bagian push terblokir; tidak ada restart, ekstraksi ulang, biaya atau perubahan locked decisions.

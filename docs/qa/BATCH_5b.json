@@ -1,0 +1,145 @@
+{
+  "build": "ALL_UNDER_HEAVEN_v0.4.99.5b_THE_WITNESSED_CROSSING.html",
+  "sha256": "3a3ab03daf1c775996fa862cfe6389423f398d87e680e034bff6c743b4671dff",
+  "smoke": "8/8 PASS",
+  "suites": [
+    {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.5b_THE_WITNESSED_CROSSING.html",
+      "sha256": "3a3ab03daf1c775996fa862cfe6389423f398d87e680e034bff6c743b4671dff",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "all_local_routes_seven_organic_career_world_seeds_two_branches": 504,
+          "eight_replies": [
+            "coalition_disputed",
+            "coalition_mandate",
+            "community_charter",
+            "independent_besieged",
+            "independent_mandate",
+            "northern_pact",
+            "northern_precarious",
+            "refugee_retreat"
+          ],
+          "existing_effects_and_one_full_reply_matrix_parity": "PASS",
+          "nine_major_nodes_full_parity": "PASS",
+          "no_rank_muster_staff_goods_civic_office_or_recruit_grants": "PASS",
+          "issued_position_and_relief": "PASS",
+          "evidence_idempotence_readonly_provenance_and_legacy_no_backfill": "PASS",
+          "reload_military_dom": "PASS",
+          "full_history_private_dom_clicks": 11,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "all_local_routes_seven_organic_career_world_seeds_two_branches": 504,
+          "eight_replies": [
+            "coalition_disputed",
+            "coalition_mandate",
+            "community_charter",
+            "independent_besieged",
+            "independent_mandate",
+            "northern_pact",
+            "northern_precarious",
+            "refugee_retreat"
+          ],
+          "existing_effects_and_one_full_reply_matrix_parity": "PASS",
+          "nine_major_nodes_full_parity": "PASS",
+          "no_rank_muster_staff_goods_civic_office_or_recruit_grants": "PASS",
+          "issued_position_and_relief": "PASS",
+          "evidence_idempotence_readonly_provenance_and_legacy_no_backfill": "PASS",
+          "reload_military_dom": "PASS",
+          "full_history_private_dom_clicks": 11,
+          "page_errors": []
+        }
+      ],
+      "limits": "All local 3\u00d74\u00d73 choices on seven selected organic career/world seeds, both branches; Cavalry/Major synthetic. Not the full world\u00d7rank product or 211\u2013219 audit. Matrix compacts history bodies/suppresses paint/storage; DOM uses full history. No physical-device file:// certification."
+    },
+    {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.5b_THE_WITNESSED_CROSSING.html",
+      "sha256": "3a3ab03daf1c775996fa862cfe6389423f398d87e680e034bff6c743b4671dff",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "display_chapter_counts": {
+            "8": 10,
+            "9": 61,
+            "10": 84,
+            "other": 503
+          },
+          "captain_and_private_207_to_214_state_parity_except_documented_crossing_changes": "PASS",
+          "single_VIII_IX_X_heading_at_208_208_209": "PASS",
+          "legacy_direct_entry_and_210_reload": "PASS",
+          "readonly_inspector_group_and_legacy_clock_tables": "PASS",
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "display_chapter_counts": {
+            "8": 10,
+            "9": 61,
+            "10": 84,
+            "other": 503
+          },
+          "captain_and_private_207_to_214_state_parity_except_documented_crossing_changes": "PASS",
+          "single_VIII_IX_X_heading_at_208_208_209": "PASS",
+          "legacy_direct_entry_and_210_reload": "PASS",
+          "readonly_inspector_group_and_legacy_clock_tables": "PASS",
+          "page_errors": []
+        }
+      ],
+      "limits": "Two organic 207\u2013214 routes. On 5b only the documented 210 receipt, task position, scope flag, and revised journal/history-choice text are projected; all other state compares exactly. Does not certify 211\u2013223 narrative or XIII\u2013XIX. Internal acts/IDs and old archived history retain legacy numbering."
+    },
+    {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.5b_THE_WITNESSED_CROSSING.html",
+      "sha256": "3a3ab03daf1c775996fa862cfe6389423f398d87e680e034bff6c743b4671dff",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "routes_four_careers_two_branches_and_two_weak_preparations": 324,
+          "nine_choice_groups_all_pairs": "PASS",
+          "four_world_outcomes": [
+            "contested_river",
+            "independent_command",
+            "northern_foothold",
+            "southern_breakthrough"
+          ],
+          "original_calculation_and_two_route_matrices_parity": "PASS",
+          "209_explicit_accept_and_refusal_no_duplicate_muster": "PASS",
+          "no_other_grants": "PASS",
+          "provenance_idempotence_readonly_and_later_post": "PASS",
+          "legacy_save_no_backfill_and_offer_preserved": "PASS",
+          "synthetic_midarc_legacy_order_resume": "PASS",
+          "reload_military_dom": "PASS",
+          "full_history_private_dom_clicks": 20,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "routes_four_careers_two_branches_and_two_weak_preparations": 324,
+          "nine_choice_groups_all_pairs": "PASS",
+          "four_world_outcomes": [
+            "contested_river",
+            "independent_command",
+            "northern_foothold",
+            "southern_breakthrough"
+          ],
+          "original_calculation_and_two_route_matrices_parity": "PASS",
+          "209_explicit_accept_and_refusal_no_duplicate_muster": "PASS",
+          "no_other_grants": "PASS",
+          "provenance_idempotence_readonly_and_later_post": "PASS",
+          "legacy_save_no_backfill_and_offer_preserved": "PASS",
+          "synthetic_midarc_legacy_order_resume": "PASS",
+          "reload_military_dom": "PASS",
+          "full_history_private_dom_clicks": 20,
+          "page_errors": []
+        }
+      ],
+      "limits": "Fire assault/settlement company paths through 210; pairwise nine 3-way groups, not full Cartesian product. Two legacy outcome matrices compared; higher-command prose uses fallback. Cavalry synthetic; no physical-device file:// or full M3 certification. Chapter labels remain to reconcile."
+    }
+  ],
+  "scope": "Crossing 210 dan regresi river/map; bukan Chapter X/XI atau M3/M11 penuh.",
+  "github_push": "Blocked: HTTP 403; remote main remained a82952a6fb9d32c05ba2cf4d96df19329031cafb."
+}
