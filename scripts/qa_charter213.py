@@ -87,7 +87,7 @@ def main():
             page.evaluate(r"""saved=>{
              state=resolve(clone(saved.example));const old=JSON.stringify(state);civicPanel();if(auh5cEvidence(state)||state.civicCareer.localCharter||JSON.stringify(state)!==old)throw Error('Legacy charter backfill');
              const crossing=resolve(clone(saved.legacyCrossing)),before=JSON.stringify(crossing);if(crossing.storyClock.year!==211||!SCENES.ch09_charter_crossing.body(crossing).includes('<em>211 CE.</em>')||JSON.stringify(crossing)!==before)throw Error('Legacy 211 age/date mutated');
-             for(const year of [214,215]){const s=clone(crossing);s.storyClock.year=year;const frozen=JSON.stringify(s);if(!SCENES.ch10_c58_01_western_messenger.body(s).trimStart().startsWith('<p>'+year+' CE.')||JSON.stringify(s)!==frozen)throw Error('Messenger saved clock mismatch');}
+             for(const year of [214,215]){const s=clone(crossing);s.storyClock.year=year;const frozen=JSON.stringify(s),body=SCENES.ch10_c58_01_western_messenger.body(s).trimStart();if(!(body.startsWith('<p>'+year+' CE.')||body.startsWith('<p><em>'+year+' CE.</em>'))||JSON.stringify(s)!==frozen)throw Error('Messenger saved clock mismatch');}
             }""",baseline)
             # Unknown combat branch can still witness civic proceedings, with no
             # invented military proof. Also exercise the explicit chair refusal.
