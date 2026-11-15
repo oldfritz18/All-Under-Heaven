@@ -138,3 +138,10 @@
 - Bukti/hash/cakupan: `docs/QA_CHAPTER_MAP_v0.4.99.5a.md`, `docs/qa/CHECKPOINT_5a.json`. Rollback formal diperbarui ke 4z dari Git dengan hash cocok; riwayat versi lain tetap di Git. Tidak membuat ZIP, push atau biaya.
 - Audit awal X: 70 kunjungan/64 ID default sampai entry XI/220, Captain/60 masih tetap. Mandat 210, charter 211–213, ketepatan tahun entry western messenger serta pengalaman Yi/Hanzhong/Jingzhou perlu integrasi berikutnya; jangan memberi rank, attendance, kapal atau jabatan otomatis. Rincian dan bukti: `docs/CHAPTER_X_AUDIT_v0.4.99.5a.md`, `docs/qa/AUDIT_X_5a.json`.
 - Gate ini bersifat fungsional/targeted untuk VIII–IX, bukan M3 sampai XI, editorial semua cabang, Chapter X selesai atau objective XIX/Epilogue tuntas. Android/perangkat nyata/file:// dan M11 masih terbuka.
+
+
+## Review workspace dan persiapan push — 15 November 2026
+- Root/tracking enam komponen wajib diverifikasi lagi; tidak ada folder pembungkus starter yang menjadi satu-satunya lokasi proyek. ZIP asli utuh (`ZipFile.testzip`), inisialisasi sudah ada dalam riwayat Git. Tidak perlu ekstraksi ulang atau empty initialization commit.
+- Checkpoint aktif 5a / commit `300ebb3` bersih dan 15 commit mendahului remote sebelum review ini. Hash HTML cocok dengan delapan suite checkpoint; smoke 8/8 dan suite map organik 207–214 pada 390/1280 dijalankan ulang dan PASS. Bukti: `docs/qa/REVIEW_2026-11-15.json`.
+- Pengguna sekarang memberi izin eksplisit commit/push struktur ke GitHub. Review dicatat tanpa mengubah executable atau gameplay. Push memakai fast-forward branch main dan mempertahankan seluruh riwayat development; hasil remote diverifikasi sesudah pengiriman.
+- Goal tetap aktif sebagai instruksi persisten dalam percakapan ini. Tidak ada bukti atau API untuk menyatakan scheduler eksternal/daemon berjalan. Pekerjaan berikutnya tetap mengikuti audit Chapter X, bukan restart dari starter.

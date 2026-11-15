@@ -1,0 +1,53 @@
+{
+  "build": "ALL_UNDER_HEAVEN_v0.4.99.5a_CHAPTERS_VIII_IX_X_RECONCILED.html",
+  "sha256": "518ffc85a164668f5322012fe626a19d9bcba5a7b0d6e896da59e79c415c2bc6",
+  "root_structure_tracked": [
+    "AGENTS.md",
+    "GAME/",
+    "DESIGN/",
+    "docs/",
+    "scripts/",
+    "GOAL_MODE_PROMPT.md"
+  ],
+  "smoke": "8/8 PASS rerun",
+  "starter_zip_integrity": "PASS",
+  "recorded_checkpoint": "docs/qa/CHECKPOINT_5a.json; eight suites, exact hash matched",
+  "fresh_chapter_map": {
+    "build": "ALL_UNDER_HEAVEN_v0.4.99.5a_CHAPTERS_VIII_IX_X_RECONCILED.html",
+    "sha256": "518ffc85a164668f5322012fe626a19d9bcba5a7b0d6e896da59e79c415c2bc6",
+    "portrait_data_uris": 35,
+    "checks": [
+      {
+        "width": 390,
+        "display_chapter_counts": {
+          "8": 10,
+          "9": 61,
+          "10": 84,
+          "other": 503
+        },
+        "captain_and_private_207_to_214_exact_state_route_parity": "PASS",
+        "single_VIII_IX_X_heading_at_208_208_209": "PASS",
+        "legacy_direct_entry_and_210_reload": "PASS",
+        "readonly_inspector_group_and_legacy_clock_tables": "PASS",
+        "page_errors": []
+      },
+      {
+        "width": 1280,
+        "display_chapter_counts": {
+          "8": 10,
+          "9": 61,
+          "10": 84,
+          "other": 503
+        },
+        "captain_and_private_207_to_214_exact_state_route_parity": "PASS",
+        "single_VIII_IX_X_heading_at_208_208_209": "PASS",
+        "legacy_direct_entry_and_210_reload": "PASS",
+        "readonly_inspector_group_and_legacy_clock_tables": "PASS",
+        "page_errors": []
+      }
+    ],
+    "limits": "Two organic 207\u2013214 routes; metadata/heading checks only for new chapter map. Does not certify 210\u2013223 narrative/authority or create new XIII\u2013XIX content. Internal acts/IDs and old archived history intentionally retain legacy numbering."
+  },
+  "git_checkpoint": "300ebb3374f94c7de9d0a7eaaf5e536ef31d2367",
+  "goal_status": "Persistent user instruction active in this thread; no external scheduler state API available."
+}
