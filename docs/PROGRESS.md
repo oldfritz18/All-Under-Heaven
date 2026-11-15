@@ -1,8 +1,8 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.4p; baseline awal terverifikasi v0.4.99.4m.
-- Status: checkpoint fungsional M1 (I–III) selesai pada cakupan review/QA yang dicatat. M2 dimulai dari Chapter IV; M3–M11 belum selesai.
+- Active: v0.4.99.4q; baseline awal terverifikasi v0.4.99.4m.
+- Status: checkpoint fungsional M1 (I–III) dan batch IV selesai pada cakupan review/QA yang dicatat. M2 berlanjut ke V–VII; M3–M11 belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 
 ## Evidence already in repository
@@ -10,7 +10,7 @@
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
-- Chapter IV: selesaikan integrasi posisi tempur Beihai/Xuzhou dan perluas interaksi singkat awal chapter; kemudian lanjutkan V–VII.
+- Chapter V: perluas pertemuan/komitmen awal yang masih sangat singkat, lalu lengkapi konteks krisis 196–197 dan pengujian konsekuensi sebelum VI–VII.
 - Lanjutkan IV–XIX dan Epilogue sesuai roadmap. Jangan menyamakan hasil QA sampel dengan kelulusan editorial seluruh cabang atau rilis M11.
 
 ## QA limitations
@@ -47,3 +47,10 @@
 - `scripts/qa_m1.py`: 14 scene III, 28 edge lama identik dan tujuh edge opsional baru; tujuh rute Prologue–193 per viewport 390/1280, masing-masing 146–148 pilihan. Accept/refuse, peluang kedua, pertemuan terlambat, save/reload, efek berulang, history-only, flag-only, bypass Pan Cavalry/tahun lebih akhir, dan UI People lulus; page error 0.
 - Checkpoint juga menjalankan ulang `qa_chapter1.py` dan `qa_chapter2.py` pada build 4p: seluruh hasil bertarget lulus. Batas full-combination, editorial seluruh novel dan perangkat nyata tetap terbuka; tidak mengklaim M8–M11 selesai.
 - Rollback milestone: v0.4.99.4o. Rincian dan hash: `docs/QA_M1_v0.4.99.4p.md`.
+
+## Batch Chapter IV — v0.4.99.4q, selesai
+- Tujuh scene diperluas: komitmen sahabat, Yao Qing, Pei Liang, teh Lin Yue, serta kontak Beihai, kabar Xu Province dan defence orchard. NPC memiliki tugas dan pilihan sendiri; relasi tidak mengganti kewenangan formal.
+- Bug terbukti: saat bertempur di Beihai/Xuzhou 194, Military masih menunjukkan posisi Pan River 191. Lima event pilihan kini mencatat posisi, objective, section leader, proof dan status aktif/terakhir; branch, unit, pangkat dan Special Staff dipertahankan.
+- Migrasi memerlukan scene tujuan yang cocok, pilihan valid, branch yang sudah tercatat serta visit/history aktual. Tidak menimpa posisi lebih baru, penugasan 194 lain yang sah, atau membuat branch dari flags/tahun saja. Marker event mencegah replay menimpa posisi setelahnya.
+- Kronologi Lin Yue dikoreksi: perkenalan pada III sekarang berada di 192, sehingga rujukan pasti dua tahun pada IV 193 tidak lagi digunakan. Kalimat kepemilikan/komando atas bridge party diganti dengan tindakan prajurit di bawah section leader.
+- `scripts/qa_chapter4.py`: 20 scene, 53 edge; 54 rute kampanye per viewport 390/1280 (27 Infantry, 27 fixture Cavalry), seluruh pasangan delapan pilihan tercakup; 10 migrasi positif, enam negatif, replay, date/age gate, HTTP save/reload aktif/terakhir dan UI Military lulus; page error 0. Rincian: `docs/QA_CHAPTER_IV_v0.4.99.4q.md`.
