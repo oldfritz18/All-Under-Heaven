@@ -1,9 +1,9 @@
 # All Under Heaven — Codex Goal Mode handoff
 
-## Current baseline (verified 15 Nov 2026)
-- Primary file: `GAME/ALL_UNDER_HEAVEN_v0.4.99.4m_CHAPTER_I_HISTORICAL_COHESION.html` (copied byte-for-byte from the latest chat build, not newly generated code).
-- `GAME/ACTIVE_BUILD.txt` is authoritative if Codex makes a successor.
-- Immediate rollback: `ROLLBACK/ALL_UNDER_HEAVEN_v0.4.99.4l_CHAPTER_I_EDITORIAL_COHESION.html`.
+## Baseline dan build aktif
+- File playable saat ini selalu ditentukan oleh `GAME/ACTIVE_BUILD.txt`. Lihat `docs/PROGRESS.md` untuk versi aktif dan hasil QA batch terbaru.
+- Baseline handoff asli yang diverifikasi: `v0.4.99.4m`, disalin identik dari build chat; tersedia dalam ZIP starter dan commit inisialisasi `76f5684a8e191a5833bafdb8052de3597b952c04`.
+- Perubahan berikutnya adalah penerus in-place dari engine tersebut. Git menyimpan setiap batch; `ROLLBACK/` menyimpan checkpoint terdahulu dan diperbarui pada milestone formal.
 - Last known state from handoff: Chapter I rework in progress; prior chapters preserved. Reported 630 registered scenes, 46 historical NPC IDs, and 35 embedded pictures. The local smoke script performs static checks; it does NOT establish dynamic counts.
 - Project coverage: Part I (190–223 CE), Prologue–Chapter XI; Part II (223–250 CE), Chapter XII–XIX and Epilogue. Historical ROTK route + meaningful alternate history.
 
