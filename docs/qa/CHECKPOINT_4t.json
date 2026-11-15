@@ -1,0 +1,355 @@
+{
+  "build": "ALL_UNDER_HEAVEN_v0.4.99.4t_CHAPTER_VII_TWENTY_NAMES.html",
+  "sha256": "dbe0f46f2f866a2d385dccd6b9ed0f7788c4353dbf43f2f9b0d0ba849af80f66",
+  "reports": [
+    {
+      "source_report": "final_4t_chapter1.json",
+      "result": {
+        "build": "ALL_UNDER_HEAVEN_v0.4.99.4t_CHAPTER_VII_TWENTY_NAMES.html",
+        "html_sha256": "dbe0f46f2f866a2d385dccd6b9ed0f7788c4353dbf43f2f9b0d0ba849af80f66",
+        "portrait_data_uris": 35,
+        "checks": [
+          {
+            "width": 390,
+            "sampled_chapter1_scenes": 93,
+            "sampled_choice_edges": 262,
+            "legacy_contracts": "PASS",
+            "choice_specific_replies": 3,
+            "http_save_reload": "PASS",
+            "legacy_http_save_migration": "PASS",
+            "visit_and_history_guards": "PASS",
+            "dom_pagination_choices_menu": "PASS",
+            "page_errors": []
+          },
+          {
+            "width": 1280,
+            "sampled_chapter1_scenes": 93,
+            "sampled_choice_edges": 262,
+            "legacy_contracts": "PASS",
+            "choice_specific_replies": 3,
+            "http_save_reload": "PASS",
+            "legacy_http_save_migration": "PASS",
+            "visit_and_history_guards": "PASS",
+            "dom_pagination_choices_menu": "PASS",
+            "page_errors": []
+          }
+        ],
+        "limits": "Representative states per scene, not all path combinations. HTTP Chromium tests do not certify physical-device file:// durability."
+      }
+    },
+    {
+      "source_report": "final_4t_chapter2.json",
+      "result": {
+        "build": "ALL_UNDER_HEAVEN_v0.4.99.4t_CHAPTER_VII_TWENTY_NAMES.html",
+        "sha256": "dbe0f46f2f866a2d385dccd6b9ed0f7788c4353dbf43f2f9b0d0ba849af80f66",
+        "checks": [
+          {
+            "width": 390,
+            "sampled_scenes": 43,
+            "sampled_choice_edges": 70,
+            "legacy_choice_parity": "PASS except intentional position retirement and its new journal note",
+            "complete_tactical_routes": 27,
+            "six_factors_pairwise_coverage": "PASS",
+            "migration_positive_cases": 2,
+            "migration_negative_cases": 4,
+            "save_reload_http": "PASS",
+            "military_people_journal": "PASS",
+            "dom_military_navigation": "PASS",
+            "page_errors": []
+          },
+          {
+            "width": 1280,
+            "sampled_scenes": 43,
+            "sampled_choice_edges": 70,
+            "legacy_choice_parity": "PASS except intentional position retirement and its new journal note",
+            "complete_tactical_routes": 27,
+            "six_factors_pairwise_coverage": "PASS",
+            "migration_positive_cases": 2,
+            "migration_negative_cases": 4,
+            "save_reload_http": "PASS",
+            "military_people_journal": "PASS",
+            "dom_military_navigation": "PASS",
+            "page_errors": []
+          }
+        ],
+        "limits": "Representative chapter states plus 27 pairwise tactical routes per viewport, not every full-campaign combination. Physical-device file:// remains untested."
+      }
+    },
+    {
+      "source_report": "final_4t_m1.json",
+      "result": {
+        "build": "ALL_UNDER_HEAVEN_v0.4.99.4t_CHAPTER_VII_TWENTY_NAMES.html",
+        "sha256": "dbe0f46f2f866a2d385dccd6b9ed0f7788c4353dbf43f2f9b0d0ba849af80f66",
+        "checks": [
+          {
+            "width": 390,
+            "chapter3_sampled_scenes": 14,
+            "original_choice_edges": 28,
+            "new_optional_edges": 7,
+            "legacy_parity": "PASS",
+            "full_prologue_to_193_routes": [
+              {
+                "name": "second_opportunity_verify",
+                "choices": 147,
+                "result": "PASS"
+              },
+              {
+                "name": "second_opportunity_challenge",
+                "choices": 147,
+                "result": "PASS"
+              },
+              {
+                "name": "first_meeting_only_192",
+                "choices": 147,
+                "result": "PASS"
+              },
+              {
+                "name": "explicit_later_refusal",
+                "choices": 148,
+                "result": "PASS"
+              },
+              {
+                "name": "one_afternoon_no_commitment",
+                "choices": 147,
+                "result": "PASS"
+              },
+              {
+                "name": "leave_route_table",
+                "choices": 146,
+                "result": "PASS"
+              },
+              {
+                "name": "original_opportunity_preserved",
+                "choices": 146,
+                "result": "PASS"
+              }
+            ],
+            "new_effect_idempotence": "PASS",
+            "history_only_and_flag_only": "PASS",
+            "cavalry_and_later_year_pan_bypass": "PASS",
+            "http_save_reload": "PASS",
+            "dom_optional_encounter_people": "PASS",
+            "page_errors": []
+          },
+          {
+            "width": 1280,
+            "chapter3_sampled_scenes": 14,
+            "original_choice_edges": 28,
+            "new_optional_edges": 7,
+            "legacy_parity": "PASS",
+            "full_prologue_to_193_routes": [
+              {
+                "name": "second_opportunity_verify",
+                "choices": 147,
+                "result": "PASS"
+              },
+              {
+                "name": "second_opportunity_challenge",
+                "choices": 147,
+                "result": "PASS"
+              },
+              {
+                "name": "first_meeting_only_192",
+                "choices": 147,
+                "result": "PASS"
+              },
+              {
+                "name": "explicit_later_refusal",
+                "choices": 148,
+                "result": "PASS"
+              },
+              {
+                "name": "one_afternoon_no_commitment",
+                "choices": 147,
+                "result": "PASS"
+              },
+              {
+                "name": "leave_route_table",
+                "choices": 146,
+                "result": "PASS"
+              },
+              {
+                "name": "original_opportunity_preserved",
+                "choices": 146,
+                "result": "PASS"
+              }
+            ],
+            "new_effect_idempotence": "PASS",
+            "history_only_and_flag_only": "PASS",
+            "cavalry_and_later_year_pan_bypass": "PASS",
+            "http_save_reload": "PASS",
+            "dom_optional_encounter_people": "PASS",
+            "page_errors": []
+          }
+        ],
+        "limits": "M1 functional checkpoint and targeted narrative review only; not every combination or final editorial/device release certification."
+      }
+    },
+    {
+      "source_report": "final_4t_chapter4.json",
+      "result": {
+        "build": "ALL_UNDER_HEAVEN_v0.4.99.4t_CHAPTER_VII_TWENTY_NAMES.html",
+        "sha256": "dbe0f46f2f866a2d385dccd6b9ed0f7788c4353dbf43f2f9b0d0ba849af80f66",
+        "checks": [
+          {
+            "width": 390,
+            "sampled_scenes": 20,
+            "legacy_choice_edges": 53,
+            "legacy_parity": "PASS except documented field positions and event markers",
+            "campaign_routes": 54,
+            "both_branches_eight_factors_pairwise": "PASS",
+            "migration_positive_cases": 10,
+            "migration_negative_cases": 6,
+            "idempotence_and_later_position": "PASS",
+            "lin_yue_chronology_and_age_gate": "PASS",
+            "http_reload_active_and_retired": "PASS",
+            "military_dom_no_overflow": "PASS",
+            "page_errors": []
+          },
+          {
+            "width": 1280,
+            "sampled_scenes": 20,
+            "legacy_choice_edges": 53,
+            "legacy_parity": "PASS except documented field positions and event markers",
+            "campaign_routes": 54,
+            "both_branches_eight_factors_pairwise": "PASS",
+            "migration_positive_cases": 10,
+            "migration_negative_cases": 6,
+            "idempotence_and_later_position": "PASS",
+            "lin_yue_chronology_and_age_gate": "PASS",
+            "http_reload_active_and_retired": "PASS",
+            "military_dom_no_overflow": "PASS",
+            "page_errors": []
+          }
+        ],
+        "limits": "Representative states plus pairwise 194 campaign routes. Cavalry uses a documented synthetic legacy assignment fixture. Physical-device file:// and full novel editorial QA remain pending."
+      }
+    },
+    {
+      "source_report": "final_4t_chapter5.json",
+      "result": {
+        "build": "ALL_UNDER_HEAVEN_v0.4.99.4t_CHAPTER_VII_TWENTY_NAMES.html",
+        "sha256": "dbe0f46f2f866a2d385dccd6b9ed0f7788c4353dbf43f2f9b0d0ba849af80f66",
+        "checks": [
+          {
+            "width": 390,
+            "sampled_scenes": 16,
+            "legacy_edges": 33,
+            "new_scene_edges": 8,
+            "legacy_parity": "PASS except explicit 197 insertion timing",
+            "complete_197_routes": 108,
+            "all_preferences_branches_stations_actions_reports": "PASS",
+            "no_grants_and_chapter6_recall": "PASS",
+            "late_save_and_flag_only": "PASS",
+            "idempotence": "PASS",
+            "http_reload_197_and_legacy_198": "PASS",
+            "military_dom_no_overflow": "PASS",
+            "page_errors": []
+          },
+          {
+            "width": 1280,
+            "sampled_scenes": 16,
+            "legacy_edges": 33,
+            "new_scene_edges": 8,
+            "legacy_parity": "PASS except explicit 197 insertion timing",
+            "complete_197_routes": 108,
+            "all_preferences_branches_stations_actions_reports": "PASS",
+            "no_grants_and_chapter6_recall": "PASS",
+            "late_save_and_flag_only": "PASS",
+            "idempotence": "PASS",
+            "http_reload_197_and_legacy_198": "PASS",
+            "military_dom_no_overflow": "PASS",
+            "page_errors": []
+          }
+        ],
+        "limits": "All local 197 decision combinations tested; pre-197 scenes use representative states. Cavalry is a synthetic legacy-assignment fixture. Full novel and physical-device file:// remain unverified."
+      }
+    },
+    {
+      "source_report": "final_4t_chapter6.json",
+      "result": {
+        "build": "ALL_UNDER_HEAVEN_v0.4.99.4t_CHAPTER_VII_TWENTY_NAMES.html",
+        "sha256": "dbe0f46f2f866a2d385dccd6b9ed0f7788c4353dbf43f2f9b0d0ba849af80f66",
+        "checks": [
+          {
+            "width": 390,
+            "legacy_sampled_scenes": 12,
+            "current_sampled_scenes": 16,
+            "legacy_choice_edges": 25,
+            "new_scene_edges": 11,
+            "same_input_legacy_parity": "PASS except selected forward-route insert",
+            "complete_local_routes": 108,
+            "branch_rank_no_grants_lifecycle": "PASS",
+            "nonforward_and_late_bypass": "PASS",
+            "flag_only_negative": "PASS",
+            "idempotence": "PASS",
+            "http_reload_legacy_and_after_battle": "PASS",
+            "military_dom_no_overflow": "PASS",
+            "page_errors": []
+          },
+          {
+            "width": 1280,
+            "legacy_sampled_scenes": 12,
+            "current_sampled_scenes": 16,
+            "legacy_choice_edges": 25,
+            "new_scene_edges": 11,
+            "same_input_legacy_parity": "PASS except selected forward-route insert",
+            "complete_local_routes": 108,
+            "branch_rank_no_grants_lifecycle": "PASS",
+            "nonforward_and_late_bypass": "PASS",
+            "flag_only_negative": "PASS",
+            "idempotence": "PASS",
+            "http_reload_legacy_and_after_battle": "PASS",
+            "military_dom_no_overflow": "PASS",
+            "page_errors": []
+          }
+        ],
+        "limits": "All local Xiaopei decisions tested; legacy chapter scenes use representative states. Cavalry uses a synthetic lawful-assignment fixture. Full campaign, all historical sources and physical-device file:// remain pending."
+      }
+    },
+    {
+      "source_report": "chapter7_qa.json",
+      "result": {
+        "build": "ALL_UNDER_HEAVEN_v0.4.99.4t_CHAPTER_VII_TWENTY_NAMES.html",
+        "sha256": "dbe0f46f2f866a2d385dccd6b9ed0f7788c4353dbf43f2f9b0d0ba849af80f66",
+        "checks": [
+          {
+            "width": 390,
+            "legacy_scene_samples": 18,
+            "current_scene_samples": 21,
+            "legacy_edges": 44,
+            "new_scene_edges": 9,
+            "same_input_legacy_parity": "PASS except accepted-infantry watch route",
+            "complete_local_routes": 27,
+            "decline_and_independent_request_no_grants": "PASS",
+            "four_negative_entry_cases": "PASS",
+            "commission_units_not_duplicated": "PASS",
+            "no_staff_or_other_grants": "PASS",
+            "read_only_and_flag_only": "PASS",
+            "http_reload_legacy_and_after_watch": "PASS",
+            "military_dom_no_overflow": "PASS",
+            "page_errors": []
+          },
+          {
+            "width": 1280,
+            "legacy_scene_samples": 18,
+            "current_scene_samples": 21,
+            "legacy_edges": 44,
+            "new_scene_edges": 9,
+            "same_input_legacy_parity": "PASS except accepted-infantry watch route",
+            "complete_local_routes": 27,
+            "decline_and_independent_request_no_grants": "PASS",
+            "four_negative_entry_cases": "PASS",
+            "commission_units_not_duplicated": "PASS",
+            "no_staff_or_other_grants": "PASS",
+            "read_only_and_flag_only": "PASS",
+            "http_reload_legacy_and_after_watch": "PASS",
+            "military_dom_no_overflow": "PASS",
+            "page_errors": []
+          }
+        ],
+        "limits": "All 27 local road-watch combinations tested. Earlier chapter states representative. W07/W08/W10 remain partial/reported coverage requiring later audit; full novel/device release not certified."
+      }
+    }
+  ]
+}

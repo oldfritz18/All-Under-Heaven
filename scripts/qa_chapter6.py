@@ -83,7 +83,7 @@ def main():
    browser=playwright.chromium.launch(executable_path=shutil.which('chromium'),headless=True,args=['--no-sandbox']);base=browser.new_page();base.goto(url+'/baseline.html');seed=base.evaluate(START);old=base.evaluate(WALK,seed);base.close()
    for width in (390,1280):
     context=browser.new_context(viewport={'width':width,'height':900});page=context.new_page();errors=[];page.on('pageerror',lambda error:errors.append(str(error)));page.goto(url+'/active.html')
-    ids=page.evaluate('Object.keys(SCENES)');assert set(old['ids']).issubset(ids) and set(ids)-set(old['ids'])==NEW
+    ids=page.evaluate('Object.keys(SCENES)');assert set(old['ids']).issubset(ids) and set(ids)-set(old['ids'])==NEW|{'m2_201_watch_orders','m2_201_watch_contact','m2_201_watch_after'}
     compared=page.evaluate(COMPARE,old)
     for a,b in zip(old['edges'],compared):assert a==b,f'VI contract changed on identical input: {a["source"]}:{a["index"]}'
     new=page.evaluate(WALK,seed);routes=page.evaluate(ROUTES,old['snapshots']['ch06_06']);assert len(routes)==108

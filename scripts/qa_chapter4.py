@@ -118,6 +118,7 @@ def main():
                 assert set(actual['ids']) - set(previous['ids']) == {
                     'm2_197_road_orders', 'm2_197_road_contact', 'm2_197_road_aftermath',
                     'm2_198_xiaopei_orders', 'm2_198_xiaopei_pressure', 'm2_198_xiaopei_retreat', 'm2_198_xiaopei_after',
+                    'm2_201_watch_orders', 'm2_201_watch_contact', 'm2_201_watch_after',
                 }
                 assert len(actual['edges']) == len(previous['edges'])
                 for old, new in zip(previous['edges'], actual['edges']):

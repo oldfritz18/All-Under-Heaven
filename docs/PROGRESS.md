@@ -1,8 +1,8 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.4s; baseline awal terverifikasi v0.4.99.4m.
-- Status: checkpoint fungsional M1 (I–III) dan batch IV–VI selesai pada cakupan review/QA yang dicatat. M2 berlanjut ke VII; M3–M11 belum selesai.
+- Active: v0.4.99.4t; baseline awal terverifikasi v0.4.99.4m.
+- Status: checkpoint batch I–VII terverifikasi pada cakupan QA yang dicatat. M2 secara keseluruhan masih memerlukan rekonsiliasi coverage; M3–M11 belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 
 ## Evidence already in repository
@@ -10,7 +10,9 @@
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
-- Chapter VII: audit Runan/Jingzhou, promosi yang diterima/ditolak, kepemilikan unit, konsekuensi relasi dan posisi tempur sebelum checkpoint M2. W07/Xiapi tetap cakupan laporan dunia; W08 dan kampanye berikutnya perlu rekonsiliasi terhadap timeline aktual.
+- Rekonsiliasi coverage W07/Xiapi, W08/Xuzhou 200 dan W10/Fancheng 207 terhadap timeline aktual; jangan menandai semua kampanye M2 sebagai playable langsung hanya karena disebut pada laporan.
+- Setelah gate M2 cukup: lanjutkan VIII (68 scene baseline, Bowangpo/Xinye dan commission Captain) lalu IX–XI secara berurutan. Pertahankan warrant dan unit yang benar-benar diperoleh, termasuk jalur Private yang menolak komisi.
+- XII–XIX/Epilogue: adaptasi pemerintahan dan suksesi Shu-Han serta perluas struktur legacy; belum dikerjakan atau disertifikasi. Registry baseline tidak mempunyai tag Chapter XIII–XIX, sehingga konten akhir legacy tidak boleh diklaim setara dengan delapan chapter Emperor Saga.
 - Lanjutkan IV–XIX dan Epilogue sesuai roadmap. Jangan menyamakan hasil QA sampel dengan kelulusan editorial seluruh cabang atau rilis M11.
 
 ## QA limitations
@@ -70,3 +72,11 @@
 - Bahasa awal VI dan rekomendasi council dikoreksi agar Private menyampaikan laporan/rekomendasi, bukan memerintah clerk atau mendirikan otoritas sipil. Peran belakang garis tetap perlindungan bersenjata, bukan transfer Support.
 - `scripts/qa_chapter6.py`: 12 scene lama + empat baru, 25 edge lama dibandingkan pada input identik dan 11 edge scene baru; seluruh 108 kombinasi lokal per viewport 390/1280 lulus, termasuk no-grant, posisi, bypass preference/tahun, flag-only, idempotence, save/reload serta UI Military; page error 0.
 - Registry 639, seluruh ID lama dan 35 gambar dipertahankan. Rincian: `docs/QA_CHAPTER_VI_v0.4.99.4s.md`. VII dan M2 secara keseluruhan belum selesai.
+
+## Checkpoint batch I–VII — v0.4.99.4t
+- Tiga scene pada 201 mengubah warrant Sergeant yang diterima menjadi pengalaman komando terbatas road watch. Cabang memerlukan Infantry, warrant dan unit yang benar; Cavalry, penolakan, permintaan independent authority, tahun lebih akhir dan record yang tidak konsisten tetap pada jalur lama.
+- Tidak ada promosi baru dari arc: komisi lama yang diterima secara eksplisit tetap satu-satunya sumber rank Sergeant dan 20 personel road watch. Pertempuran mempertahankan unit itu, memperlihatkan batas kewenangan, koreksi dari veteran, biaya dan laporan yang harus ditandatangani. Tidak ada assistant atau Special Staff otomatis.
+- Seluruh 27 kombinasi lokal per viewport lulus. VII: 18 scene baseline, tiga tambahan, 44 edge lama identik pada input sama (kecuali route insert yang disengaja), sembilan edge baru; acceptance/decline, empat bypass negatif, duplikasi unit, no-grant, recall, HTTP reload dan UI Military lulus.
+- Regression checkpoint: smoke 8/8 dan tujuh suite browser (`qa_chapter1`, `qa_chapter2`, `qa_m1`, `qa_chapter4`, `qa_chapter5`, `qa_chapter6`, `qa_chapter7`) semuanya lulus pada HTML 4t yang sama, di 390/1280 px; page error 0. Bukti terstruktur: `docs/qa/CHECKPOINT_4t.json`; rincian: `docs/QA_CHECKPOINT_v0.4.99.4t.md`.
+- Registry 642: seluruh 630 ID baseline dipertahankan + 12 scene baru. Semua 35 data URI portrait identik; lima Special Staff dan threshold tetap. Rollback formal kini v0.4.99.4s; tidak membuat ZIP baru.
+- Sesi berhenti pada batas sumber daya konteks setelah checkpoint terverifikasi ini. Objective tetap tercatat dan belum selesai; jangan mengklaim daemon latar atau pengembangan otomatis berlangsung ketika tidak ada eksekusi. Tidak ada biaya, push, perubahan locked decisions atau permintaan persetujuan baru dalam batch ini.

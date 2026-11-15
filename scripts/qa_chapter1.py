@@ -102,6 +102,7 @@ def main():
                     'm1p_192_route_table', 'm1p_192_second_reading',
                     'm2_197_road_orders', 'm2_197_road_contact', 'm2_197_road_aftermath',
                     'm2_198_xiaopei_orders', 'm2_198_xiaopei_pressure', 'm2_198_xiaopei_retreat', 'm2_198_xiaopei_after',
+                    'm2_201_watch_orders', 'm2_201_watch_contact', 'm2_201_watch_after',
                 }
                 assert data['staff'] == old['staff']
                 assert len(data['edges']) == len(old['edges'])
