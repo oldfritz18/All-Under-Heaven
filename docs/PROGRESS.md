@@ -1,21 +1,21 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.5i; baseline awal terverifikasi v0.4.99.4m.
+- Active: v0.4.99.5j; baseline awal terverifikasi v0.4.99.4m.
 - Status: gate M2 dan checkpoint fungsional VIII–XI bertarget; batch crossing 210, charter 211–213, Baxi 215–216 dan kontak Jing 219 terimplementasi/teruji. M3 belum ditutup penuh; foundation menuju Part II tersedia; M3–M11 dan objective penuh belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
-- Persetujuan baru: [Issue #1](https://github.com/oldfritz18/All-Under-Heaven/issues/1) dibaca langsung 16 November 2026 dan berlaku sebagai requirement mutu M3–M4. Kontrak `DESIGN/APPROVED_EPIC_ELEVATIONS_ISSUE_1.md`, rencana `docs/ISSUE_1_IMPLEMENTATION_PLAN.md`. General/Sixth Tiger/enthronement/Dragon ceremonies baru belum dinyatakan selesai; issue tetap OPEN.
+- Persetujuan baru: [Issue #1](https://github.com/oldfritz18/All-Under-Heaven/issues/1) dibaca langsung 16 November 2026 dan berlaku sebagai requirement mutu M3–M4. Kontrak `DESIGN/APPROVED_EPIC_ELEVATIONS_ISSUE_1.md`, rencana `docs/ISSUE_1_IMPLEMENTATION_PLAN.md`. General 222 dan jalur Sixth Tiger sudah teruji pada scope 5h/5i; enthronement/Dragon ceremonies belum lengkap; issue tetap OPEN.
 
 ## Evidence already in repository
 - `docs/QA_RECEIPT_v0.4.99.4m.md` — scope and limits of previous targeted QA.
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
-- Dahulukan integrasi instruksi Issue #1, batch M3-A General 222 sudah teruji pada 5h; berikutnya audit pengakuan promosi lebih awal serta progression/shared-life window Sixth Tiger dan lanjut legitimacy/enthronement Shu serta personalized Dragon appointments pada M3–M4. Preserve seluruh 5g dan roadmap XIX/Epilogue. Pertanyaan dinasti yang terbuka belum dipilih oleh persetujuan mutu ini.
+- M3-A General 222 (5h), M3-B Hanzhong/early General/Sixth Tiger (5i), dan pembuka M4-A petisi/court/actual knowledge (5j) sudah terimplementasi dengan QA bertarget. Berikutnya selesaikan legal mandate/enthronement Shu, first imperial decision dan personalized Dragon appointments, lalu M5–M7/XIX/Epilogue. Pertanyaan dinasti belum dipilih; usulan konkret `docs/M4_DYNASTIC_MECHANISM_PROPOSAL.md`, reader audit `docs/M4_AUTHORITY_READER_AUDIT_5j.md`. Jangan menulis crown dari court receipt.
 - Struktur VIII/IX/X mengikuti roadmap pada 5a. Kelompok hearing–crossing 210 sudah direvisi pada 5b dan charter 211–213 pada 5c; rotasi ke Yi/Baxi dan river screen 215–217 terintegrasi pada 5d. Laporan Hanzhong dipisahkan dari kontak Jing yang dimainkan pada 5e. Rangkaian XI/220–222 serta review field warrant terintegrasi pada 5f; settlement 223 dan bridge XII/224 pada 5g. Berikutnya legitimasi/court Shu, pemisahan imperial office dari conquest endgame, casting Liu Shan, pemetaan XII–XIX dan gate M3/M4 sesuai bukti. Jangan menganggap label bab atau batch 210 sebagai kelulusan seluruh X.
 - Node Xu Shu awal serta sesudah Changban sudah menjadi pembacaan bersumber; pertahankan perbedaan laporan/pertemuan serta outcome Red Cliffs ketika melanjutkan dunia 210–223.
 - Tawaran Captain 209 kini eksplisit dan mengembalikan watch yang sesuai pada jalur baru. Tetap audit milestone karier berikutnya di X–XI, dengan penerimaan, muster dan jabatan yang benar-benar tercatat.
-- XII–XIX/Epilogue: adaptasi pemerintahan dan suksesi Shu-Han serta perluas struktur legacy; belum dikerjakan atau disertifikasi. Registry baseline tidak mempunyai tag Chapter XIII–XIX, sehingga konten akhir legacy tidak boleh diklaim setara dengan delapan chapter Emperor Saga.
+- XII–XIX/Epilogue: adaptasi pemerintahan dan suksesi Shu-Han serta perluas struktur legacy; pembuka XII tersedia pada 5j, keseluruhan belum selesai atau disertifikasi. Registry baseline tidak mempunyai tag Chapter XIII–XIX, sehingga konten akhir legacy tidak boleh diklaim setara dengan delapan chapter Emperor Saga.
 - Lanjutkan IV–XIX dan Epilogue sesuai roadmap. Jangan menyamakan hasil QA sampel dengan kelulusan editorial seluruh cabang atau rilis M11.
 
 ## QA limitations
@@ -266,3 +266,14 @@
 - Smoke 8/8 dan delapan suite pada SHA identik `06183588f67d7f006f877ec5f94ce389c5cf8bff3f4a914bc83482556d390977` PASS, 390/1280: Hanzhong 810 combat +486 conditional commission/ceremony routes per viewport; General 222 162; eastern 3.078; settlement 702; Jing 540; Baxi 864; chapter map dan M2 continuity. Empat belas actual DOM choices/full history, actual JSON browser download/file import, reload, Health/People/Military serta 54 handler steps lanjutan ke 224 PASS; page errors kosong.
 - Registry 689, seluruh 676 ID lama dan 35 image URI identik. Current Cavalry, Governor, later-post dan older-age comparators sintetis; bukan semua previous world/relationship combinations, semua ending playthrough atau perangkat nyata file://. Bukti/scope: `docs/QA_SIXTH_TIGER_v0.4.99.5i.md`, `docs/qa/CHECKPOINT_5i.json`. Rollback formal kini 5h exact dari Git; 5f tetap di riwayat. Tidak ada ZIP, biaya, portrait baru atau locked decision override.
 - Checkpoint ini mensertifikasi targeted M3-B route, bukan full gate M3/M8–M11. Berikutnya M4 legitimacy/court Shu, enthronement/first imperial decision dan personal Dragons; M5–M7 tetap memerlukan playable Emperor frontline sesuai Issue #2. Persiapan court 224–225 berada dalam authoring kerja, belum diklaim terimplementasi/QA sebelum dipasang pada penerus aktif.
+
+## Batch M4-A — v0.4.99.5j, petisi dan jawaban court
+
+- Penerus checkpoint M3-B 5i (`5841cf8108188694fee0d9d4de24699a176ec24a`, sudah dipush dan remote HEAD cocok sebelum batch ini). Goal tetap aktif dalam sesi/thread; tidak ada background daemon sesudah eksekusi berakhir. Issue #1 dan #2 dibaca langsung kembali dan masih OPEN.
+- Enam scene XII/224–225: tujuan petisi, bounded reporting journey/relay/withdrawal, receiving/copy verification, chancery, actual royal hearing bila admitted, return. Lima hasil berbeda dengan source/path/response; Liu Shan/court punya jawaban dan keberatan sendiri. Tidak menciptakan surat Liu Bei, penggantian ahli waris, adoption, crown, ministers, troops, staff atau reward relationship.
+- Semua 689 ID 5i dipertahankan; registry 695; 35 embedded images identik. Existing private/household/land/concubine choices tetap, grade/muster/custody/authority dan lima Special Staff tidak berubah. Former Grand General yang surrender muster 223 dapat actual audience dan tetap nol pasukan.
+- Story/Character/People/Military/Civic/Chronicle mengikuti actual journey vs relay dan existing authority. Audience tersimpan sebagai historical snapshot, tidak bergantung pada rank/jabatan masa depan. Date/age 224→225 sekali; old/later duty/unverified/no-proof tidak mendapat backfill. Optional state tidak mengubah legacy save schema.
+- Bukti dan batas: `docs/QA_COURT_PETITION_v0.4.99.5j.md`, `docs/qa/BATCH_5j.json`. 1.080 court routes per viewport 390/1280, lima hasil, delapan organic prior profiles, negative/read-only/replay/source/age/legacy, actual DOM/reload/export/file import dan Governor-vs-Captain historical office comparator. Regresi M3-B/General/settlement; smoke 8/8. Bukan full prior-world Cartesian/seluruh editorial/physical file://.
+- SHA aktif `1490bf4b6860097725c7c096c5b8f727952fcd34467efa24db89ed127209c3a8`; 13.019.476 byte. Formal rollback tetap 5h; 5i tersedia utuh di Git. Tidak ada ZIP baru.
+- **M4 belum selesai:** 5j membangun court foundation, belum lawful final succession, magnificent enthronement, first imperial policy atau new earned Dragon ceremonies. M5–M7 major Emperor frontline/unification/XIX/Epilogue, M8–M11 juga terbuka; legacy endings bukan sertifikasi roadmap baru.
+- Keputusan baru yang memerlukan jawaban pemilik sebelum final mandate: mekanisme dinasti, yang secara eksplisit belum dipilih oleh core decisions/AGENTS/Issue #1. Usulan konkret dan alternatif tersimpan di `docs/M4_DYNASTIC_MECHANISM_PROPOSAL.md`; tidak menganggap usulan disetujui. Seluruh pekerjaan independen yang telah diverifikasi disimpan sebelum meminta keputusan ini.

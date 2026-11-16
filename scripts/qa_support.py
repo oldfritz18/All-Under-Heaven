@@ -89,3 +89,9 @@ HANZHONG_219_SCENES = frozenset({
     'm3_219_tiger_first_orders', 'm3_219_tiger_aftermath',
     'm3_219_west_homeward',
 })
+
+# Exact registered IDs of the optional M4-A 224–225 court petition.
+COURT_224_SCENES = frozenset({
+    'm4_224_petition', 'm4_224_dispatch', 'm4_224_road',
+    'm4_224_chancery', 'm4_224_audience', 'm4_225_return',
+})

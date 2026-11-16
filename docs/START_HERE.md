@@ -23,3 +23,7 @@ The `LOCKED_DESIGN_DECISIONS_2026-11-15.md` file was written when v0.4.99.4i was
 - After Chapter I rework is cohesively playable, proceed to Chapter II and beyond with the same quality standard.
 - Record playable scenes, historical NPC participation, battlefield positions, career milestones, emotional/romantic/comedy threads and systems synchronized.
 - If a test or user approval blocks the work, report a precise blocker. Do not claim work continued when it has stopped.
+
+## Keputusan dinasti menjelang final M4
+
+5i menyimpan M3-B, 5j pembuka court M4-A (lihat PROGRESS/QA). Legal mechanism final masih memerlukan keputusan pemilik yang secara eksplisit belum locked: `docs/M4_DYNASTIC_MECHANISM_PROPOSAL.md` adalah usulan konkret **belum disetujui**, `docs/M4_AUTHORITY_READER_AUDIT_5j.md` memetakan pembaca yang harus diadaptasi. Jangan menganggap usulan sebagai canon, court petition sebagai crown, atau mengulang permintaan persetujuan mutu/frontline yang sudah diberikan. Pertahankan seluruh pekerjaan valid sambil menunggu keputusan baru itu.

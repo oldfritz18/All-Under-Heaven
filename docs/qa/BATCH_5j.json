@@ -1,0 +1,183 @@
+{
+  "verified_utc": "2026-11-16T05:17:29.304169+00:00",
+  "active": "GAME/ALL_UNDER_HEAVEN_v0.4.99.5j_THE_COURT_THAT_CAN_REFUSE.html",
+  "sha256": "1490bf4b6860097725c7c096c5b8f727952fcd34467efa24db89ed127209c3a8",
+  "bytes": 13019476,
+  "previous_commit": "5841cf8108188694fee0d9d4de24699a176ec24a",
+  "scope": "M4-A court foundation; not complete M4, enthronement, Dragons, Issue #1/#2 or XIX/Epilogue",
+  "smoke": "8/8 PASS",
+  "python_compile": "PASS",
+  "preservation": {
+    "sha256": "1490bf4b6860097725c7c096c5b8f727952fcd34467efa24db89ed127209c3a8",
+    "previous_commit": "5841cf8",
+    "only_metadata_outside_appended_block": [
+      {
+        "type": "replace",
+        "old_lines": [
+          "<title>All Under Heaven \u2014 v0.4.99.5i The Sixth Standard</title>",
+          "<meta name=\"auh-build\" content=\"v0.4.99.5i\">"
+        ],
+        "new_lines": [
+          "<title>All Under Heaven \u2014 v0.4.99.5j The Court That Can Refuse</title>",
+          "<meta name=\"auh-build\" content=\"v0.4.99.5j\">"
+        ]
+      }
+    ],
+    "identical_images": 35
+  },
+  "suites": {
+    "court224": {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.5j_THE_COURT_THAT_CAN_REFUSE.html",
+      "sha256": "1490bf4b6860097725c7c096c5b8f727952fcd34467efa24db89ed127209c3a8",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "routes_eight_organic_career_charter_custody_profiles": 1080,
+          "all_purpose_method_route_hearing_response_paths_and_five_results": "PASS",
+          "actual_audience_vs_relay_and_unverified_private_no_audience": "PASS",
+          "rank_muster_custody_staff_offices_inventory_relationships_unchanged": "PASS",
+          "no_crown_succession_or_ministry_grant": "PASS",
+          "224_to_225_once_and_old_age_legacy_later_post_guards": "PASS",
+          "readonly_provenance_json_resolve": "PASS",
+          "governor_admission_captain_denial_historical_office_loss": "PASS",
+          "reply_changes_return_hearing_civic_actual_memory": "PASS",
+          "full_history_dom_choices": 7,
+          "grand_general_zero_force_export_file_import_reload_people_civic": "PASS",
+          "registry": 695,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "routes_eight_organic_career_charter_custody_profiles": 1080,
+          "all_purpose_method_route_hearing_response_paths_and_five_results": "PASS",
+          "actual_audience_vs_relay_and_unverified_private_no_audience": "PASS",
+          "rank_muster_custody_staff_offices_inventory_relationships_unchanged": "PASS",
+          "no_crown_succession_or_ministry_grant": "PASS",
+          "224_to_225_once_and_old_age_legacy_later_post_guards": "PASS",
+          "readonly_provenance_json_resolve": "PASS",
+          "governor_admission_captain_denial_historical_office_loss": "PASS",
+          "reply_changes_return_hearing_civic_actual_memory": "PASS",
+          "full_history_dom_choices": 7,
+          "grand_general_zero_force_export_file_import_reload_people_civic": "PASS",
+          "registry": 695,
+          "page_errors": []
+        }
+      ],
+      "limits": "Eight selected prior career/custody/charter profiles generated via original handlers, including accepted Sixth Tiger and actual 223 handover. Governor/later-post/older-age comparators synthetic. Full canonical new local paths, not all prior worlds/relationships. Matrix compacts historical bodies and suppresses paint/storage; seven DOM choices keep full history. This is M4-A court foundation, not Shu enthronement/imperial first decision, Issue #1/#2 or real-device file:// certification."
+    },
+    "hanzhong219": {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.5j_THE_COURT_THAT_CAN_REFUSE.html",
+      "sha256": "1490bf4b6860097725c7c096c5b8f727952fcd34467efa24db89ed127209c3a8",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "campaign_routes_five_organic_career_profiles_two_current_branches": 810,
+          "nine_local_results_and_personal_wound": "PASS",
+          "general_and_tiger_ceremony_routes_two_branches": 486,
+          "accepted_refused_deferred_no_duplicate_muster_or_free_civic_staff_dragons": "PASS",
+          "royal_cast_actual_meetings_remote_guanyu_and_legacy_unchanged": "PASS",
+          "provenance_history_readonly_later_post_age_guards": "PASS",
+          "full_history_dom_choices": 14,
+          "people_new_actual_encounters_character_health_and_existing_wounds_preserved": "PASS",
+          "actual_json_download_file_import_and_http_reload": "PASS",
+          "organic_continuation_to_224_handler_steps": 54,
+          "720_handover_preserves_grand_general_and_honour": "PASS",
+          "registry": 695,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "campaign_routes_five_organic_career_profiles_two_current_branches": 810,
+          "nine_local_results_and_personal_wound": "PASS",
+          "general_and_tiger_ceremony_routes_two_branches": 486,
+          "accepted_refused_deferred_no_duplicate_muster_or_free_civic_staff_dragons": "PASS",
+          "royal_cast_actual_meetings_remote_guanyu_and_legacy_unchanged": "PASS",
+          "provenance_history_readonly_later_post_age_guards": "PASS",
+          "full_history_dom_choices": 14,
+          "people_new_actual_encounters_character_health_and_existing_wounds_preserved": "PASS",
+          "actual_json_download_file_import_and_http_reload": "PASS",
+          "organic_continuation_to_224_handler_steps": 54,
+          "720_handover_preserves_grand_general_and_honour": "PASS",
+          "registry": 695,
+          "page_errors": []
+        }
+      ],
+      "limits": "Five prior career profiles reached through original handlers; current Cavalry service/muster and Governor/later-post/older-age comparators synthetic. Full 3^4 mission/role/action/report per career/branch, canonical conditional warrant/hearing/proposal/investiture/duty/aftermath routes. Matrix compacts historical bodies and suppresses paint/storage; 14 DOM choices keep full history. Later 219\u2013224 continuation uses actual handlers, not DOM. No exhaustive world/relationship products, full M3/M4/Issue #1/#2 or physical-device file:// certification."
+    },
+    "settlement223": {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.5j_THE_COURT_THAT_CAN_REFUSE.html",
+      "sha256": "1490bf4b6860097725c7c096c5b8f727952fcd34467efa24db89ed127209c3a8",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "routes_thirteen_organic_career_world_charter_seeds_two_current_branch_variants": 702,
+          "all_new_local_choices_and_seven_groups_pairwise": "PASS",
+          "handover_exact_force_no_rank_loss_and_other_choices_no_transfer": "PASS",
+          "accepted_declined_witness_local_only_no_crown_or_office_grants": "PASS",
+          "original_effects_and_seven_higher_legacy_nodes_parity": "PASS",
+          "personal_prose_and_optional_dom_paths_preserved": "PASS",
+          "notice_report_only_readonly_provenance_legacy_later_post": "PASS",
+          "223_deferred_224_once_and_old_age": "PASS",
+          "reload_civic_military_dom": "PASS",
+          "general_handover_and_delegate_dom_clicks": 22,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "routes_thirteen_organic_career_world_charter_seeds_two_current_branch_variants": 702,
+          "all_new_local_choices_and_seven_groups_pairwise": "PASS",
+          "handover_exact_force_no_rank_loss_and_other_choices_no_transfer": "PASS",
+          "accepted_declined_witness_local_only_no_crown_or_office_grants": "PASS",
+          "original_effects_and_seven_higher_legacy_nodes_parity": "PASS",
+          "personal_prose_and_optional_dom_paths_preserved": "PASS",
+          "notice_report_only_readonly_provenance_legacy_later_post": "PASS",
+          "223_deferred_224_once_and_old_age": "PASS",
+          "reload_civic_military_dom": "PASS",
+          "general_handover_and_delegate_dom_clicks": 22,
+          "page_errors": []
+        }
+      ],
+      "limits": "Thirteen selected organic career/world/charter seeds; Cavalry current-service variants and higher legacy/Governor/older-age profiles synthetic. Original accepted force records remain intact until the tested handover. Full new proposal\u00d7custody\u00d7mandate; pairwise seven 3-way groups, not full product or all prior relationship states. Matrix suppresses paint/storage and compacts old history bodies; DOM full history. Not full M3/M11 or physical-device file:// certification."
+    },
+    "general222": {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.5j_THE_COURT_THAT_CAN_REFUSE.html",
+      "sha256": "1490bf4b6860097725c7c096c5b8f727952fcd34467efa24db89ed127209c3a8",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "routes_organic_major_review_two_current_branch_variants_full_four_local_choices": 162,
+          "nine_first_command_results": "PASS",
+          "all_nine_prior_profiles_offer_effects_and_non_general_refusal_defer_parity": "PASS",
+          "grade_720_muster_staff_inventory_civic_relationships_unchanged": "PASS",
+          "order_active_and_received_retired_once": "PASS",
+          "chronicle_people_military_character_and_223_handover_history": "PASS",
+          "provenance_unknown_roll_duplicate_later_post_no_backfill": "PASS",
+          "json_resolve_and_http_reload": "PASS",
+          "general_acceptance_and_four_scene_dom_clicks": 6,
+          "continuation_223_handler_steps": 15,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "routes_organic_major_review_two_current_branch_variants_full_four_local_choices": 162,
+          "nine_first_command_results": "PASS",
+          "all_nine_prior_profiles_offer_effects_and_non_general_refusal_defer_parity": "PASS",
+          "grade_720_muster_staff_inventory_civic_relationships_unchanged": "PASS",
+          "order_active_and_received_retired_once": "PASS",
+          "chronicle_people_military_character_and_223_handover_history": "PASS",
+          "provenance_unknown_roll_duplicate_later_post_no_backfill": "PASS",
+          "json_resolve_and_http_reload": "PASS",
+          "general_acceptance_and_four_scene_dom_clicks": 6,
+          "continuation_223_handler_steps": 15,
+          "page_errors": []
+        }
+      ],
+      "limits": "General seed reached organically through Baxi/Jing/222. Current Cavalry service/muster variant and Governor/later-post comparators synthetic. All 3^4 new local choices on both branch variants; nine earlier organic profiles test unchanged offers/refusal/defer. Matrix suppresses paint/storage and compacts historical bodies; six DOM clicks use full history. 223 continuation uses handlers. No Sixth Tiger, Shu enthronement, Dragon investiture, all prior world/relationship products or real-device file:// certification."
+    }
+  },
+  "limitations": "Targeted local Chromium/HTTP and handler matrices. Actual physical-device file:// persistence untested. No all-world Cartesian, full editorial, full M3/M4/M8\u2013M11 or ending signoff."
+}
