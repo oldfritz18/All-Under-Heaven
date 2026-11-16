@@ -1,0 +1,27 @@
+{
+  "status": "STATIC_AND_JS_PARSE_PASS__BROWSER_GAMEPLAY_NOT_YET_CERTIFIED",
+  "baseline": "ALL_UNDER_HEAVEN_v0.4.99.5n_THE_STANDARD_HE_CHOSE.html",
+  "baseline_sha256": "15e85e566f259e9e253536f83710c00be4729ae7e69474c54451cb9e1eb9050d",
+  "active": "ALL_UNDER_HEAVEN_v0.4.99.5o_THE_MEASURED_ROAD.html",
+  "active_sha256": "c771ecc4439905b70a757d10ebcde1409510be8d19a981879c2fdc8878c785eb",
+  "registered_scene_ids_added": [
+    "m4_230_xu_hearing",
+    "m4_230_xu_terms",
+    "m4_230_xu_order",
+    "m4_230_xu_muster",
+    "m4_231_xu_road",
+    "m4_231_xu_contact",
+    "m4_231_xu_return",
+    "m4_231_xu_review",
+    "m4_231_xu_close"
+  ],
+  "previous_literal_scene_ids_preserved": 529,
+  "portrait_data_uris_unchanged": 35,
+  "save_engine_and_baseline_source": "byte-identical outside addition + title + version metadata",
+  "new_rank_or_dragon_award": false,
+  "known_limits": [
+    "No Chromium playthrough or full interactive branch matrix executed by this build script",
+    "No physical Android file:// persistence test",
+    "New service is not yet an accepted General or Dragon appointment"
+  ]
+}
