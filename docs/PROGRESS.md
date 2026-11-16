@@ -4,12 +4,14 @@
 - Active: v0.4.99.5g; baseline awal terverifikasi v0.4.99.4m.
 - Status: gate M2 dan checkpoint fungsional VIII–XI bertarget; batch crossing 210, charter 211–213, Baxi 215–216 dan kontak Jing 219 terimplementasi/teruji. M3 belum ditutup penuh; foundation menuju Part II tersedia; M3–M11 dan objective penuh belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
+- Persetujuan baru: [Issue #1](https://github.com/oldfritz18/All-Under-Heaven/issues/1) dibaca langsung 16 November 2026 dan berlaku sebagai requirement mutu M3–M4. Kontrak `DESIGN/APPROVED_EPIC_ELEVATIONS_ISSUE_1.md`, rencana `docs/ISSUE_1_IMPLEMENTATION_PLAN.md`. General/Sixth Tiger/enthronement/Dragon ceremonies baru belum dinyatakan selesai; issue tetap OPEN.
 
 ## Evidence already in repository
 - `docs/QA_RECEIPT_v0.4.99.4m.md` — scope and limits of previous targeted QA.
 - `docs/CHANGELOG_v0.4.99.4m.md` — last baseline change.
 
 ## Next work
+- Dahulukan integrasi instruksi Issue #1, kemudian batch M3-A pengakuan/first command General 222; audit progression/shared-life window Sixth Tiger dan lanjut legitimacy/enthronement Shu serta personalized Dragon appointments pada M3–M4. Preserve seluruh 5g dan roadmap XIX/Epilogue. Pertanyaan dinasti yang terbuka belum dipilih oleh persetujuan mutu ini.
 - Struktur VIII/IX/X mengikuti roadmap pada 5a. Kelompok hearing–crossing 210 sudah direvisi pada 5b dan charter 211–213 pada 5c; rotasi ke Yi/Baxi dan river screen 215–217 terintegrasi pada 5d. Laporan Hanzhong dipisahkan dari kontak Jing yang dimainkan pada 5e. Rangkaian XI/220–222 serta review field warrant terintegrasi pada 5f; settlement 223 dan bridge XII/224 pada 5g. Berikutnya legitimasi/court Shu, pemisahan imperial office dari conquest endgame, casting Liu Shan, pemetaan XII–XIX dan gate M3/M4 sesuai bukti. Jangan menganggap label bab atau batch 210 sebagai kelulusan seluruh X.
 - Node Xu Shu awal serta sesudah Changban sudah menjadi pembacaan bersumber; pertahankan perbedaan laporan/pertemuan serta outcome Red Cliffs ketika melanjutkan dunia 210–223.
 - Tawaran Captain 209 kini eksplisit dan mengembalikan watch yang sesuai pada jalur baru. Tetap audit milestone karier berikutnya di X–XI, dengan penerimaan, muster dan jabatan yang benar-benar tercatat.
@@ -226,3 +228,9 @@
 - Smoke 8/8 dan 14 suite pada hash sama PASS di 390/1280: settlement 702 rute per viewport, seluruh tiga pilihan lokal dan pasangan tujuh kelompok; eastern 3.078; Jing 540; Baxi 864; charter 360; crossing 504; serta regressions fire, legacy Major, patrol/councils, Changban, Bowang/Xinye, map dan M2 boundary. Settlement memakai 13 seed karier/world/charter organik, branch Cavalry/history-age/Governor pembanding sintetis. 22 klik DOM full-history General/720→0 dan chair-delegated, save/reload kedua menu, provenance/no-backfill/later-post dan exact transfer PASS; page error 0.
 - Bukti: `docs/QA_CHECKPOINT_v0.4.99.5g.md`, `docs/qa/CHECKPOINT_5g.json`. Registry 672, seluruh 669 ID sebelumnya dan 35 gambar identik. Rollback formal kini 5f dari Git, SHA cocok receipt; versi lain tetap di riwayat. Tidak ada ZIP baru, biaya, perubahan locked decisions atau restart.
 - Checkpoint ini fungsional bertarget, tidak menutup seluruh gate M3 atau editorial/semua world branches. Honour/cohort bersyarat dan audit NPC/world lebih luas belum disertifikasi; M4–M11 dan XIX/Epilogue belum selesai. Audit Part II read-only (`docs/PART_II_AUDIT_v0.4.99.5g.md`) menunjukkan belum adanya entry People Liu Shan, alokasi XIII–XIX dan pemisahan Emperor Shu dari legacy conquest predicate. Jangan rename predicate atau mengisi pejabat/army tanpa event sah.
+
+
+## Issue #1 — instruksi disetujui dan diintegrasikan
+- Issue dibaca langsung dari GitHub pada 16 November 2026, status OPEN. Requirement lengkap disimpan dalam `DESIGN/APPROVED_EPIC_ELEVATIONS_ISSUE_1.md`, dengan rencana/gate `docs/ISSUE_1_IMPLEMENTATION_PLAN.md`. AGENTS, START_HERE, Goal, locked/concept/core decisions, World Bible, GDD serta kedua roadmap menunjuk kontrak yang sama. Tidak menimpa keputusan lama atau memilih mekanisme dinasti yang masih terbuka.
+- Pemeriksaan 12 discovery links dan source aktif PASS; SHA HTML tetap `b99e47c031893e991d0b83ceed425715e4e0df540cce8802ff6f49e1c0fac56c`, smoke 8/8 dan diff whitespace PASS. Ini batch dokumentasi; belum ada implementation credit untuk upacara baru.
+- Checkpoint 5g sudah di-commit/push `61ce7c626603d5a4147075fa3b2dec46cc6b6693`, remote head cocok sesudah push. Berikutnya M3-A General 222, M3-B Sixth Tiger/window, M4 legitimacy/enthronement dan personalized Dragons. Goal XIX/Epilogue tetap belum selesai.

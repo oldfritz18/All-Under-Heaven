@@ -1,3 +1,7 @@
+# Persetujuan aktif — Issue #1, 16 November 2026
+
+Baca `DESIGN/APPROVED_EPIC_ELEVATIONS_ISSUE_1.md` bersama locked decisions terbaru. [Issue #1](https://github.com/oldfritz18/All-Under-Heaven/issues/1) mewajibkan pengakuan General/actual command, separate earned Sixth Tiger pada shared-life window Liu Bei, klimaks penobatan Shu multi-scene dan investiture personal Dragon 0–5/collective setelah lima. Authority/consent, chronology/presence/allegiance/knowledge dan actual command tetap wajib. Emperor Shu bukan unifier; tidak ada automatic staff/army/wealth atau penyelesaian hukum dinasti diam-diam. Five Dragon, Sixth Tiger dan lima Special Staff berbeda. Status implementasi/QA: `docs/PROGRESS.md`, `docs/ISSUE_1_IMPLEMENTATION_PLAN.md`; filename baseline dalam addenda lama adalah riwayat, active source hanya `GAME/ACTIVE_BUILD.txt`.
+
 # Current source status — v0.4.99.2l (INTERNAL)
 
 Updated rule: all three singular legendary pieces can be earned **before** the character first earns General/field command. Character reputation, relationships, witness testimony, and voluntary choices—not rank—control the opportunity. The existing late acquisition scenes and legacy saves remain supported for characters who do not take the early opportunity. Each is earned only once; the portable transfer remains spoiler protected in user-facing summaries. See `ALL_UNDER_HEAVEN_EARLY_LEGENDARY_STORY_AUDIT_v0.4.99.2l_INTERNAL.md` for private implementation details.

@@ -26,6 +26,12 @@ Menghasilkan satu **novel interaktif offline lengkap dan stabil**, dengan perang
 
 ## A. Siklus wajib untuk **setiap chapter**
 
+### Tambahan disetujui 16 November 2026 — Issue #1
+
+Kontrak `DESIGN/APPROVED_EPIC_ELEVATIONS_ISSUE_1.md` menjadi gate mutu M3–M4, bersumber dari [Issue #1](https://github.com/oldfritz18/All-Under-Heaven/issues/1). **M3** mencakup pengakuan General, reaksi emosional dan first actual command; Sixth Tiger/Grand General merupakan klimaks earned terpisah dalam window historis/shared-life yang sah dengan Liu Bei dan jenderal Shu relevan. **M4/XII** mencakup sengketa legitimasi, deliberate mandate acceptance, epic multi-scene investiture/public proclamation, private aftermath dan keputusan imperial pertama. **M4/XIII dan kelanjutannya** mencakup personalized nomination/consent/ceremony/actual command handover setiap Dragon dan collective scene hanya setelah lima valid; 0–5 kosong/terisi tetap mungkin.
+
+Gate mewajibkan state negatif, refusal/defer, NPC availability/chronology, Emperor tanpa Dragons, save/reload/migration dan UI coherence, di samping narrative review. Shu imperial office tetap berbeda dari conquest/unification legacy; jangan memberi army/ministers/treasury atau memilih hukum dinasti tanpa dasar. M8–M11, XIX dan Epilogue tetap berjalan; menyelesaikan satu batch General bukan kelulusan M3/M4 atau Issue #1. Urutan dan status rinci: `docs/ISSUE_1_IMPLEMENTATION_PLAN.md`.
+
 > Jangan menunda sinkronisasi UI dan audit NPC sampai seluruh novel ditulis. Jalankan satu siklus vertikal berikut pada tiap chapter/kelompok kecil scene.
 
 | Tahap | Pekerjaan | Bukti selesai (gate) |

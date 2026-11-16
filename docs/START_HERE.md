@@ -8,7 +8,7 @@
 - Project coverage: Part I (190–223 CE), Prologue–Chapter XI; Part II (223–250 CE), Chapter XII–XIX and Epilogue. Historical ROTK route + meaningful alternate history.
 
 ## Required initial sequence
-1. Read `AGENTS.md` and locked decisions, then relevant GDD/World Bible and roadmap sections. Do not load all giant texts indiscriminately if targeted references are enough.
+1. Read `AGENTS.md`, locked decisions and `DESIGN/APPROVED_EPIC_ELEVATIONS_ISSUE_1.md`, then relevant GDD/World Bible and roadmap sections. Issue #1 is explicitly approved; plan/status is `docs/ISSUE_1_IMPLEMENTATION_PLAN.md`. Do not load all giant texts indiscriminately if targeted references are enough.
 2. Run `python3 scripts/smoke.py` and inspect existing game scene registry, branching, ranks and saves.
 3. Audit only actual blockers before declaring Chapter I ready; stop polishing already-correct scenes endlessly.
 4. Implement the next largest coherent narrative/gameplay group, preserve all existing functionality, and verify with actual tests.

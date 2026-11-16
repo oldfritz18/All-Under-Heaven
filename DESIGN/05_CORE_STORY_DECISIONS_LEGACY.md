@@ -41,4 +41,6 @@ This is the central trajectory of the novel RPG, grounded in *Romance of the Thr
 - This document **supersedes the Regional King decision path in v0.1–v0.3** wherever inconsistent; it does not supersede the verified source files or establish unreviewed script details as canon.
 
 ## Baseline integrity
+
+**Approved quality addendum, 16 November 2026:** GitHub [Issue #1](https://github.com/oldfritz18/All-Under-Heaven/issues/1) is binding. Read [APPROVED_EPIC_ELEVATIONS_ISSUE_1.md](APPROVED_EPIC_ELEVATIONS_ISSUE_1.md) for General/Sixth Tiger recognition, epic Shu enthronement and personalized Five Dragon investitures. It refines dramatic treatment and verification gates without silently deciding the unresolved dynastic mechanism above. Current executable/progress come from `GAME/ACTIVE_BUILD.txt` and `docs/PROGRESS.md`, not this historical baseline paragraph.
 The sole active executable remains `ALL_UNDER_HEAVEN_v0.4.99.2m_DEV_LEGENDARY_CONTINUITY.html`, SHA-256 recorded in transfer manifest as `5187a590904849ef377f686eabb18f63638625b686dd680a930c6fe9eab44c74`. No HTML changes were performed by this decision record. This is still development, not beta.

@@ -55,3 +55,7 @@
 Treat the sections above as approved decisions. **Do not ask the user to reconfirm Five Dragon Generals or the five existing Special Staff positions.** Before altering them, check this file and the most recent HTML/GDD, and seek a new explicit user decision if a change would contradict these locked rules.
 
 This note does not assert that all five Dragon Generals have been implemented or assigned in the active build.
+
+## Addendum disetujui 16 November 2026 — Issue #1
+
+[Issue #1](https://github.com/oldfritz18/All-Under-Heaven/issues/1) menetapkan mutu pengakuan General, klimaks Sixth Tiger pada shared-life window sah, multi-scene enthronement Emperor of Shu dan personalized earned Five Dragon investitures/collective scene setelah lima appointment sah. Kontrak: [APPROVED_EPIC_ELEVATIONS_ISSUE_1.md](APPROVED_EPIC_ELEVATIONS_ISSUE_1.md), wajib dibaca bersama dokumen ini. Keputusan A–E tetap berlaku; tambahan ini tidak memilih mekanisme dinasti yang belum diselesaikan atau mengklaim implementasi selesai.

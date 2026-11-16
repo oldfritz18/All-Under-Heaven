@@ -72,6 +72,8 @@ Kaidah: **show, don't tell**; setiap klimaks didahului fondasi yang layak; adega
 
 ## 7. Kriteria mutu yang wajib dipenuhi
 
+**Addendum disetujui 16 November 2026:** [Issue #1](https://github.com/oldfritz18/All-Under-Heaven/issues/1) mewajibkan pengakuan/emosi/actual command General, klimaks Sixth Tiger dengan Liu Bei/relevant Shu generals pada window sah, multi-scene enthronement Shu dengan legitimasi/acceptance/proclamation/private aftermath/first imperial decision, dan personalized nomination/investiture tiap Dragon. Merit/relasi/consent/authority/availability membatasi 0–5 posisi; collective scene hanya setelah lima sah. Kontrak lengkap [APPROVED_EPIC_ELEVATIONS_ISSUE_1.md](APPROVED_EPIC_ELEVATIONS_ISSUE_1.md). Tidak memilih hukum dinasti, memberi crown, mengubah Special Staff atau menyamakan Shu dengan unification. Implementasi/gate M3–M4 harus dibuktikan.
+
 Sebuah chapter belum 'selesai' hanya karena semua scene dapat dirender. Perlu: narasi kuat; keputusan bermakna; state/UI akurat; NPC masuk akal; kronologi valid; cabang berhasil dan gagal punya konsekuensi; hubungan dan peralatan konsisten; save/load; serta QA pembaca organik.
 
 **Catatan versi:** GDD lama dan roadmap 12 chapter adalah sumber historis pengembangan, tetapi **keputusan Chapter I–XIX dan konsep ini mengesampingkan struktur 12 chapter**. Dokumen ini menyimpan keputusan, **belum menulis ulang atau menguji semua scene**.

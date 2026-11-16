@@ -1,0 +1,19 @@
+# Rencana implementasi Issue #1
+
+Sumber disetujui: [Issue #1](https://github.com/oldfritz18/All-Under-Heaven/issues/1), dibaca 16 November 2026, OPEN. Kontrak: `DESIGN/APPROVED_EPIC_ELEVATIONS_ISSUE_1.md`. Mulai dari checkpoint 5g / `61ce7c626603d5a4147075fa3b2dec46cc6b6693`, sudah dipush. Pertahankan engine dan development terdahulu.
+
+| Batch | Pekerjaan konkret dan gate | Status |
+|---|---|---|
+| Instruksi | Integrasi persetujuan di AGENTS/START_HERE/Goal, konsep/locked/World Bible/GDD/roadmap; 12 discovery links valid; HTML/hash tetap; smoke 8/8 | Selesai, dokumentasi saja |
+| M3-A | General 222: acknowledgement, familiar reactions, first command, aftermath; old grade/muster identik; no extra rewards; acceptance/refusal/defer, DOM/reload/legacy | Berikutnya |
+| M3-B | Audit pengakuan promosi lebih awal dan kesempatan General/kepercayaan sebelum krisis; bangun Sixth Tiger dengan Liu Bei/relevant Shu generals pada window sah; chronology/NPC/service/authority/consent/Grand General/UI proof | Belum diimplementasikan |
+| M4-A | Legitimasi Shu: perjalanan/laporan, court, Liu Shan, sengketa mandat/alternatif; distinct Shu imperial authority vs conquest; audit legacy readers | Audit kode awal 5g tersedia; implementasi belum |
+| M4-B | Final acceptance, epic court investiture/public proclamation, private aftermath, first consequential imperial decision; actual UI/state; Wei/Wu otonom; refusal/defer/legacy QA | Belum diimplementasikan |
+| M4-C | Personalized Dragon nomination/consent/ceremony/handover, 0–5 vacancy, collective setelah lima; Emperor authority, per-NPC merit/availability, no invented units, refusal/reload | Sistem legacy ada; mutu/gate baru belum tersertifikasi |
+| Gate Issue #1 | Narrative continuity dan regression lintas M3–M4; semua requirement/safeguard issue, source/QA receipts serta commit/push tiap batch | **OPEN** |
+
+M3-A didahulukan memakai rute General yang sudah terbukti. Persiapan perjalanan XII tetap menjadi M4-A; belum ada gameplay XII baru yang ditimpa. M3-B tidak boleh memasukkan tokoh wafat ke 222 demi cast. Pada progression baru 5g, General baru tersedia di field warrant 222; audit progression/shared-life window diperlukan, bukan promosi/honour retroaktif dari tahun.
+
+Core decisions masih menyebut adoption, extraordinary designation dan successor-dynasty transition sebagai pertanyaan terbuka. Issue menyetujui kualitas, legitimasi dan alternatif, **bukan memilih mekanismenya**. Buat opsi konkret dan ajukan hanya keputusan baru yang memang memerlukan persetujuan; lanjutkan General/Sixth Tiger yang tidak bergantung padanya. Tidak ada biaya atau perubahan locked decisions yang diizinkan rencana ini.
+
+Tiap batch mencatat active HTML/SHA, scenes/effects/authority, prose/callbacks, NPC continuity, hasil QA nyata/batasnya dan Git commit/push. Laporan publik Indonesia tanpa spoiler. Commit partial memakai `Refs #1`, tidak auto-close. Goal tetap aktif dalam thread, bukan daemon eksternal.
