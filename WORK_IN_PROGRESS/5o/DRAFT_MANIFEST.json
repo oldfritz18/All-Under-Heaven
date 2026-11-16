@@ -1,0 +1,11 @@
+{
+  "status": "UNVERIFIED_DRAFT_NOT_ACTIVE",
+  "base_commit": "5f306bf46646c85203615cf4aff94c2745d91f29",
+  "base_html": "GAME/ALL_UNDER_HEAVEN_v0.4.99.5n_THE_STANDARD_HE_CHOSE.html",
+  "base_sha256": "15e85e566f259e9e253536f83710c00be4729ae7e69474c54451cb9e1eb9050d",
+  "candidate": "ALL_UNDER_HEAVEN_v0.4.99.5o_THE_UNFINISHED_MAP.html",
+  "candidate_sha256": "160a5247dccaf04f3a641d822c64b6f24ce2569220325f1972cd45f77ea5cc8c",
+  "candidate_bytes": 13222081,
+  "targeted_qa": "NOT RUN",
+  "new_scene_count": 8
+}
