@@ -47,6 +47,8 @@ Gate mewajibkan state negatif, refusal/defer, NPC availability/chronology, Emper
 
 ## B. Tahapan produksi dari awal hingga ending
 
+Untuk hubungan sebab-akibat dan eskalasi M3–M7, ikuti [06_EMPEROR_DRAGONS_UNIFICATION_ARC.md](06_EMPEROR_DRAGONS_UNIFICATION_ARC.md): fondasi service → suksesi/enthronement → court/personal Dragon appointments → trials/kampanye/biaya kekuasaan → klimaks penyatuan → epilogue. Appointment bukan akhir arc seorang Dragon. Target keberhasilan penyatuan membutuhkan payoff novel yang lengkap, sambil mempertahankan alternate outcomes/world autonomy dan QA M8–M11.
+
 | Fase | Cakupan | Pekerjaan utama dan hasil | Gerbang kelulusan |
 |---|---|---|---|
 | **M0 — Baseline & planning** | Seluruh kode sekarang | Bekukan salinan v0.4.99.3e, hash, inventaris scene/choice/asset/NPC/flags; perbarui story bible ke 19 chapter; tandai konsep legacy Regional King dan 12 chapter; daftar bug P0/P1/P2. | Seluruh dependensi kritis diketahui, rollback mungkin, tidak ada scene sah yang dihapus. |

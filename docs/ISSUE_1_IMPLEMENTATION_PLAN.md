@@ -1,5 +1,7 @@
 # Rencana implementasi Issue #1
 
+Roadmap dramatis lintas M3–M7: `ROADMAP/06_EMPEROR_DRAGONS_UNIFICATION_ARC.md`. M4-A/B/C harus membangun hubungan, mandat dan janji yang terus diuji di XIV–XVII, kemudian dibayar pada klimaks XVIII–XIX/Epilogue. Upacara personal Dragon tidak menutup arc mereka; absence/refusal/vacancy dan NPC autonomy tetap berlaku. Full unification/ending verification mengikuti M5–M11 di luar partial gate Issue #1.
+
 Sumber disetujui: [Issue #1](https://github.com/oldfritz18/All-Under-Heaven/issues/1), dibaca 16 November 2026, OPEN. Kontrak: `DESIGN/APPROVED_EPIC_ELEVATIONS_ISSUE_1.md`. Mulai dari checkpoint 5g / `61ce7c626603d5a4147075fa3b2dec46cc6b6693`, sudah dipush. Pertahankan engine dan development terdahulu.
 
 | Batch | Pekerjaan konkret dan gate | Status |

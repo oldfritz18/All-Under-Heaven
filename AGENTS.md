@@ -3,7 +3,7 @@
 ## Source of truth and priorities
 1. Read `docs/START_HERE.md`, `DESIGN/LOCKED_DESIGN_DECISIONS_2026-11-15.md`, and `DESIGN/APPROVED_EPIC_ELEVATIONS_ISSUE_1.md` FIRST. GitHub Issue #1 is explicitly approved design; its quality requirements are binding, not proof of implementation.
 2. `GAME/ACTIVE_BUILD.txt` names the ONLY current active HTML. Edit it in place or create a versioned successor and update the pointer. NEVER start another game from scratch.
-3. Story roadmap: `ROADMAP/01_TWO_PART_190_250_v1.3.md`, `ROADMAP/05_M0_M11_DEVELOPMENT_ROADMAP_v1.0.md`, related matrices; rules in `RULES/`.
+3. Story roadmap: `ROADMAP/01_TWO_PART_190_250_v1.3.md`, `ROADMAP/05_M0_M11_DEVELOPMENT_ROADMAP_v1.0.md`, `ROADMAP/06_EMPEROR_DRAGONS_UNIFICATION_ARC.md`, related matrices; rules in `RULES/`. Preserve the dramatic build-up from Shu enthronement through personalized Dragon arcs and their later trials to the earned unification climax; roadmap is not implementation evidence.
 4. `DESIGN/02_WORLD_BIBLE_LEGACY_v1.99.2m.md` and `DESIGN/03_MASTER_GDD_LEGACY_v1.28.md` provide larger reference context. Explicit newer locked decisions take precedence where they differ.
 5. Game prose/UI is in ENGLISH; development notes, checkpoints and communications to the owner are in INDONESIAN; progress reports avoid story spoilers.
 
