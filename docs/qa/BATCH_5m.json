@@ -1,0 +1,94 @@
+{
+  "active": "GAME/ALL_UNDER_HEAVEN_v0.4.99.5m_THE_EMPTY_SEATS.html",
+  "sha256": "fa3e868a56658351e6ae529ef8cfc440f021000c074b4e98db88aec4d2869b94",
+  "bytes": 13136031,
+  "scope": "M4-C nomination/conditional-interest opening, zero appointments; not General/command qualification, final consent, Grand General ceremony or full M4/Issue1/2/XIX/Epilogue",
+  "smoke": "8/8 PASS",
+  "node_parse_python_compile": "PASS",
+  "preservation": {
+    "sha256": "fa3e868a56658351e6ae529ef8cfc440f021000c074b4e98db88aec4d2869b94",
+    "bytes": 13136031,
+    "previous_commit": "a69fc2b070e35772e3436cf8e4f04f0e7681c80a",
+    "prior_code_outside_new_block_metadata_byte_identical": true,
+    "identical_embedded_image_uris": 35
+  },
+  "reports": {
+    "dragon_nominations227": {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.5m_THE_EMPTY_SEATS.html",
+      "sha256": "fa3e868a56658351e6ae529ef8cfc440f021000c074b4e98db88aec4d2869b94",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "seven_candidates_two_charters_three_pledges_three_receiving_methods": 126,
+          "five_reply_outcomes": "PASS",
+          "six_conditional_inquiries_zero_appointments_synthetic_confidence_comparator": "PASS",
+          "withdrawal_three_empty_closures_chapter_xiii_display": "PASS",
+          "no_grade_units_staff_resources_relationships_offices_dragons_or_time_changes": "PASS",
+          "legacy_frontier_choices_and_views_exact": "PASS",
+          "proof_readonly_replay_resolve_history_flags_later_year": "PASS",
+          "full_history_dom_choices": 8,
+          "civic_military_reload_export_import_zero_force": "PASS",
+          "registry": 728,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "seven_candidates_two_charters_three_pledges_three_receiving_methods": 126,
+          "five_reply_outcomes": "PASS",
+          "six_conditional_inquiries_zero_appointments_synthetic_confidence_comparator": "PASS",
+          "withdrawal_three_empty_closures_chapter_xiii_display": "PASS",
+          "no_grade_units_staff_resources_relationships_offices_dragons_or_time_changes": "PASS",
+          "legacy_frontier_choices_and_views_exact": "PASS",
+          "proof_readonly_replay_resolve_history_flags_later_year": "PASS",
+          "full_history_dom_choices": 8,
+          "civic_military_reload_export_import_zero_force": "PASS",
+          "registry": 728,
+          "page_errors": []
+        }
+      ],
+      "limits": "One selected original-handler career190\u2013227, including actual Shu accession and 223 zero-force handover. Full126 local candidate/charter/pledge/receiving paths. Six interested candidates use synthetic confidence6; game makes no such relationship grants. Matrix compacts history and suppresses paint/storage; eight DOM choices full history. This is nomination/conditional-interest foundation, not General qualification, verified current command, final consent, personal Dragon appointment/Grand General, collective scene, fullM4/Issue1/2/XIX/Epilogue or real-device file:// QA."
+    },
+    "enthronement225": {
+      "build": "ALL_UNDER_HEAVEN_v0.4.99.5m_THE_EMPTY_SEATS.html",
+      "sha256": "fa3e868a56658351e6ae529ef8cfc440f021000c074b4e98db88aec4d2869b94",
+      "portrait_data_uris": 35,
+      "checks": [
+        {
+          "width": 390,
+          "canonical_local_paths": 1284,
+          "court_decision_paths": 678,
+          "journey_withdraw_defer_paths": 108,
+          "ceremony_private_office_policy_review_combinations": 486,
+          "last_vigil_oath_withdrawals": 12,
+          "nine_organic_prior_profiles_fresh_vs_221_designation": "PASS",
+          "legacy_regional_and_union_projection_parity": "PASS",
+          "no_military_resources_relationships_staff_dragons_or_union_grants": "PASS",
+          "consent_history_scope_future_age_legacy_readonly_replay_resolve": "PASS",
+          "full_history_dom_choices": 15,
+          "zero_force_fresh_mandate_chancellor_defer_three_menus_export_import_reload": "PASS",
+          "registry": 728,
+          "page_errors": []
+        },
+        {
+          "width": 1280,
+          "canonical_local_paths": 1284,
+          "court_decision_paths": 678,
+          "journey_withdraw_defer_paths": 108,
+          "ceremony_private_office_policy_review_combinations": 486,
+          "last_vigil_oath_withdrawals": 12,
+          "nine_organic_prior_profiles_fresh_vs_221_designation": "PASS",
+          "legacy_regional_and_union_projection_parity": "PASS",
+          "no_military_resources_relationships_staff_dragons_or_union_grants": "PASS",
+          "consent_history_scope_future_age_legacy_readonly_replay_resolve": "PASS",
+          "full_history_dom_choices": 15,
+          "zero_force_fresh_mandate_chancellor_defer_three_menus_export_import_reload": "PASS",
+          "registry": 728,
+          "page_errors": []
+        }
+      ],
+      "limits": "Nine selected original-handler career/custody histories, including actual 221 designation and fresh mandate with no testament. Court decision grid exhaustive within enumerated five decisions; ceremony/private/office/policy/review Cartesian only on three selected qualified profiles, not all prior histories/worlds. Synthetic older/later/unknown/no-consent and legacy regional/union comparator states. Matrix compacts prior history and suppresses paint/storage; fifteen DOM clicks full history. This verifies M4-B and limited Chancellor/first policy integration, not full M4-C Dragons/M5\u2013M7/XIX/Epilogue or physical file:// device QA."
+    }
+  },
+  "limitations": "Local Chromium/HTTP. One organic inquiry cohort; six-interest comparator uses synthetic confidence, no game relationship grants. Broader court regression nine original histories. Not all world/relationship/absence states, whole editorial or physical file:// device QA."
+}

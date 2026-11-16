@@ -2,7 +2,7 @@
 """Played extraordinary Shu mandate, accession, first policy and 226–227 consequences."""
 import argparse,json,tempfile
 from pathlib import Path
-from qa_support import fixture,write_report
+from qa_support import fixture,write_report,DRAGON_NOMINATION_227_SCENES
 from qa_court224 import organic_court_seeds,TO_XII
 from qa_designation221 import organic_designation_seed
 BASELINE='5d35c4e:GAME/ALL_UNDER_HEAVEN_v0.4.99.5k_THE_UNSEALED_SUCCESSION.html'
@@ -45,7 +45,7 @@ def main():
     with fixture(BASELINE) as (browser,url,result):
         p=browser.new_page();p.goto(url+'/baseline.html');seeds=organic_accession_seeds(p);ids=set(p.evaluate('Object.keys(SCENES)'));staff=p.evaluate('AUH_MC_SPECIAL_STAFF');p.close()
         for width in (390,1280):
-            ctx=browser.new_context(viewport={'width':width,'height':900});p=ctx.new_page();errors=[];p.on('pageerror',lambda e:errors.append(str(e)));p.goto(url+'/active.html');assert not errors,errors;assert p.evaluate('auh5lShu(null)===false');current=set(p.evaluate('Object.keys(SCENES)'));assert ids<=current and current-ids==NEW and len(current)==716;assert p.evaluate('AUH_MC_SPECIAL_STAFF')==staff
+            ctx=browser.new_context(viewport={'width':width,'height':900});p=ctx.new_page();errors=[];p.on('pageerror',lambda e:errors.append(str(e)));p.goto(url+'/active.html');assert not errors,errors;assert p.evaluate('auh5lShu(null)===false');current=set(p.evaluate('Object.keys(SCENES)'));assert ids<=current and current-ids in (NEW,NEW|DRAGON_NOMINATION_227_SCENES) and len(current) in (716,728);assert p.evaluate('AUH_MC_SPECIAL_STAFF')==staff
             runs=[p.evaluate(MATRIX,{'seed':s,'full':i in (4,7,8)}) for i,s in enumerate(seeds)]
             rows=[r for run in runs for r in run['rows']];assert len(rows)==1284,len(rows)
             ex=runs[7]['example'];assert ex and ex['civicCareer']['shuMandate225']['basis']=='new_mandate225';assert runs[8]['example']['civicCareer']['shuMandate225']['basis']=='witnessed_conditional_designation221'

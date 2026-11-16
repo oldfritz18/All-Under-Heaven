@@ -3,7 +3,7 @@
 import argparse
 from copy import deepcopy
 from pathlib import Path
-from qa_support import fixture, write_report, HANZHONG_219_SCENES, COURT_224_SCENES, DESIGNATION_221_SCENES, SHU_ACCESSION_225_SCENES
+from qa_support import fixture, write_report, HANZHONG_219_SCENES, COURT_224_SCENES, DESIGNATION_221_SCENES, SHU_ACCESSION_225_SCENES, DRAGON_NOMINATION_227_SCENES
 from qa_m2_continuity import START
 from qa_changban import ADVANCE
 from qa_river_councils import TO_HANJIN
@@ -104,7 +104,7 @@ def main():
             added=set(page.evaluate('Object.keys(SCENES)'))-set(ids)
             settlement={'m3_223_rolls','m3_223_ratification','m3_223_after_terms'}
             general={'m3_222_standard','m3_222_command_lanes','m3_222_rider_at_the_bend','m3_222_first_return'}
-            assert added in (NEW,NEW|settlement,NEW|settlement|general,NEW|settlement|general|HANZHONG_219_SCENES,NEW|settlement|general|HANZHONG_219_SCENES|COURT_224_SCENES,NEW|settlement|general|HANZHONG_219_SCENES|COURT_224_SCENES|DESIGNATION_221_SCENES,NEW|settlement|general|HANZHONG_219_SCENES|COURT_224_SCENES|DESIGNATION_221_SCENES|SHU_ACCESSION_225_SCENES),added-NEW
+            assert added in (NEW,NEW|settlement,NEW|settlement|general,NEW|settlement|general|HANZHONG_219_SCENES,NEW|settlement|general|HANZHONG_219_SCENES|COURT_224_SCENES,NEW|settlement|general|HANZHONG_219_SCENES|COURT_224_SCENES|DESIGNATION_221_SCENES,NEW|settlement|general|HANZHONG_219_SCENES|COURT_224_SCENES|DESIGNATION_221_SCENES|SHU_ACCESSION_225_SCENES,NEW|settlement|general|HANZHONG_219_SCENES|COURT_224_SCENES|DESIGNATION_221_SCENES|SHU_ACCESSION_225_SCENES|DRAGON_NOMINATION_227_SCENES),added-NEW
             runs=[page.evaluate(ROUTES,s) for s in seeds]
             assert sum(len(r['rows']) for r in runs)==3078
             assert {r['newRank'] for run in runs for r in run['rows']}=={'Private','Sergeant','Captain','Major','General'}

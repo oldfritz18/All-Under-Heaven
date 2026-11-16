@@ -110,3 +110,12 @@ SHU_ACCESSION_225_SCENES = frozenset({
     'm4_225_private', 'm4_225_administration', 'm4_225_decree',
     'm4_226_audit', 'm4_226_return', 'm4_225_closed',
 })
+
+# Exact IDs of the personal nomination / correspondence opening in XIII.
+DRAGON_NOMINATION_227_SCENES = frozenset({
+    'm4_227_dragon_council', 'm4_227_dragon_terms', 'm4_227_dragon_roll',
+    'm4_227_nominate_hansheng', 'm4_227_nominate_xuwen',
+    'm4_227_nominate_dengyu', 'm4_227_nominate_peiliang',
+    'm4_227_nominate_yaoqing', 'm4_227_nominate_weizhen',
+    'm4_227_nominate_zhaoyun', 'm4_227_dragon_reply', 'm4_227_dragon_close',
+})
