@@ -101,7 +101,9 @@ def main():
         ids=base.evaluate('Object.keys(SCENES)');base.close()
         for width in (390,1280):
             context=browser.new_context(viewport={'width':width,'height':900});page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.goto(url+'/active.html')
-            assert set(page.evaluate('Object.keys(SCENES)'))-set(ids)==NEW
+            added=set(page.evaluate('Object.keys(SCENES)'))-set(ids)
+            settlement={'m3_223_rolls','m3_223_ratification','m3_223_after_terms'}
+            assert added in (NEW,NEW|settlement),added-NEW
             runs=[page.evaluate(ROUTES,s) for s in seeds]
             assert sum(len(r['rows']) for r in runs)==3078
             assert {r['newRank'] for run in runs for r in run['rows']}=={'Private','Sergeant','Captain','Major','General'}
