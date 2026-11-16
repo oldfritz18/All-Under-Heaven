@@ -81,7 +81,8 @@ def main():
             added=set(page.evaluate('Object.keys(SCENES)'))-set(old_ids)
             eastern={'m3_222_field_review','m3_222_after_review'}
             settlement={'m3_223_rolls','m3_223_ratification','m3_223_after_terms'}
-            assert added in (NEW,NEW|later,NEW|later|eastern,NEW|later|eastern|settlement),added-NEW
+            general={'m3_222_standard','m3_222_command_lanes','m3_222_rider_at_the_bend','m3_222_first_return'}
+            assert added in (NEW,NEW|later,NEW|later|eastern,NEW|later|eastern|settlement,NEW|later|eastern|settlement|general),added-NEW
             assert page.evaluate('ids=>ids.every(id=>SCENES[id].displayChapter===10)',list(NEW))
             runs=[page.evaluate(ROUTES,s) for s in seeds];assert sum(len(r['rows']) for r in runs)==864
             ranks={r['rank'] for run in runs for r in run['rows']};assert ranks=={'Private','Sergeant','Captain','Major'}

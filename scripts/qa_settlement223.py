@@ -15,7 +15,7 @@ from qa_jing219 import TO_JING
 from qa_eastern222 import TO_XI, TO_FRONT
 
 BASELINE='e795cd9:GAME/ALL_UNDER_HEAVEN_v0.4.99.5f_THE_EASTERN_FIELD_WARRANT.html'
-NEW={'m3_223_rolls','m3_223_ratification','m3_223_after_terms'}
+NEW={'m3_223_rolls','m3_223_ratification','m3_223_after_terms','m3_222_standard','m3_222_command_lanes','m3_222_rider_at_the_bend','m3_222_first_return'}
 TO_223=r"""config=>{
  state=clone(config.seed);activeTab='story';const a=save,b=render,c=scrollTopNow;save=()=>{};render=()=>{};scrollTopNow=()=>{};
  try{for(let i=0;i<65;i++){

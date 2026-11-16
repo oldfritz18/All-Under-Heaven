@@ -66,7 +66,7 @@ ROUTES=r"""seed=>{
    if(!!state.flags.historical_meet_luxun!==(!!before.flags.historical_meet_luxun||mission===1))throw Error('Lu Xun acquaintance');
    const frozen=JSON.stringify(state);militaryPanel();civicPanel();npcMemories('xuwen');auh5fRecord(state);auh5fAccept(state);if(JSON.stringify(state)!==frozen)throw Error('Views/receipt/accept replay');
    if(!auh63SocialPosition(state).position.startsWith(expectedRank+' / '))throw Error('Character accepted/refused rank');
-   step(0);if(state.scene!=='ch11_p60_07_meeting_222'||state.storyClock.year!==222||state.age!==48)throw Error('Meeting/clock');
+   step(0);for(let i=0;i<4&&['m3_222_standard','m3_222_command_lanes','m3_222_rider_at_the_bend','m3_222_first_return'].includes(state.scene);i++)step(0);if(state.scene!=='ch11_p60_07_meeting_222'||state.storyClock.year!==222||state.age!==48)throw Error('Meeting/clock');
    step(SCENES[state.scene].choices(state).findIndex(o=>o.next==='ch11_p60_08_turn_223'));
    if(state.storyClock.year!==223||state.age!==49||!auh5fEvidence(state))throw Error('223 personal exit');
    rows.push({rank:before.militaryCareer.rank,branch,policy,travel,path,decision,accepted,newRank:state.militaryCareer.rank,mission:state.flags.auh60_222});example=clone(state);
@@ -103,7 +103,8 @@ def main():
             context=browser.new_context(viewport={'width':width,'height':900});page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.goto(url+'/active.html')
             added=set(page.evaluate('Object.keys(SCENES)'))-set(ids)
             settlement={'m3_223_rolls','m3_223_ratification','m3_223_after_terms'}
-            assert added in (NEW,NEW|settlement),added-NEW
+            general={'m3_222_standard','m3_222_command_lanes','m3_222_rider_at_the_bend','m3_222_first_return'}
+            assert added in (NEW,NEW|settlement,NEW|settlement|general),added-NEW
             runs=[page.evaluate(ROUTES,s) for s in seeds]
             assert sum(len(r['rows']) for r in runs)==3078
             assert {r['newRank'] for run in runs for r in run['rows']}=={'Private','Sergeant','Captain','Major','General'}
@@ -114,7 +115,7 @@ def main():
             high=deepcopy(new_front);high['militaryCareer']['rank']='Major';high['flags'].pop('m3_215_frontier_scope',None)
             high_test=r"""s=>['ch11_p60_01_the_two_seals','ch11_p60_02_decree','ch11_p60_03_witnesses','ch11_p60_04_bridge_221','ch11_p60_05_eastern_front_222','ch11_p61_01_at_the_standard_222','ch11_p61_02_clash_222','ch11_p61_03_cost_of_command_222','ch11_p60_06_cost_222'].map(id=>({id,body:SCENES[id].body(s),choices:SCENES[id].choices(s).map(o=>{const x=clone(s);o.effect?.(x);return {label:o.label,next:o.next,state:x};})}))"""
             assert page.evaluate(high_test,high)==base.evaluate(high_test,high)
-            sample=runs[7]['example'];tail=r"""s=>SCENES.ch11_p60_07_meeting_222.body(s).replace(/<p>[\s\S]*?<\/p>/,'')"""
+            sample=runs[7]['example'];tail=r"""s=>SCENES.ch11_p60_07_meeting_222.body(s).replace(/<p>[\s\S]*?<\/p>/,'').replace(/<p>The first movement account under your General warrant[\s\S]*?<\/p>/,'')"""
             assert page.evaluate(tail,sample)==base.evaluate(tail,sample);base.close()
             page.evaluate(r"""config=>{
              const old=resolve(clone(config.legacy));state=old;const frozen=JSON.stringify(state);militaryPanel();SCENES.ch11_p61_03_cost_of_command_222.body(state);if(state.storyClock.year!==221||state.age!==47||state.militaryCareer.campaignEvidence.eastern222||JSON.stringify(state)!==frozen)throw Error('Legacy age/backfill');

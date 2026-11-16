@@ -5,8 +5,8 @@ Sumber disetujui: [Issue #1](https://github.com/oldfritz18/All-Under-Heaven/issu
 | Batch | Pekerjaan konkret dan gate | Status |
 |---|---|---|
 | Instruksi | Integrasi persetujuan di AGENTS/START_HERE/Goal, konsep/locked/World Bible/GDD/roadmap; 12 discovery links valid; HTML/hash tetap; smoke 8/8 | Selesai, dokumentasi saja |
-| M3-A | General 222: acknowledgement, familiar reactions, first command, aftermath; old grade/muster identik; no extra rewards; acceptance/refusal/defer, DOM/reload/legacy | Berikutnya |
-| M3-B | Audit pengakuan promosi lebih awal dan kesempatan General/kepercayaan sebelum krisis; bangun Sixth Tiger dengan Liu Bei/relevant Shu generals pada window sah; chronology/NPC/service/authority/consent/Grand General/UI proof | Belum diimplementasikan |
+| M3-A | General 222: acknowledgement, familiar reactions, first command, aftermath; old grade/muster identik; no extra rewards; acceptance/refusal/defer, DOM/reload/legacy | Selesai terbatas General 222 pada 5h; lima suite/receipt di `docs/QA_GENERAL_RECOGNITION_v0.4.99.5h.md` |
+| M3-B | Audit pengakuan promosi lebih awal dan kesempatan General/kepercayaan sebelum krisis; bangun Sixth Tiger dengan Liu Bei/relevant Shu generals pada window sah; chronology/NPC/service/authority/consent/Grand General/UI proof | Audit window/progression selesai di `docs/SIXTH_TIGER_WINDOW_AUDIT_5h.md`; implementation belum |
 | M4-A | Legitimasi Shu: perjalanan/laporan, court, Liu Shan, sengketa mandat/alternatif; distinct Shu imperial authority vs conquest; audit legacy readers | Audit kode awal 5g tersedia; implementasi belum |
 | M4-B | Final acceptance, epic court investiture/public proclamation, private aftermath, first consequential imperial decision; actual UI/state; Wei/Wu otonom; refusal/defer/legacy QA | Belum diimplementasikan |
 | M4-C | Personalized Dragon nomination/consent/ceremony/handover, 0–5 vacancy, collective setelah lima; Emperor authority, per-NPC merit/availability, no invented units, refusal/reload | Sistem legacy ada; mutu/gate baru belum tersertifikasi |
@@ -17,3 +17,5 @@ M3-A didahulukan memakai rute General yang sudah terbukti. Persiapan perjalanan 
 Core decisions masih menyebut adoption, extraordinary designation dan successor-dynasty transition sebagai pertanyaan terbuka. Issue menyetujui kualitas, legitimasi dan alternatif, **bukan memilih mekanismenya**. Buat opsi konkret dan ajukan hanya keputusan baru yang memang memerlukan persetujuan; lanjutkan General/Sixth Tiger yang tidak bergantung padanya. Tidak ada biaya atau perubahan locked decisions yang diizinkan rencana ini.
 
 Tiap batch mencatat active HTML/SHA, scenes/effects/authority, prose/callbacks, NPC continuity, hasil QA nyata/batasnya dan Git commit/push. Laporan publik Indonesia tanpa spoiler. Commit partial memakai `Refs #1`, tidak auto-close. Goal tetap aktif dalam thread, bukan daemon eksternal.
+
+Instruksi disimpan/push dalam commit `4b865ba`; General 222 batch 5h teruji (lihat receipt di atas). Pengakuan promosi lain belum disertifikasi. Kelanjutan pertama adalah M3-B; M4-A/B/C tetap open dan tidak menutup roadmap XIX/Epilogue.

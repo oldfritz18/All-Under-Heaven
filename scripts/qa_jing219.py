@@ -81,7 +81,8 @@ def main():
             added=set(page.evaluate('Object.keys(SCENES)'))-set(old_ids)
             later={'m3_222_field_review','m3_222_after_review'}
             settlement={'m3_223_rolls','m3_223_ratification','m3_223_after_terms'}
-            assert added in (NEW,NEW|later,NEW|later|settlement),added-NEW
+            general={'m3_222_standard','m3_222_command_lanes','m3_222_rider_at_the_bend','m3_222_first_return'}
+            assert added in (NEW,NEW|later,NEW|later|settlement,NEW|later|settlement|general),added-NEW
             runs=[page.evaluate(ROUTES,s) for s in seeds];assert sum(len(r['rows']) for r in runs)==540
             local={r['result'] for run in runs for r in run['rows']};assert len(local)==9
             assert {r['frontier'] for run in runs for r in run['rows']}=={'civilian_fallback','frontier_disputed','witnessed_border','allied_frontier','independent_defended'}
