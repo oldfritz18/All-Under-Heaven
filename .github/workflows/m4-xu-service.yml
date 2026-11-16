@@ -1,0 +1,29 @@
+name: Assemble Xu Wen service build 5o
+on:
+  push:
+    branches: [dev/m4-xu-wen-20261116]
+    paths:
+      - "GAME/EXTENSIONS/M4_XU_WEN_SERVICE_v0.4.99.5o.js"
+      - "scripts/build_5o.py"
+      - ".github/workflows/m4-xu-service.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Integrate into exact verified 5n baseline
+        run: python3 scripts/build_5o.py
+      - name: Existing smoke gate
+        run: python3 scripts/smoke.py
+      - name: Record integrated HTML on this feature branch only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add GAME/ACTIVE_BUILD.txt GAME/ALL_UNDER_HEAVEN_v0.4.99.5o_THE_MEASURED_ROAD.html docs/qa/BATCH_5o_SOURCE.json
+          git commit -m "Integrate 5o Xu Wen service into preserved offline build [skip ci]"
+          git push origin HEAD:dev/m4-xu-wen-20261116
