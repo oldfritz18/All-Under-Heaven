@@ -1,5 +1,7 @@
 # Part II — penobatan, para Dragon dan penyatuan Tiongkok
 
+**Addendum pemilik, 16 November 2026 — DISETUJUI:** penunjukan luar biasa tanpa adopsi **dan** mandat baru pasca-223 dengan actual Liu Shan/court consent; `DESIGN/APPROVED_SHU_SUCCESSION_2026-11-16.md` menggantikan status pertanyaan mekanisme dinasti yang belum dipilih dalam bagian historis di bawah. Persetujuan bukan implementasi; jangan meminta konfirmasi ulang atau mengarang testament/backfill.
+
 **16 November 2026. Status: penjabaran roadmap, bukan implementasi HTML atau signoff milestone.** Dokumen ini menyatukan arah yang telah disetujui dalam konsep narasi, core story decisions, roadmap dua PART/M0–M11, locked decisions dan [Issue #1](https://github.com/oldfritz18/All-Under-Heaven/issues/1). Pemilik kembali menegaskan bahwa penobatan → pengangkatan personal Five Dragon Generals → perjuangan penyatuan adalah build-up menuju klimaks utama. Ini tidak memilih mekanisme dinasti, lima nama tetap, hasil perang atau nasib NPC yang belum diputuskan.
 
 Active build saat penyusunan **5h**. Batch General 222 sudah teruji; rangkaian Part II di bawah **belum diimplementasikan/disertifikasi secara utuh**. Status faktual ada di `docs/PROGRESS.md`; jangan membaca roadmap ini sebagai klaim semua event sudah playable.

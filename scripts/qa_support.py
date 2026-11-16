@@ -95,3 +95,9 @@ COURT_224_SCENES = frozenset({
     'm4_224_petition', 'm4_224_dispatch', 'm4_224_road',
     'm4_224_chancery', 'm4_224_audience', 'm4_225_return',
 })
+
+# Exact IDs for the witnessed conditional royal review of 221.
+DESIGNATION_221_SCENES = frozenset({
+    'm4_221_summons', 'm4_221_road', 'm4_221_private',
+    'm4_221_household', 'm4_221_designation', 'm4_221_return',
+})

@@ -3,7 +3,7 @@
 import argparse
 from copy import deepcopy
 from pathlib import Path
-from qa_support import fixture, write_report, HANZHONG_219_SCENES, COURT_224_SCENES
+from qa_support import fixture, write_report, HANZHONG_219_SCENES, COURT_224_SCENES, DESIGNATION_221_SCENES
 from qa_m2_continuity import START
 from qa_changban import ADVANCE
 from qa_river_councils import TO_HANJIN
@@ -88,7 +88,7 @@ def main():
         old_ids=base.evaluate('Object.keys(SCENES)');base.close()
         for width in (390,1280):
             context=browser.new_context(viewport={'width':width,'height':900});page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.goto(url+'/active.html')
-            assert set(page.evaluate('Object.keys(SCENES)'))-set(old_ids) in (NEW,NEW|HANZHONG_219_SCENES,NEW|HANZHONG_219_SCENES|COURT_224_SCENES)
+            assert set(page.evaluate('Object.keys(SCENES)'))-set(old_ids) in (NEW,NEW|HANZHONG_219_SCENES,NEW|HANZHONG_219_SCENES|COURT_224_SCENES,NEW|HANZHONG_219_SCENES|COURT_224_SCENES|DESIGNATION_221_SCENES)
             runs=[page.evaluate(ROUTES,s) for s in seeds];assert sum(len(r['rows']) for r in runs)==702
             groups=['proposal','custody','mandate','terms','archive','answer','seal']
             for i,k in enumerate(groups):

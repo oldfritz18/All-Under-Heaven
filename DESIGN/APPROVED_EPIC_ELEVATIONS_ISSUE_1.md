@@ -1,5 +1,7 @@
 # Pengakuan dan pengangkatan legendaris — persetujuan Issue #1
 
+**Addendum pemilik, 16 November 2026 — DISETUJUI:** penunjukan luar biasa tanpa adopsi **dan** mandat baru pasca-223 dengan actual Liu Shan/court consent; `DESIGN/APPROVED_SHU_SUCCESSION_2026-11-16.md` menggantikan status pertanyaan mekanisme dinasti yang belum dipilih dalam bagian historis di bawah. Persetujuan bukan implementasi; jangan meminta konfirmasi ulang atau mengarang testament/backfill.
+
 **Disetujui pemilik:** 16 November 2026. Sumber dibaca langsung: [GitHub Issue #1](https://github.com/oldfritz18/All-Under-Heaven/issues/1), **OPEN**. Ini persyaratan desain yang berlaku, bukan bukti implementasi atau QA. Referensi 5f di issue adalah baseline historis; lanjutkan penerus dalam `GAME/ACTIVE_BUILD.txt` (5g saat integrasi persetujuan).
 
 Addendum ini memperinci mutu `01_NARRATIVE_NPC_CONCEPT_v1.0.md`, `05_CORE_STORY_DECISIONS_LEGACY.md` dan locked decisions 15 November. Tidak mengganti aturan awal Private, otonomi NPC, waktu, consent, lima Special Staff, lima posisi Dragon, portraits atau saves. Tidak memilih mekanisme dinasti yang masih terbuka pada core decisions.

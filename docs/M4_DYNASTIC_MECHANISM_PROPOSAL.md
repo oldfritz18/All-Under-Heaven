@@ -1,6 +1,6 @@
 # M4 — usulan keputusan dinasti untuk persetujuan pemilik
 
-**Status: USULAN, BELUM DISETUJUI/BELUM DIIMPLEMENTASIKAN.** Tidak mengubah canon, AGENTS lock, save atau HTML. Requirement mutu penobatan dan frontline Emperor sudah disetujui; keduanya tidak diminta ulang.
+**Status: USULAN UTAMA DISETUJUI pemilik, 16 November 2026 (“Setuju”), termasuk mandat baru pasca-223.** Kontrak berlaku: `DESIGN/APPROVED_SHU_SUCCESSION_2026-11-16.md`. Bagian di bawah mempertahankan teks usulan sebelum persetujuan sebagai riwayat; kalimat “belum disetujui”/“memerlukan jawaban” di dalamnya sudah digantikan keputusan tersebut. Persetujuan bukan bukti implementasi; lihat PROGRESS dan QA.
 
 ## Keputusan yang masih diperlukan
 

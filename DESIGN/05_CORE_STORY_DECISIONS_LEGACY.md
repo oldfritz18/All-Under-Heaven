@@ -1,4 +1,6 @@
 # ALL UNDER HEAVEN — CORE STORY DECISION v0.4
+
+**Addendum pemilik, 16 November 2026 — DISETUJUI:** penunjukan luar biasa tanpa adopsi **dan** mandat baru pasca-223 dengan actual Liu Shan/court consent; `DESIGN/APPROVED_SHU_SUCCESSION_2026-11-16.md` menggantikan status pertanyaan mekanisme dinasti yang belum dipilih dalam bagian historis di bawah. Persetujuan bukan implementasi; jangan meminta konfirmasi ulang atau mengarang testament/backfill.
 **Date:** 13 November 2026  
 **Status:** Approved narrative direction; design only; no HTML change  
 **Public communication:** Spoiler-free; game narrative/UI remains English

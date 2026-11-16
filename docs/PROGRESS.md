@@ -1,7 +1,7 @@
 # Development progress — Codex handoff initialization
 
 ## Baseline
-- Active: v0.4.99.5j; baseline awal terverifikasi v0.4.99.4m.
+- Active: v0.4.99.5k; baseline awal terverifikasi v0.4.99.4m.
 - Status: gate M2 dan checkpoint fungsional VIII–XI bertarget; batch crossing 210, charter 211–213, Baxi 215–216 dan kontak Jing 219 terimplementasi/teruji. M3 belum ditutup penuh; foundation menuju Part II tersedia; M3–M11 dan objective penuh belum selesai.
 - Goal mode status: AKTIF atas perintah eksplisit pengguna dalam percakapan ini. Objektif: Prologue–Chapter XIX dan Epilogue sesuai M0–M11; belum selesai.
 - Persetujuan baru: [Issue #1](https://github.com/oldfritz18/All-Under-Heaven/issues/1) dibaca langsung 16 November 2026 dan berlaku sebagai requirement mutu M3–M4. Kontrak `DESIGN/APPROVED_EPIC_ELEVATIONS_ISSUE_1.md`, rencana `docs/ISSUE_1_IMPLEMENTATION_PLAN.md`. General 222 dan jalur Sixth Tiger sudah teruji pada scope 5h/5i; enthronement/Dragon ceremonies belum lengkap; issue tetap OPEN.
@@ -277,3 +277,14 @@
 - SHA aktif `1490bf4b6860097725c7c096c5b8f727952fcd34467efa24db89ed127209c3a8`; 13.019.476 byte. Formal rollback tetap 5h; 5i tersedia utuh di Git. Tidak ada ZIP baru.
 - **M4 belum selesai:** 5j membangun court foundation, belum lawful final succession, magnificent enthronement, first imperial policy atau new earned Dragon ceremonies. M5–M7 major Emperor frontline/unification/XIX/Epilogue, M8–M11 juga terbuka; legacy endings bukan sertifikasi roadmap baru.
 - Keputusan baru yang memerlukan jawaban pemilik sebelum final mandate: mekanisme dinasti, yang secara eksplisit belum dipilih oleh core decisions/AGENTS/Issue #1. Usulan konkret dan alternatif tersimpan di `docs/M4_DYNASTIC_MECHANISM_PROPOSAL.md`; tidak menganggap usulan disetujui. Seluruh pekerjaan independen yang telah diverifikasi disimpan sebelum meminta keputusan ini.
+
+## Persetujuan mekanisme dinasti — 16 November 2026
+- Pemilik menjawab “Setuju” untuk usulan utama setelah 5j: exceptional outsider succession tanpa adopsi, **termasuk** jalur mandat baru pasca-223 dengan actual Liu Shan/court consent. Kontrak `DESIGN/APPROVED_SHU_SUCCESSION_2026-11-16.md` berlaku dan menggantikan blocker pertanyaan sebelumnya; jangan minta konfirmasi ulang.
+- Design/AGENTS/START_HERE/Goal/roadmap diberi discovery addendum. Tidak memberikan crown atau designation dari dokumen; implementasi/QA dilanjutkan dari 5j. Tidak ada biaya atau perubahan locked five staff/five Dragon limit.
+
+## Batch M4-A — v0.4.99.5k, witnessed conditional designation
+- Persetujuan pemilik tentang extraordinary outsider succession tanpa adoption **dan** new post223 mandate telah diintegrasikan di AGENTS, START_HERE, Goal, locked/core narrative, World Bible/GDD, roadmap/Issue plan. Pertanyaan dinasti pada catatan historis sebelumnya sudah terjawab; jangan bertanya ulang.
+- Enam scene221 terimplementasi: summons/covered duty, bounded journey, personal Liu Bei hearing, sourced Liu household objection, conditional designation/vow/refusal/defer, return. Existing military honour berbeda dari intention221, future court consent dan actual crown. Prose/UI Inggris; tidak menulis hidden testament atau Liu Shan meeting221.
+- QA: `docs/QA_DESIGNATION_v0.4.99.5k.md`, `docs/qa/BATCH_5k.json`.18 local paths/6accepted designation per viewport390/1280, seven DOM choices/full history, Civic, actual download/import/reload, provenance/age/duty/negative/no-grant/read-only/idempotency, original deployment parity dan actual223→225 continuation. Regresi court224/Hanzhong219 pada hash yang sama; smoke8/8. Registry701; semua695 previous IDs/35 images tetap.
+- SHA `0a5ad0c8a10b753fa854160acee05c435acb3689e7672469dc6bdbdacf76c575`. Optional records tidak mengubah grade/muster/coins/staff/civic office/relationships/circle/Dragon. Conditional designation belum confer Emperor; save lama tidak mendapat backfill.
+- Next: actual pasca223 court mandate/Liu Shan consent, final commitment, investiture/proclamation/private aftermath/first consequential decree dan authority/UI separation; lalu personalized Dragons dan M5–M7 sampaiXIX/Epilogue. Full M4/Issues#1#2/M8–M11 belum selesai. Goal aktif; development dilanjutkan dalam sesi.

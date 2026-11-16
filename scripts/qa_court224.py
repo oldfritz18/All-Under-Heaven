@@ -2,7 +2,7 @@
 """M4-A petitions: actual journeys, relay knowledge and court refusal/limits."""
 import argparse,tempfile,json
 from pathlib import Path
-from qa_support import fixture,write_report
+from qa_support import fixture,write_report,DESIGNATION_221_SCENES
 from qa_general222 import organic_reviews
 from qa_hanzhong219 import organic_seeds
 
@@ -54,7 +54,7 @@ def main():
         old=browser.new_page();old.goto(url+'/baseline.html');seeds=organic_court_seeds(old);ids=set(old.evaluate('Object.keys(SCENES)'));old.close()
         for width in (390,1280):
             context=browser.new_context(viewport={'width':width,'height':900});p=context.new_page();errors=[];p.on('pageerror',lambda e:errors.append(str(e)));p.goto(url+'/active.html')
-            current=set(p.evaluate('Object.keys(SCENES)'));assert ids<=current and current-ids==NEW and len(current)==695
+            current=set(p.evaluate('Object.keys(SCENES)'));assert ids<=current and current-ids in (NEW,NEW|DESIGNATION_221_SCENES) and len(current) in (695,701)
             runs=[p.evaluate(ROUTES,s) for s in seeds];assert sum(len(r['rows']) for r in runs)==1080
             assert {r['result'] for run in runs for r in run['rows']}=={'withdrawn','unverified','case_registered','local_terms','service_report'}
             old=context.new_page();old.goto(url+'/baseline.html')

@@ -1,5 +1,7 @@
 # ALL UNDER HEAVEN — LOCKED DESIGN DECISIONS
 
+**Addendum pemilik, 16 November 2026 — DISETUJUI:** penunjukan luar biasa tanpa adopsi **dan** mandat baru pasca-223 dengan actual Liu Shan/court consent; `DESIGN/APPROVED_SHU_SUCCESSION_2026-11-16.md` menggantikan status pertanyaan mekanisme dinasti yang belum dipilih dalam bagian historis di bawah. Persetujuan bukan implementasi; jangan meminta konfirmasi ulang atau mengarang testament/backfill.
+
 **Date agreed:** 15 November 2026  
 **Status:** APPROVED / carry forward to every future development chat  
 **Current HTML baseline:** `ALL_UNDER_HEAVEN_v0.4.99.4i_CHAPTER_I_COMMAND_AND_COMRADES.html`  
