@@ -78,3 +78,14 @@ def write_report(result, destination=None):
         destination.parent.mkdir(parents=True, exist_ok=True)
         destination.write_text(json.dumps(result, indent=2) + '\n')
     print(json.dumps(result, indent=2))
+
+# Exact registered IDs added by the optional 218–219 M3-B arc.
+HANZHONG_219_SCENES = frozenset({
+    'm3_218_hanzhong_request', 'm3_218_hanzhong_road',
+    'm3_219_hanzhong_council', 'm3_219_hanzhong_orders',
+    'm3_219_hanzhong_clash', 'm3_219_hanzhong_return',
+    'm3_219_hanzhong_warrant', 'm3_219_hanzhong_hearing',
+    'm3_219_tiger_council', 'm3_219_tiger_standard',
+    'm3_219_tiger_first_orders', 'm3_219_tiger_aftermath',
+    'm3_219_west_homeward',
+})

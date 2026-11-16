@@ -3,7 +3,7 @@
 import argparse
 from copy import deepcopy
 from pathlib import Path
-from qa_support import fixture, write_report
+from qa_support import fixture, write_report, HANZHONG_219_SCENES
 from qa_m2_continuity import START
 from qa_changban import ADVANCE
 from qa_river_councils import TO_HANJIN
@@ -82,7 +82,7 @@ def main():
             eastern={'m3_222_field_review','m3_222_after_review'}
             settlement={'m3_223_rolls','m3_223_ratification','m3_223_after_terms'}
             general={'m3_222_standard','m3_222_command_lanes','m3_222_rider_at_the_bend','m3_222_first_return'}
-            assert added in (NEW,NEW|later,NEW|later|eastern,NEW|later|eastern|settlement,NEW|later|eastern|settlement|general),added-NEW
+            assert added in (NEW,NEW|later,NEW|later|eastern,NEW|later|eastern|settlement,NEW|later|eastern|settlement|general,NEW|later|eastern|settlement|general|HANZHONG_219_SCENES),added-NEW
             assert page.evaluate('ids=>ids.every(id=>SCENES[id].displayChapter===10)',list(NEW))
             runs=[page.evaluate(ROUTES,s) for s in seeds];assert sum(len(r['rows']) for r in runs)==864
             ranks={r['rank'] for run in runs for r in run['rows']};assert ranks=={'Private','Sergeant','Captain','Major'}
