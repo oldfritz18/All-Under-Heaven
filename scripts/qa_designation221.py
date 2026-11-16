@@ -2,7 +2,7 @@
 """Approved outsider succession: a conditional designation is witnessed, not backfilled."""
 import argparse,json,tempfile
 from pathlib import Path
-from qa_support import fixture,write_report
+from qa_support import fixture,write_report,SHU_ACCESSION_225_SCENES
 from qa_hanzhong219 import organic_seeds
 from qa_court224 import TO_XII
 BASELINE='146c0b1:GAME/ALL_UNDER_HEAVEN_v0.4.99.5j_THE_COURT_THAT_CAN_REFUSE.html'
@@ -30,7 +30,7 @@ def main():
     with fixture(BASELINE) as (browser,url,result):
         p=browser.new_page();p.goto(url+'/baseline.html');seed=organic_designation_seed(p);ids=set(p.evaluate('Object.keys(SCENES)'));p.close()
         for width in (390,1280):
-            context=browser.new_context(viewport={'width':width,'height':900});p=context.new_page();errors=[];p.on('pageerror',lambda e:errors.append(str(e)));p.goto(url+'/active.html');current=set(p.evaluate('Object.keys(SCENES)'));assert ids<=current and current-ids==NEW and len(current)==701
+            context=browser.new_context(viewport={'width':width,'height':900});p=context.new_page();errors=[];p.on('pageerror',lambda e:errors.append(str(e)));p.goto(url+'/active.html');current=set(p.evaluate('Object.keys(SCENES)'));assert ids<=current and current-ids in (NEW,NEW|SHU_ACCESSION_225_SCENES) and len(current) in (701,716)
             run=p.evaluate(MATRIX,seed);assert len(run['rows'])==18 and sum(x['designated'] for x in run['rows'])==6
             old=context.new_page();old.goto(url+'/baseline.html');project=r"""s=>SCENES.ch11_p60_04_bridge_221.choices(s).filter(o=>o.next!=='m4_221_summons').map(o=>{const x=clone(s);o.effect(x);return {label:o.label,next:o.next,state:x};})""";assert old.evaluate(project,seed)==p.evaluate(project,seed);old.close()
             p.evaluate(r"""cfg=>{

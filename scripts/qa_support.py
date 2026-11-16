@@ -101,3 +101,12 @@ DESIGNATION_221_SCENES = frozenset({
     'm4_221_summons', 'm4_221_road', 'm4_221_private',
     'm4_221_household', 'm4_221_designation', 'm4_221_return',
 })
+
+# Exact registered IDs of M4-B mandate, accession and first-policy chain.
+SHU_ACCESSION_225_SCENES = frozenset({
+    'm4_225_reopen', 'm4_225_journey', 'm4_225_chamber',
+    'm4_225_liushan', 'm4_225_objections', 'm4_225_mandate',
+    'm4_225_vigil', 'm4_225_investiture', 'm4_225_proclamation',
+    'm4_225_private', 'm4_225_administration', 'm4_225_decree',
+    'm4_226_audit', 'm4_226_return', 'm4_225_closed',
+})

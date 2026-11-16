@@ -2,7 +2,7 @@
 """M3-B: western service, earned early General and separate Sixth Tiger arc."""
 import argparse,json,tempfile
 from pathlib import Path
-from qa_support import fixture,write_report,COURT_224_SCENES,DESIGNATION_221_SCENES
+from qa_support import fixture,write_report,COURT_224_SCENES,DESIGNATION_221_SCENES, SHU_ACCESSION_225_SCENES
 from qa_jing219 import START,ADVANCE,TO_HANJIN,TO_FLOTILLA,TO_ANCHORS,TO_TIDE,TO_BORDER,TO_JING
 
 BASELINE='90e0d40:GAME/ALL_UNDER_HEAVEN_v0.4.99.5h_THE_ACCEPTED_STANDARD.html'
@@ -78,7 +78,7 @@ def main():
         base=browser.new_page();base.goto(url+'/baseline.html');seeds=organic_seeds(base);ids=set(base.evaluate('Object.keys(SCENES)'));roles=base.evaluate('AUH_MC_SPECIAL_STAFF');base.close()
         for width in (390,1280):
             context=browser.new_context(viewport={'width':width,'height':900});p=context.new_page();errors=[];p.on('pageerror',lambda e:errors.append(str(e)));p.goto(url+'/active.html')
-            current=set(p.evaluate('Object.keys(SCENES)'));assert ids<=current and current-ids in (NEW,NEW|COURT_224_SCENES,NEW|COURT_224_SCENES|DESIGNATION_221_SCENES) and len(current)==len(ids)+len(current-ids)
+            current=set(p.evaluate('Object.keys(SCENES)'));assert ids<=current and current-ids in (NEW,NEW|COURT_224_SCENES,NEW|COURT_224_SCENES|DESIGNATION_221_SCENES,NEW|COURT_224_SCENES|DESIGNATION_221_SCENES|SHU_ACCESSION_225_SCENES) and len(current)==len(ids)+len(current-ids)
             assert p.evaluate('AUH_MC_SPECIAL_STAFF')==roles
             campaigns=[p.evaluate(CAMPAIGNS,s) for s in seeds];assert sum(len(r['rows']) for r in campaigns)==810
             assert len({r['result'] for c in campaigns for r in c['rows']})==9
