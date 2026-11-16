@@ -14,7 +14,7 @@
 4. Implement the next largest coherent narrative/gameplay group, preserve all existing functionality, and verify with actual tests.
 5. Update `docs/PROGRESS.md` and `GAME/ACTIVE_BUILD.txt` as appropriate, commit to Git, continue toward the persistent Goal.
 
-Untuk Part II, baca `ROADMAP/06_EMPEROR_DRAGONS_UNIFICATION_ARC.md`: penobatan, tiap personal Dragon arc dan ujian setelah appointment harus membangun klimaks penyatuan dan epilogue. Dokumen ini menyatukan arah disetujui; status playable tetap dari PROGRESS/QA, dan pertanyaan dinasti tidak dipilih diam-diam.
+Untuk Part II, baca `ROADMAP/06_EMPEROR_DRAGONS_UNIFICATION_ARC.md`: penobatan, tiap personal Dragon arc dan ujian setelah appointment harus membangun klimaks penyatuan dan epilogue. **Issue #2** (https://github.com/oldfritz18/All-Under-Heaven/issues/2) mengharuskan protagonis tetap turun langsung ikut perang sebagai Emperor of Shu: sediakan rute frontline yang benar-benar dimainkan, termasuk komando, manuver, pertarungan pribadi bila layak, risiko dan aftermath; delegasi ke Dragons dan diplomasi tetap pilihan sah. Tidak boleh menjadi kaisar penonton istana. Dokumen ini menyatukan arah disetujui; status playable tetap dari PROGRESS/QA, dan pertanyaan dinasti tidak dipilih diam-diam.
 
 ## Locked-decision precedence
 The `LOCKED_DESIGN_DECISIONS_2026-11-15.md` file was written when v0.4.99.4i was active. Its design decisions are still binding, but its *baseline filename* is historical. v0.4.99.4m above is the later executable baseline.
