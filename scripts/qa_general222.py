@@ -3,7 +3,7 @@
 import argparse
 from copy import deepcopy
 from pathlib import Path
-from qa_support import fixture, write_report, HANZHONG_219_SCENES, COURT_224_SCENES, DESIGNATION_221_SCENES, SHU_ACCESSION_225_SCENES, DRAGON_NOMINATION_227_SCENES
+from qa_support import fixture, write_report, HANZHONG_219_SCENES, COURT_224_SCENES, DESIGNATION_221_SCENES, SHU_ACCESSION_225_SCENES, DRAGON_NOMINATION_227_SCENES, HAN_DRAGON_229_SCENES
 from qa_eastern222 import START, ADVANCE, TO_HANJIN, TO_FLOTILLA, TO_ANCHORS, TO_TIDE, TO_BORDER, TO_JING, TO_XI, TO_FRONT
 
 BASELINE='61ce7c6:GAME/ALL_UNDER_HEAVEN_v0.4.99.5g_THE_ROLLS_AND_THE_CHAIR.html'
@@ -61,7 +61,7 @@ def main():
         base=browser.new_page();base.goto(url+'/baseline.html');reviews,mounted=organic_reviews(base);ids=base.evaluate('Object.keys(SCENES)');base.close()
         for width in (390,1280):
             context=browser.new_context(viewport={'width':width,'height':900});p=context.new_page();errors=[];p.on('pageerror',lambda e:errors.append(str(e)));p.goto(url+'/active.html')
-            current=set(p.evaluate('Object.keys(SCENES)'));assert set(ids)<=current and current-set(ids) in (NEW,NEW|HANZHONG_219_SCENES,NEW|HANZHONG_219_SCENES|COURT_224_SCENES,NEW|HANZHONG_219_SCENES|COURT_224_SCENES|DESIGNATION_221_SCENES,NEW|HANZHONG_219_SCENES|COURT_224_SCENES|DESIGNATION_221_SCENES|SHU_ACCESSION_225_SCENES,NEW|HANZHONG_219_SCENES|COURT_224_SCENES|DESIGNATION_221_SCENES|SHU_ACCESSION_225_SCENES|DRAGON_NOMINATION_227_SCENES)
+            current=set(p.evaluate('Object.keys(SCENES)'));assert set(ids)<=current and current-set(ids) in (NEW,NEW|HANZHONG_219_SCENES,NEW|HANZHONG_219_SCENES|COURT_224_SCENES,NEW|HANZHONG_219_SCENES|COURT_224_SCENES|DESIGNATION_221_SCENES,NEW|HANZHONG_219_SCENES|COURT_224_SCENES|DESIGNATION_221_SCENES|SHU_ACCESSION_225_SCENES,NEW|HANZHONG_219_SCENES|COURT_224_SCENES|DESIGNATION_221_SCENES|SHU_ACCESSION_225_SCENES|DRAGON_NOMINATION_227_SCENES,NEW|HANZHONG_219_SCENES|COURT_224_SCENES|DESIGNATION_221_SCENES|SHU_ACCESSION_225_SCENES|DRAGON_NOMINATION_227_SCENES|HAN_DRAGON_229_SCENES)
             run=p.evaluate(RUN,{'Infantry':reviews[7],'Cavalry':mounted});assert len(run['rows'])==162 and len({x['account'] for x in run['rows']})==9
             old=context.new_page();old.goto(url+'/baseline.html')
             parity=r"""s=>({offer:auh5fOffer(s),body:SCENES.m3_222_field_review.body(s),choices:SCENES.m3_222_field_review.choices(s).map(o=>{const x=clone(s);o.effect(x);return {label:o.label,next:o.next,state:x};})})"""

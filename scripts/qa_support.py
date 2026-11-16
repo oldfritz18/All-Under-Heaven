@@ -119,3 +119,12 @@ DRAGON_NOMINATION_227_SCENES = frozenset({
     'm4_227_nominate_yaoqing', 'm4_227_nominate_weizhen',
     'm4_227_nominate_zhaoyun', 'm4_227_dragon_reply', 'm4_227_dragon_close',
 })
+
+# Exact scenes of the first personal Dragon / receiving-command arc.
+HAN_DRAGON_229_SCENES = frozenset({
+    'm4_227_han_review', 'm4_227_han_terms', 'm4_228_han_order',
+    'm4_228_han_muster', 'm4_228_han_road', 'm4_228_han_contact',
+    'm4_228_han_return', 'm4_229_han_general', 'm4_229_han_proposal',
+    'm4_229_han_consent', 'm4_229_han_investiture', 'm4_229_han_command',
+    'm4_229_han_aftermath', 'm4_229_han_close',
+})
